@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Episode 1 Equipment",
+        "codes": "Episode1,Equipment",
+        "type": "consumable",
+        "img": "images/equipment/die1.png"
+    },
+    {
+        "name": "Episode 2 Equipment",
+        "codes": "Episode2,Equipment",
+        "type": "consumable",
+        "img": "images/equipment/die2.png"
+    },
+    {
+        "name": "Episode 3 Equipment",
+        "codes": "Episode3,Equipment",
+        "type": "consumable",
+        "img": "images/equipment/die3.png"
+    },
+    {
+        "name": "Episode 4 Equipment",
+        "codes": "Episode4,Equipment",
+        "type": "consumable",
+        "img": "images/equipment/die4.png"
+    },
+    {
+        "name": "Episode 5 Equipment",
+        "codes": "Episode5,Equipment",
+        "type": "consumable",
+        "img": "images/equipment/die5.png"
+    },
+    {
+        "name": "Episode 6 Equipment",
+        "codes": "Episode6,Equipment",
+        "type": "consumable",
+        "img": "images/equipment/die6.png"
+    },
+    {
+        "name": "Episode 1 Chest Equipment",
+        "codes": "Episode1ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Episode 2 Chest Equipment",
+        "codes": "Episode2ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Episode 3 Chest Equipment",
+        "codes": "Episode3ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Episode 4 Chest Equipment",
+        "codes": "Episode4ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Episode 5 Chest Equipment",
+        "codes": "Episode5ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Episode 6 Chest Equipment",
+        "codes": "Episode6ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Episode 1 Shop Equipment",
+        "codes": "Episode1ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Episode 2 Shop Equipment",
+        "codes": "Episode2ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Episode 3 Shop Equipment",
+        "codes": "Episode3ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Episode 4 Shop Equipment",
+        "codes": "Episode4ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Episode 5 Shop Equipment",
+        "codes": "Episode5ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Episode 6 Shop Equipment",
+        "codes": "Episode6ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Episode 1 Trade Equipment",
+        "codes": "Episode1TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Episode 2 Trade Equipment",
+        "codes": "Episode2TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Episode 3 Trade Equipment",
+        "codes": "Episode3TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Episode 4 Trade Equipment",
+        "codes": "Episode4TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Episode 5 Trade Equipment",
+        "codes": "Episode5TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Episode 6 Trade Equipment",
+        "codes": "Episode6TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    }
+]

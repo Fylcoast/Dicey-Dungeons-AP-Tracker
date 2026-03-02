@@ -1,0 +1,46 @@
+{
+    "warrior_episode_one_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "6,1",
+                "h_alignment": "center",
+                "rows": [
+                    [
+                        "Episode1Equipment"
+                    ],
+                    [
+                        "Episode1ChestEquipment",
+                        "Episode1ShopEquipment",
+                        "Episode1TradeEquipment"
+                    ]
+                ]
+            }
+        ]
+    },
+    "warrior_episode_two_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "6,1",
+                "h_alignment": "center",
+                "rows": [
+                    [
+                        "Episode2Equipment"
+                    ],
+                    [
+                        "Episode2ChestEquipment",
+                        "Episode2ShopEquipment",
+                        "Episode2TradeEquipment"
+                    ]
+                ]
+            }
+        ]
+    }
+}
