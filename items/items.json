@@ -1,0 +1,724 @@
+[
+    {
+        "name": "chocolatecookie",
+        "type": "toggle",
+        "img": "images/items/chocolatecookie.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chocolatecookie"
+    },
+    {
+        "name": "nightstick",
+        "type": "toggle",
+        "img": "images/items/nightstick.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nightstick"
+    },
+    {
+        "name": "episode3-episodecompleted",
+        "type": "toggle",
+        "img": "images/items/episode3-episodecompleted.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode3-episodecompleted"
+    },
+    {
+        "name": "episode6-episodecompleted",
+        "type": "toggle",
+        "img": "images/items/episode6-episodecompleted.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode6-episodecompleted"
+    },
+    {
+        "name": "episode4-episodecompleted",
+        "type": "toggle",
+        "img": "images/items/episode4-episodecompleted.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode4-episodecompleted"
+    },
+    {
+        "name": "audreysdumbbell",
+        "type": "consumable",
+        "img": "images/items/audreysdumbbell.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "audreysdumbbell"
+    },
+    {
+        "name": "firstaidkit",
+        "type": "toggle",
+        "img": "images/items/firstaidkit.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "firstaidkit"
+    },
+    {
+        "name": "lightningrod",
+        "type": "toggle",
+        "img": "images/items/lightningrod.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lightningrod"
+    },
+    {
+        "name": "snowball",
+        "type": "toggle",
+        "img": "images/items/snowball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "snowball"
+    },
+    {
+        "name": "episode1progressivelevelup",
+        "type": "consumable",
+        "img": "images/items/episode1progressivelevelup.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "episode1progressivelevelup"
+    },
+    {
+        "name": "battlecry",
+        "type": "toggle",
+        "img": "images/items/battlecry.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "battlecry"
+    },
+    {
+        "name": "bump",
+        "type": "toggle",
+        "img": "images/items/bump.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bump"
+    },
+    {
+        "name": "dramaticexit",
+        "type": "toggle",
+        "img": "images/items/dramaticexit.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dramaticexit"
+    },
+    {
+        "name": "particleaccelerator",
+        "type": "toggle",
+        "img": "images/items/particleaccelerator.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "particleaccelerator"
+    },
+    {
+        "name": "luckyroll",
+        "type": "toggle",
+        "img": "images/items/luckyroll.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "luckyroll"
+    },
+    {
+        "name": "jugglingball",
+        "type": "toggle",
+        "img": "images/items/jugglingball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jugglingball"
+    },
+    {
+        "name": "fireworks",
+        "type": "toggle",
+        "img": "images/items/fireworks.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fireworks"
+    },
+    {
+        "name": "wizardsspellbook",
+        "type": "consumable",
+        "img": "images/items/wizardsspellbook.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "wizardsspellbook"
+    },
+    {
+        "name": "toxicooze",
+        "type": "toggle",
+        "img": "images/items/toxicooze.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "toxicooze"
+    },
+    {
+        "name": "halfmooncharm",
+        "type": "toggle",
+        "img": "images/items/halfmooncharm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "halfmooncharm"
+    },
+    {
+        "name": "diceshard",
+        "type": "consumable",
+        "img": "images/items/diceshard.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "diceshard"
+    },
+    {
+        "name": "shriek",
+        "type": "toggle",
+        "img": "images/items/shriek.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shriek"
+    },
+    {
+        "name": "discoball",
+        "type": "toggle",
+        "img": "images/items/discoball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "discoball"
+    },
+    {
+        "name": "episode2progressivelevelup",
+        "type": "consumable",
+        "img": "images/items/episode2progressivelevelup.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "episode2progressivelevelup"
+    },
+    {
+        "name": "episode3progressivelevelup",
+        "type": "consumable",
+        "img": "images/items/episode3progressivelevelup.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "episode3progressivelevelup"
+    },
+    {
+        "name": "sixshooter",
+        "type": "toggle",
+        "img": "images/items/sixshooter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sixshooter"
+    },
+    {
+        "name": "nailbat",
+        "type": "toggle",
+        "img": "images/items/nailbat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nailbat"
+    },
+    {
+        "name": "fishingnet",
+        "type": "toggle",
+        "img": "images/items/fishingnet.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fishingnet"
+    },
+    {
+        "name": "whip",
+        "type": "toggle",
+        "img": "images/items/whip.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "whip"
+    },
+    {
+        "name": "detonator",
+        "type": "toggle",
+        "img": "images/items/detonator.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "detonator"
+    },
+    {
+        "name": "targetshield",
+        "type": "toggle",
+        "img": "images/items/targetshield.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "targetshield"
+    },
+    {
+        "name": "battleaxe",
+        "type": "toggle",
+        "img": "images/items/battleaxe.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "battleaxe"
+    },
+    {
+        "name": "boomerang",
+        "type": "toggle",
+        "img": "images/items/boomerang.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "boomerang"
+    },
+    {
+        "name": "candle",
+        "type": "toggle",
+        "img": "images/items/candle.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "candle"
+    },
+    {
+        "name": "crystalsword",
+        "type": "toggle",
+        "img": "images/items/crystalsword.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "crystalsword"
+    },
+    {
+        "name": "kiteshield",
+        "type": "toggle",
+        "img": "images/items/kiteshield.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kiteshield"
+    },
+    {
+        "name": "midnightcharm",
+        "type": "toggle",
+        "img": "images/items/midnightcharm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "midnightcharm"
+    },
+    {
+        "name": "episode6progressivelevelup",
+        "type": "consumable",
+        "img": "images/items/episode6progressivelevelup.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "episode6progressivelevelup"
+    },
+    {
+        "name": "quarterstaff",
+        "type": "toggle",
+        "img": "images/items/quarterstaff.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "quarterstaff"
+    },
+    {
+        "name": "dagger",
+        "type": "toggle",
+        "img": "images/items/dagger.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dagger"
+    },
+    {
+        "name": "tazer",
+        "type": "toggle",
+        "img": "images/items/tazer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tazer"
+    },
+    {
+        "name": "blight",
+        "type": "toggle",
+        "img": "images/items/blight.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "blight"
+    },
+    {
+        "name": "spatula",
+        "type": "toggle",
+        "img": "images/items/spatula.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spatula"
+    },
+    {
+        "name": "episode5progressivelevelup",
+        "type": "consumable",
+        "img": "images/items/episode5progressivelevelup.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "episode5progressivelevelup"
+    },
+    {
+        "name": "episode1-episodecompleted",
+        "type": "toggle",
+        "img": "images/items/episode1-episodecompleted.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode1-episodecompleted"
+    },
+    {
+        "name": "frogsbroadsword",
+        "type": "consumable",
+        "img": "images/items/frogsbroadsword.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "frogsbroadsword"
+    },
+    {
+        "name": "episode2-episodecompleted",
+        "type": "toggle",
+        "img": "images/items/episode2-episodecompleted.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode2-episodecompleted"
+    },
+    {
+        "name": "capacitor",
+        "type": "toggle",
+        "img": "images/items/capacitor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "capacitor"
+    },
+    {
+        "name": "scissors",
+        "type": "toggle",
+        "img": "images/items/scissors.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "scissors"
+    },
+    {
+        "name": "broadsword",
+        "type": "toggle",
+        "img": "images/items/broadsword.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "broadsword"
+    },
+    {
+        "name": "peashooter",
+        "type": "toggle",
+        "img": "images/items/peashooter.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "peashooter"
+    },
+    {
+        "name": "thickskin",
+        "type": "toggle",
+        "img": "images/items/thickskin.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thickskin"
+    },
+    {
+        "name": "gemstonestaff",
+        "type": "toggle",
+        "img": "images/items/gemstonestaff.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gemstonestaff"
+    },
+    {
+        "name": "elasticheart",
+        "type": "toggle",
+        "img": "images/items/elasticheart.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "elasticheart"
+    },
+    {
+        "name": "coppershield",
+        "type": "toggle",
+        "img": "images/items/coppershield.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coppershield"
+    },
+    {
+        "name": "staff",
+        "type": "toggle",
+        "img": "images/items/staff.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "staff"
+    },
+    {
+        "name": "hammer",
+        "type": "toggle",
+        "img": "images/items/hammer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hammer"
+    },
+    {
+        "name": "claw",
+        "type": "toggle",
+        "img": "images/items/claw.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "claw"
+    },
+    {
+        "name": "matchstick",
+        "type": "toggle",
+        "img": "images/items/matchstick.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "matchstick"
+    },
+    {
+        "name": "laststand",
+        "type": "toggle",
+        "img": "images/items/laststand.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "laststand"
+    },
+    {
+        "name": "rottenapplespetworm",
+        "type": "consumable",
+        "img": "images/items/rottenapplespetworm.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "rottenapplespetworm"
+    },
+    {
+        "name": "singularity",
+        "type": "toggle",
+        "img": "images/items/singularity.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "singularity"
+    },
+    {
+        "name": "shovel",
+        "type": "toggle",
+        "img": "images/items/shovel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shovel"
+    },
+    {
+        "name": "ironshield",
+        "type": "toggle",
+        "img": "images/items/ironshield.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ironshield"
+    },
+    {
+        "name": "snakeeyecharm",
+        "type": "toggle",
+        "img": "images/items/snakeeyecharm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "snakeeyecharm"
+    },
+    {
+        "name": "katana",
+        "type": "toggle",
+        "img": "images/items/katana.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "katana"
+    },
+    {
+        "name": "buckler",
+        "type": "toggle",
+        "img": "images/items/buckler.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "buckler"
+    },
+    {
+        "name": "boxinggloves",
+        "type": "toggle",
+        "img": "images/items/boxinggloves.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "boxinggloves"
+    },
+    {
+        "name": "flyingskull",
+        "type": "toggle",
+        "img": "images/items/flyingskull.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "flyingskull"
+    },
+    {
+        "name": "episode5-episodecompleted",
+        "type": "toggle",
+        "img": "images/items/episode5-episodecompleted.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "episode5-episodecompleted"
+    },
+    {
+        "name": "counterspell",
+        "type": "toggle",
+        "img": "images/items/counterspell.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "counterspell"
+    },
+    {
+        "name": "pickaxe",
+        "type": "toggle",
+        "img": "images/items/pickaxe.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pickaxe"
+    },
+    {
+        "name": "trident",
+        "type": "toggle",
+        "img": "images/items/trident.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trident"
+    },
+    {
+        "name": "ignite",
+        "type": "toggle",
+        "img": "images/items/ignite.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ignite"
+    },
+    {
+        "name": "healingcrystal",
+        "type": "toggle",
+        "img": "images/items/healingcrystal.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "healingcrystal"
+    },
+    {
+        "name": "slingshot",
+        "type": "toggle",
+        "img": "images/items/slingshot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "slingshot"
+    },
+    {
+        "name": "parryingdagger",
+        "type": "toggle",
+        "img": "images/items/parryingdagger.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "parryingdagger"
+    },
+    {
+        "name": "sledgehammer",
+        "type": "toggle",
+        "img": "images/items/sledgehammer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sledgehammer"
+    },
+    {
+        "name": "sinewave",
+        "type": "toggle",
+        "img": "images/items/sinewave.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sinewave"
+    },
+    {
+        "name": "episode4progressivelevelup",
+        "type": "consumable",
+        "img": "images/items/episode4progressivelevelup.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "episode4progressivelevelup"
+    },
+    {
+        "name": "hookshot",
+        "type": "toggle",
+        "img": "images/items/hookshot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hookshot"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

@@ -1,0 +1,1563 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Episode 1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 1/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 1/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 1/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 1/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 1/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 1/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 1/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 1/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 1/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 1/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 1/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 1/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 1/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 1/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 1/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 1/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 1/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 1/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 1/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 1/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 1/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 1/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 1/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 1/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 1/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 1/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 1/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 1/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 1/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 1/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 1/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 1/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 1/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 1/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 1/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Trade - Trade 1",
+                        "ref": "Episode 1/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Trade - Trade 2",
+                        "ref": "Episode 1/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Trade - Trade 3",
+                        "ref": "Episode 1/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Trade - Trade 4",
+                        "ref": "Episode 1/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Trade - Trade 5",
+                        "ref": "Episode 1/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 1/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 1/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 1/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 1/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 1/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 1/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 1/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 1/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 1/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 1/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 1/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 1/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 1/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Episode 1 - Level 2",
+                        "ref": "Episode 1/Level 2"
+                    },
+                    {
+                        "name": "Episode 1 - Level 3",
+                        "ref": "Episode 1/Level 3"
+                    },
+                    {
+                        "name": "Episode 1 - Level 4",
+                        "ref": "Episode 1/Level 4"
+                    },
+                    {
+                        "name": "Episode 1 - Level 5",
+                        "ref": "Episode 1/Level 5"
+                    },
+                    {
+                        "name": "Episode 1 - Level 6",
+                        "ref": "Episode 1/Level 6"
+                    },
+                    {
+                        "name": "Episode 1 - Episode Completed",
+                        "ref": "Episode 1/Episode Completed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 487,
+                        "y": 2274,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Episode 2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 2/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 2/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 2/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 2/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 2/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 2/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 2/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 2/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 2/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 2/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 2/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 2/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 2/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 2/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 2/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 2/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 2/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 2/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 2/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 2/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 2/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 2/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 2/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 2/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 2/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 2/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 2/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 2/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 2/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 2/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 2/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 2/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 2/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 2/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 2/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Trade - Trade 1",
+                        "ref": "Episode 2/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Trade - Trade 2",
+                        "ref": "Episode 2/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Trade - Trade 3",
+                        "ref": "Episode 2/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Trade - Trade 4",
+                        "ref": "Episode 2/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Trade - Trade 5",
+                        "ref": "Episode 2/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 2/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 2/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 2/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 2/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 2/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 2/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 2/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 2/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 2/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 2/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 2/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 2/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 2/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Episode 2 - Level 2",
+                        "ref": "Episode 2/Level 2"
+                    },
+                    {
+                        "name": "Episode 2 - Level 3",
+                        "ref": "Episode 2/Level 3"
+                    },
+                    {
+                        "name": "Episode 2 - Level 4",
+                        "ref": "Episode 2/Level 4"
+                    },
+                    {
+                        "name": "Episode 2 - Level 5",
+                        "ref": "Episode 2/Level 5"
+                    },
+                    {
+                        "name": "Episode 2 - Level 6",
+                        "ref": "Episode 2/Level 6"
+                    },
+                    {
+                        "name": "Episode 2 - Episode Completed",
+                        "ref": "Episode 2/Episode Completed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1013,
+                        "y": 667,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Episode 3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 3/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 3/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 3/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 3/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 3/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 3/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 3/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 3/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 3/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 3/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 3/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 3/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 3/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 3/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 3/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 3/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 3/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 3/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 3/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 3/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 3/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 3/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 3/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 3/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 3/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 3/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 3/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 3/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 3/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 3/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 3/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 3/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 3/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 3/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 3/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Trade - Trade 1",
+                        "ref": "Episode 3/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Trade - Trade 2",
+                        "ref": "Episode 3/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Trade - Trade 3",
+                        "ref": "Episode 3/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Trade - Trade 4",
+                        "ref": "Episode 3/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Trade - Trade 5",
+                        "ref": "Episode 3/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 3/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 3/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 3/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 3/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 3/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 3/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 3/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 3/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 3/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 3/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 3/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 3/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 3/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Episode 3 - Level 2",
+                        "ref": "Episode 3/Level 2"
+                    },
+                    {
+                        "name": "Episode 3 - Level 3",
+                        "ref": "Episode 3/Level 3"
+                    },
+                    {
+                        "name": "Episode 3 - Level 4",
+                        "ref": "Episode 3/Level 4"
+                    },
+                    {
+                        "name": "Episode 3 - Level 5",
+                        "ref": "Episode 3/Level 5"
+                    },
+                    {
+                        "name": "Episode 3 - Level 6",
+                        "ref": "Episode 3/Level 6"
+                    },
+                    {
+                        "name": "Episode 3 - Episode Completed",
+                        "ref": "Episode 3/Episode Completed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2445,
+                        "y": 622,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Episode 4",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 4/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 4/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 4/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 4/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 4/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 4/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 4/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 4/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 4/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 4/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 4/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 4/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 4/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 4/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 4/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 4/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 4/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 4/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 4/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 4/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 4/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 4/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 4/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 4/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 4/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 4/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 4/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 4/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 4/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 4/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 4/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 4/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 4/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 4/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 4/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Trade - Trade 1",
+                        "ref": "Episode 4/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Trade - Trade 2",
+                        "ref": "Episode 4/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Trade - Trade 3",
+                        "ref": "Episode 4/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Trade - Trade 4",
+                        "ref": "Episode 4/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Trade - Trade 5",
+                        "ref": "Episode 4/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 4/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 4/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 4/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 4/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 4/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 4/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 4/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 4/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 4/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 4/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 4/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 4/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 4/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Episode 4 - Level 2",
+                        "ref": "Episode 4/Level 2"
+                    },
+                    {
+                        "name": "Episode 4 - Level 3",
+                        "ref": "Episode 4/Level 3"
+                    },
+                    {
+                        "name": "Episode 4 - Level 4",
+                        "ref": "Episode 4/Level 4"
+                    },
+                    {
+                        "name": "Episode 4 - Level 5",
+                        "ref": "Episode 4/Level 5"
+                    },
+                    {
+                        "name": "Episode 4 - Level 6",
+                        "ref": "Episode 4/Level 6"
+                    },
+                    {
+                        "name": "Episode 4 - Episode Completed",
+                        "ref": "Episode 4/Episode Completed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2160,
+                        "y": 1729,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Episode 5",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 5/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 5/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 5/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 5/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 5/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Chest - Chest 6",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 6"
+                    },
+                    {
+                        "name": "Chest - Chest 7",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 7"
+                    },
+                    {
+                        "name": "Chest - Chest 8",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 8"
+                    },
+                    {
+                        "name": "Chest - Chest 9",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 9"
+                    },
+                    {
+                        "name": "Chest - Chest 10",
+                        "ref": "Episode 5/Floor 2/Chest/Chest 10"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 5/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 5/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 5/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 5/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 5/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 5/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 5/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 5/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 5/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 5/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 5/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 5/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 5/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 5/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 5/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 5/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 5/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 5/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 5/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 5/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 5/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 5/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 5/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 5/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 5/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Trade - Trade 1",
+                        "ref": "Episode 5/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Trade - Trade 2",
+                        "ref": "Episode 5/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Trade - Trade 3",
+                        "ref": "Episode 5/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Trade - Trade 4",
+                        "ref": "Episode 5/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Trade - Trade 5",
+                        "ref": "Episode 5/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 5/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 5/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 5/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 5/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 5/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 5/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 5/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 5/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 5/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 5/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 5/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 5/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 5/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Episode 5 - Level 2",
+                        "ref": "Episode 5/Level 2"
+                    },
+                    {
+                        "name": "Episode 5 - Level 3",
+                        "ref": "Episode 5/Level 3"
+                    },
+                    {
+                        "name": "Episode 5 - Level 4",
+                        "ref": "Episode 5/Level 4"
+                    },
+                    {
+                        "name": "Episode 5 - Level 5",
+                        "ref": "Episode 5/Level 5"
+                    },
+                    {
+                        "name": "Episode 5 - Level 6",
+                        "ref": "Episode 5/Level 6"
+                    },
+                    {
+                        "name": "Episode 5 - Episode Completed",
+                        "ref": "Episode 5/Episode Completed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1666,
+                        "y": 1365,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Episode 6",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 6/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 6/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 6/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 6/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 6/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 6/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 6/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 6/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 6/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 6/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 6/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 6/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 6/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 6/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 6/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 6/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 6/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 6/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 6/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 6/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 6/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 6/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 6/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 6/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 6/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 6/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 6/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 6/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 6/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 6/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 6/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 6/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 6/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 6/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 6/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Trade - Trade 1",
+                        "ref": "Episode 6/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Trade - Trade 2",
+                        "ref": "Episode 6/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Trade - Trade 3",
+                        "ref": "Episode 6/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Trade - Trade 4",
+                        "ref": "Episode 6/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Trade - Trade 5",
+                        "ref": "Episode 6/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Chest - Chest 1",
+                        "ref": "Episode 6/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Chest - Chest 2",
+                        "ref": "Episode 6/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Chest - Chest 3",
+                        "ref": "Episode 6/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Chest - Chest 4",
+                        "ref": "Episode 6/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Chest - Chest 5",
+                        "ref": "Episode 6/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Shop - Shop 1",
+                        "ref": "Episode 6/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Shop - Shop 2",
+                        "ref": "Episode 6/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Shop - Shop 3",
+                        "ref": "Episode 6/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Shop - Shop 4",
+                        "ref": "Episode 6/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Shop - Shop 5",
+                        "ref": "Episode 6/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Heal - Heal 1",
+                        "ref": "Episode 6/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Heal - Heal 2",
+                        "ref": "Episode 6/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Upgrade - Upgrade 1",
+                        "ref": "Episode 6/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Episode 6 - Level 2",
+                        "ref": "Episode 6/Level 2"
+                    },
+                    {
+                        "name": "Episode 6 - Level 3",
+                        "ref": "Episode 6/Level 3"
+                    },
+                    {
+                        "name": "Episode 6 - Level 4",
+                        "ref": "Episode 6/Level 4"
+                    },
+                    {
+                        "name": "Episode 6 - Level 5",
+                        "ref": "Episode 6/Level 5"
+                    },
+                    {
+                        "name": "Episode 6 - Level 6",
+                        "ref": "Episode 6/Level 6"
+                    },
+                    {
+                        "name": "Episode 6 - Episode Completed",
+                        "ref": "Episode 6/Episode Completed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 2402,
+                        "y": 2184,
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Episode 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 6"
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Episode 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Episode 6"
+                    ]
+                }
+            }
+        ]
+    }
+}

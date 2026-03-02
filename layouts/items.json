@@ -1,0 +1,252 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "chocolatecookie",
+                                "nightstick",
+                                "episode3-episodecompleted",
+                                "episode6-episodecompleted",
+                                "episode4-episodecompleted",
+                                "audreysdumbbell",
+                                "firstaidkit",
+                                "lightningrod",
+                                "snowball",
+                                "episode1progressivelevelup"
+                            ],
+                            [
+                                "battlecry",
+                                "bump",
+                                "dramaticexit",
+                                "particleaccelerator",
+                                "luckyroll",
+                                "jugglingball",
+                                "fireworks",
+                                "wizardsspellbook",
+                                "toxicooze",
+                                "halfmooncharm"
+                            ],
+                            [
+                                "diceshard",
+                                "shriek",
+                                "discoball",
+                                "episode2progressivelevelup",
+                                "episode3progressivelevelup",
+                                "sixshooter",
+                                "nailbat",
+                                "fishingnet",
+                                "whip",
+                                "detonator"
+                            ],
+                            [
+                                "targetshield",
+                                "battleaxe",
+                                "boomerang",
+                                "candle",
+                                "crystalsword",
+                                "kiteshield",
+                                "midnightcharm",
+                                "episode6progressivelevelup",
+                                "quarterstaff",
+                                "dagger"
+                            ],
+                            [
+                                "tazer",
+                                "blight",
+                                "spatula",
+                                "episode5progressivelevelup",
+                                "episode1-episodecompleted",
+                                "frogsbroadsword",
+                                "episode2-episodecompleted",
+                                "capacitor",
+                                "scissors",
+                                "broadsword"
+                            ],
+                            [
+                                "peashooter",
+                                "thickskin",
+                                "gemstonestaff",
+                                "elasticheart",
+                                "coppershield",
+                                "staff",
+                                "hammer",
+                                "claw",
+                                "matchstick",
+                                "laststand"
+                            ],
+                            [
+                                "rottenapplespetworm",
+                                "singularity",
+                                "shovel",
+                                "ironshield",
+                                "snakeeyecharm",
+                                "katana",
+                                "buckler",
+                                "boxinggloves",
+                                "flyingskull",
+                                "episode5-episodecompleted"
+                            ],
+                            [
+                                "counterspell",
+                                "pickaxe",
+                                "trident",
+                                "ignite",
+                                "healingcrystal",
+                                "slingshot",
+                                "parryingdagger",
+                                "sledgehammer",
+                                "sinewave",
+                                "episode4progressivelevelup"
+                            ],
+                            [
+                                "hookshot",
+                                "update"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "chocolatecookie",
+                                "nightstick",
+                                "episode3-episodecompleted",
+                                "episode6-episodecompleted",
+                                "episode4-episodecompleted",
+                                "audreysdumbbell",
+                                "firstaidkit",
+                                "lightningrod",
+                                "snowball",
+                                "episode1progressivelevelup"
+                            ],
+                            [
+                                "battlecry",
+                                "bump",
+                                "dramaticexit",
+                                "particleaccelerator",
+                                "luckyroll",
+                                "jugglingball",
+                                "fireworks",
+                                "wizardsspellbook",
+                                "toxicooze",
+                                "halfmooncharm"
+                            ],
+                            [
+                                "diceshard",
+                                "shriek",
+                                "discoball",
+                                "episode2progressivelevelup",
+                                "episode3progressivelevelup",
+                                "sixshooter",
+                                "nailbat",
+                                "fishingnet",
+                                "whip",
+                                "detonator"
+                            ],
+                            [
+                                "targetshield",
+                                "battleaxe",
+                                "boomerang",
+                                "candle",
+                                "crystalsword",
+                                "kiteshield",
+                                "midnightcharm",
+                                "episode6progressivelevelup",
+                                "quarterstaff",
+                                "dagger"
+                            ],
+                            [
+                                "tazer",
+                                "blight",
+                                "spatula",
+                                "episode5progressivelevelup",
+                                "episode1-episodecompleted",
+                                "frogsbroadsword",
+                                "episode2-episodecompleted",
+                                "capacitor",
+                                "scissors",
+                                "broadsword"
+                            ],
+                            [
+                                "peashooter",
+                                "thickskin",
+                                "gemstonestaff",
+                                "elasticheart",
+                                "coppershield",
+                                "staff",
+                                "hammer",
+                                "claw",
+                                "matchstick",
+                                "laststand"
+                            ],
+                            [
+                                "rottenapplespetworm",
+                                "singularity",
+                                "shovel",
+                                "ironshield",
+                                "snakeeyecharm",
+                                "katana",
+                                "buckler",
+                                "boxinggloves",
+                                "flyingskull",
+                                "episode5-episodecompleted"
+                            ],
+                            [
+                                "counterspell",
+                                "pickaxe",
+                                "trident",
+                                "ignite",
+                                "healingcrystal",
+                                "slingshot",
+                                "parryingdagger",
+                                "sledgehammer",
+                                "sinewave",
+                                "episode4progressivelevelup"
+                            ],
+                            [
+                                "hookshot",
+                                "update"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
