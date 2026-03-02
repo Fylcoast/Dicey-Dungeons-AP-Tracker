@@ -1,8 +1,6 @@
 [
     {
         "name": "Overworld",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -10,8 +8,6 @@
         "children": [
             {
                 "name": "Episode 1",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -257,16 +253,14 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1774,
-                        "y": 2452,
-                        "size": 6
+                        "x": 100,
+                        "y": 100,
+                        "size": 60
                     }
                 ]
             },
             {
                 "name": "Episode 2",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -520,8 +514,6 @@
             },
             {
                 "name": "Episode 3",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -775,8 +767,6 @@
             },
             {
                 "name": "Episode 4",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -1030,8 +1020,6 @@
             },
             {
                 "name": "Episode 5",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -1305,8 +1293,6 @@
             },
             {
                 "name": "Episode 6",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "

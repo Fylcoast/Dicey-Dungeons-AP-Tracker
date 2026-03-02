@@ -1,8 +1,6 @@
 [
     {
         "name": "Episode 1",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -10,8 +8,6 @@
         "children": [
             {
                 "name": "Floor 1",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -19,8 +15,6 @@
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -70,8 +64,6 @@
             },
             {
                 "name": "Floor 2",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -79,8 +71,6 @@
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -128,8 +118,6 @@
                     },
                     {
                         "name": "Shop",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -177,8 +165,6 @@
                     },
                     {
                         "name": "Heal",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -204,8 +190,6 @@
             },
             {
                 "name": "Floor 3",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -213,8 +197,6 @@
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -262,8 +244,6 @@
                     },
                     {
                         "name": "Shop",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -311,8 +291,6 @@
                     },
                     {
                         "name": "Heal",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -342,8 +320,6 @@
                     },
                     {
                         "name": "Upgrade",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -369,8 +345,6 @@
             },
             {
                 "name": "Floor 4",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -378,8 +352,6 @@
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -427,8 +399,6 @@
                     },
                     {
                         "name": "Heal",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -452,8 +422,6 @@
                     },
                     {
                         "name": "Trade",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -503,8 +471,6 @@
             },
             {
                 "name": "Floor 5",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
@@ -512,8 +478,6 @@
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -561,8 +525,6 @@
                     },
                     {
                         "name": "Shop",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -610,8 +572,6 @@
                     },
                     {
                         "name": "Heal",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -641,8 +601,6 @@
                     },
                     {
                         "name": "Upgrade",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
                             " "
@@ -710,7 +668,7 @@
                 "map": "Episode 1",
                 "x": 1775,
                 "y": 798,
-                "size": 6
+                "size": 60
             }
         ]
     }
