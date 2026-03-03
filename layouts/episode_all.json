@@ -1,0 +1,43 @@
+{
+    "episode_all_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "episode1-episodecompleted",
+                                "episode2-episodecompleted"
+                            ],
+                            [
+                                "episode3-episodecompleted",
+                                "episode4-episodecompleted"
+                            ],
+                            [
+                                "episode5-episodecompleted",
+                                "episode6-episodecompleted"
+                            ],
+                            [],
+                            [
+                                "diceshard"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

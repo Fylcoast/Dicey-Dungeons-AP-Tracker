@@ -61,13 +61,12 @@
             "dropshadow": true,
             "content": [
                 {
-                    "type": "dock",
+                    "type": "tabbed",
                     "dock": "bottom",
-                    "content": [
+                    "tabs": [
                         {
                             "type": "group",
                             "header": "Equipment",
-                            "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
@@ -78,24 +77,24 @@
                         },
                         {
                             "type": "group",
+                            "header": "Episodes",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "episodes_grid_horizontal"
+                            }
+                        },
+                        {
+                            "type": "group",
                             "header": "Settings",
-                            "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
                                 "key": "setting_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Pinned Locations",
-                            "content": {
-                                "style": "wrap",
-                                "type": "recentpins",
-                                "orientation": "horizontal",
-                                "compact": true
                             }
                         }
                     ]

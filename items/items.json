@@ -18,7 +18,7 @@
     {
         "name": "Episode 3 - Episode Completed",
         "type": "toggle",
-        "img": "images/items/episode3-episodecompleted.png",
+        "img": "images/die3.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "episode3-episodecompleted"
@@ -26,7 +26,7 @@
     {
         "name": "Episode 6 - Episode Completed",
         "type": "toggle",
-        "img": "images/items/episode6-episodecompleted.png",
+        "img": "images/die6.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "episode6-episodecompleted"
@@ -34,7 +34,7 @@
     {
         "name": "Episode 4 - Episode Completed",
         "type": "toggle",
-        "img": "images/items/episode4-episodecompleted.png",
+        "img": "images/die4.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "episode4-episodecompleted"
@@ -44,7 +44,7 @@
         "type": "consumable",
         "img": "images/items/audreysdumbbell.png",
         "min_quantity": 0,
-        "max_quantity": 0,
+        "max_quantity": 999,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
@@ -152,7 +152,7 @@
         "type": "consumable",
         "img": "images/items/wizardsspellbook.png",
         "min_quantity": 0,
-        "max_quantity": 0,
+        "max_quantity": 999,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
@@ -180,9 +180,9 @@
     {
         "name": "Dice Shard",
         "type": "consumable",
-        "img": "images/items/diceshard.png",
+        "img": "images/die.png",
         "min_quantity": 0,
-        "max_quantity": 0,
+        "max_quantity": 999,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
@@ -210,7 +210,7 @@
     {
         "name": "Episode 2 Progressive Level Up",
         "type": "consumable",
-        "img": "images/items/episode2progressivelevelup.png",
+        "img": "images/star.png",
         "min_quantity": 0,
         "max_quantity": 5,
         "increment": 1,
@@ -224,7 +224,7 @@
     {
         "name": "Episode 3 Progressive Level Up",
         "type": "consumable",
-        "img": "images/items/episode3progressivelevelup.png",
+        "img": "images/star.png",
         "min_quantity": 0,
         "max_quantity": 5,
         "increment": 1,
@@ -334,7 +334,7 @@
     {
         "name": "Episode 6 Progressive Level Up",
         "type": "consumable",
-        "img": "images/items/episode6progressivelevelup.png",
+        "img": "images/star.png",
         "min_quantity": 0,
         "max_quantity": 5,
         "increment": 1,
@@ -388,7 +388,7 @@
     {
         "name": "Episode 5 Progressive Level Up",
         "type": "consumable",
-        "img": "images/items/episode5progressivelevelup.png",
+        "img": "images/star.png",
         "min_quantity": 0,
         "max_quantity": 5,
         "increment": 1,
@@ -402,7 +402,7 @@
     {
         "name": "Episode 1 - Episode Completed",
         "type": "toggle",
-        "img": "images/items/episode1-episodecompleted.png",
+        "img": "images/die1.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "episode1-episodecompleted"
@@ -412,7 +412,7 @@
         "type": "consumable",
         "img": "images/items/frogsbroadsword.png",
         "min_quantity": 0,
-        "max_quantity": 0,
+        "max_quantity": 999,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
@@ -424,7 +424,7 @@
     {
         "name": "Episode 2 - Episode Completed",
         "type": "toggle",
-        "img": "images/items/episode2-episodecompleted.png",
+        "img": "images/die2.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "episode2-episodecompleted"
@@ -538,7 +538,7 @@
         "type": "consumable",
         "img": "images/items/rottenapplespetworm.png",
         "min_quantity": 0,
-        "max_quantity": 0,
+        "max_quantity": 999,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
@@ -614,7 +614,7 @@
     {
         "name": "Episode 5 - Episode Completed",
         "type": "toggle",
-        "img": "images/items/episode5-episodecompleted.png",
+        "img": "images/die5.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "episode5-episodecompleted"
@@ -694,7 +694,7 @@
     {
         "name": "Episode 4 Progressive Level Up",
         "type": "consumable",
-        "img": "images/items/episode4progressivelevelup.png",
+        "img": "images/star.png",
         "min_quantity": 0,
         "max_quantity": 5,
         "increment": 1,

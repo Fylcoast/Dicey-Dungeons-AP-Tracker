@@ -44,7 +44,3 @@ require("scripts/watches")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
 
 
-Tracker:AddItems("items/equipment_received.json")
-
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/warrior_episodes.json")
