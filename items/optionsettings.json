@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Checks Per Chest",
+        "type": "consumable",
+        "img": "images/chest.png",
+        "min_quantity": 0,
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "checksperchest"
+    },
+    {
+        "name": "Checks Per Shop",
+        "type": "consumable",
+        "img": "images/shop.png",
+        "min_quantity": 0,
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "checkspershop"
+    },
+    {
+        "name": "Checks Per Trade",
+        "type": "consumable",
+        "img": "images/trade.png",
+        "min_quantity": 0,
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "checkspertrade"
+    },
+    {
+        "name": "Levelsanity",
+        "type": "toggle",
+        "img": "images/star.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "levelsanity"
+    },
+    {
+        "name": "Episode Progression",
+        "type": "progressive",
+        "codes": "episodeprogression",
+        "allow_disabled": false,
+        "loop": true, 
+        "stages": [
+            {
+                "img": "images/sword.png"
+            },
+            {
+                "img": "images/shield.png"
+            }
+        ]
+    },
+    {
+        "name": "Dice Shards Per Die",
+        "type": "consumable",
+        "img": "images/die.png",
+        "min_quantity": 0,
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "diceshardsperdie"
+    },
+    {
+        "name": "Bonus Dice Shards",
+        "type": "consumable",
+        "img": "images/plus.png",
+        "min_quantity": 0,
+        "max_quantity": 12,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "bonusdiceshards"
+    }
+]

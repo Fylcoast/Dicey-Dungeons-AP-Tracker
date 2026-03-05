@@ -1,0 +1,40 @@
+{
+    "settings_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "checksperchest",
+                                "checkspershop",
+                                "checkspertrade"
+                            ],
+                            [
+                                "levelsanity",
+                                "episodeprogression"
+                            ],
+                            [
+                                "diceshardsperdie",
+                                "bonusdiceshards"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -228,10 +228,9 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     autoFill(slot_data)
-    -- end
-    -- print(PLAYER_ID, TEAM_NUMBER)
+    
+    autoFill()
+
     if Archipelago.PlayerNumber > -1 then
         if #ALL_LOCATIONS > 0 then
             ALL_LOCATIONS = {}
@@ -322,37 +321,70 @@ end
 
 -- this Autofill function is meant as an example on how to do the reading from slotdata and mapping the values to 
 -- your own settings
--- function autoFill()
---     if SLOT_DATA == nil  then
---         print("its fucked")
---         return
---     end
---     -- print(dump_table(SLOT_DATA))
+function autoFill()
+    if SLOT_DATA == nil  then
+        print("its fucked")
+        return
+    end
+    -- print(dump_table(SLOT_DATA))
 
---     mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
---     mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
---     mapTripleReverse={[0]=2,[1]=1,[2]=0}
+    -- Checks per chest
+    if SLOT_DATA["checks_per_chest"] then
+        local checks_per_chest = Tracker:FindObjectForCode("checksperchest")
+        if checks_per_chest then
+            checks_per_chest.AcquiredCount = SLOT_DATA["checks_per_chest"]
+        end
+    end
 
---     slotCodes = {
---         map_name = {code="", mapping=mapToggle...}
---     }
---     -- print(dump_table(SLOT_DATA))
---     -- print(Tracker:FindObjectForCode("autofill_settings").Active)
---     if Tracker:FindObjectForCode("autofill_settings").Active == true then
---         for settings_name , settings_value in pairs(SLOT_DATA) do
---             -- print(k, v)
---             if slotCodes[settings_name] then
---                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
---                 if item.Type == "toggle" then
---                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else 
---                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
---                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
---                 end
---             end
---         end
---     end
--- end
+    -- Checks per shop
+    if SLOT_DATA["checks_per_shop"] then
+        local checks_per_shop = Tracker:FindObjectForCode("checkspershop")
+        if checks_per_shop then
+            checks_per_shop.AcquiredCount = SLOT_DATA["checks_per_shop"]
+        end
+    end
+
+    -- Checks per trade
+    if SLOT_DATA["checks_per_trade"] then
+        local checks_per_trade = Tracker:FindObjectForCode("checkspertrade")
+        if checks_per_trade then
+            checks_per_trade.AcquiredCount = SLOT_DATA["checks_per_trade"]
+        end
+    end
+
+
+    -- Levelsanity (T/F)
+    if SLOT_DATA["levelsanity"] then
+        local levelsanity = Tracker:FindObjectForCode("levelsanity")
+        if levelsanity then
+            levelsanity.Active = SLOT_DATA["levelsanity"]
+        end
+    end
+
+    -- Episode progression (0 = vanilla, 1 = open-world)
+    if SLOT_DATA["episode_progression"] then
+        local episode_progression = Tracker:FindObjectForCode("episodeprogression")
+        if episode_progression then
+            episode_progression.CurrentStage = SLOT_DATA["episode_progression"]
+        end
+    end
+
+    -- Dice shards per die
+    if SLOT_DATA["split_dice"] and SLOT_DATA["dice_shards_per_die"] then
+        local dice_shards_per_die = Tracker:FindObjectForCode("diceshardsperdie")
+        if dice_shards_per_die then
+            dice_shards_per_die.AcquiredCount = SLOT_DATA["dice_shards_per_die"]
+        end
+    end
+
+    -- Bonus dice shards
+    if SLOT_DATA["split_dice"] and SLOT_DATA["spare_dice_shards"] then
+        local bonus_dice_shards = Tracker:FindObjectForCode("bonusdiceshards")
+        if bonus_dice_shards then
+            bonus_dice_shards.AcquiredCount = SLOT_DATA["spare_dice_shards"]
+        end
+    end
+end
 
 function OnNotify(key, value, old_value)
     print("OnNotify", key, value, old_value)
