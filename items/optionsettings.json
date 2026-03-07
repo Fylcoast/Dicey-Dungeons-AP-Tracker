@@ -57,9 +57,11 @@
         "loop": true, 
         "stages": [
             {
+                "name": "Vanilla",
                 "img": "images/sword.png"
             },
             {
+                "name": "Open World",
                 "img": "images/shield.png"
             }
         ]

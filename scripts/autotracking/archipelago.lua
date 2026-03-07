@@ -1,6 +1,7 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/autotracking/equipment_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -288,6 +289,9 @@ function onItem(index, item_id, item_name, player_number)
                     item_obj.Active = true
                 end
             end
+
+            -- Update equipment counts
+            AddEquipmentAvailability(item_code)
         else
             print(string.format("onItem: could not find object for code %s", item_code[1]))
         end
@@ -382,6 +386,64 @@ function autoFill()
         local bonus_dice_shards = Tracker:FindObjectForCode("bonusdiceshards")
         if bonus_dice_shards then
             bonus_dice_shards.AcquiredCount = SLOT_DATA["spare_dice_shards"]
+        end
+    end
+end
+
+function has_value (tab, val)
+    for index, value in ipairs(tab) do
+        if value == val then
+            return true
+        end
+    end
+
+    return false
+end
+
+function AddEquipmentAvailability(equipment)
+    for i = 1, 6 do
+        AddEpisodeEquipmentAvailability(equipment, i)
+    end
+end
+
+function AddEpisodeEquipmentAvailability(equipment, episode)
+    local eq = EQUIPMENT_MAPPING[equipment]
+    
+    if not eq then
+        return
+    end
+
+    if not has_value(eq['episode'], episode) then
+        return
+    end
+
+    -- Overall Equipment
+    local overall_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "Equipment")
+    if overall_equipment then
+        overall_equipment.AcquiredCount = overall_equipment.AcquiredCount + 1
+    end
+
+    -- Chest Equipment
+    if has_value(eq['location_types'], 'chest') then
+        local chest_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "ChestEquipment")
+        if chest_equipment then 
+            chest_equipment.AcquiredCount = chest_equipment.AcquiredCount + 1
+        end
+    end
+
+    -- Shop Equipment
+    if has_value(eq['location_types'], 'shop') then
+        local shop_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "ShopEquipment")
+        if shop_equipment then
+            shop_equipment.AcquiredCount = shop_equipment.AcquiredCount + 1
+        end
+    end
+
+    -- Trade Equipment
+    if has_value(eq['location_types'], 'trade') then
+        local trade_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "TradeEquipment")
+        if trade_equipment then
+            trade_equipment.AcquiredCount = trade_equipment.AcquiredCount + 1
         end
     end
 end

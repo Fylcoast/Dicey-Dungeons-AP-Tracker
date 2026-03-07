@@ -1,39 +1,39 @@
 [
     {
         "name": "Episode 1 Equipment",
-        "codes": "Episode1,Equipment",
+        "codes": "Episode1Equipment,Equipment",
         "type": "consumable",
-        "img": "images/equipment/die1.png"
+        "img": "images/die1.png"
     },
     {
         "name": "Episode 2 Equipment",
-        "codes": "Episode2,Equipment",
+        "codes": "Episode2Equipment,Equipment",
         "type": "consumable",
-        "img": "images/equipment/die2.png"
+        "img": "images/die2.png"
     },
     {
         "name": "Episode 3 Equipment",
-        "codes": "Episode3,Equipment",
+        "codes": "Episode3Equipment,Equipment",
         "type": "consumable",
-        "img": "images/equipment/die3.png"
+        "img": "images/die3.png"
     },
     {
         "name": "Episode 4 Equipment",
-        "codes": "Episode4,Equipment",
+        "codes": "Episode4Equipment,Equipment",
         "type": "consumable",
-        "img": "images/equipment/die4.png"
+        "img": "images/die4.png"
     },
     {
         "name": "Episode 5 Equipment",
-        "codes": "Episode5,Equipment",
+        "codes": "Episode5Equipment,Equipment",
         "type": "consumable",
-        "img": "images/equipment/die5.png"
+        "img": "images/die5.png"
     },
     {
         "name": "Episode 6 Equipment",
-        "codes": "Episode6,Equipment",
+        "codes": "Episode6Equipment,Equipment",
         "type": "consumable",
-        "img": "images/equipment/die6.png"
+        "img": "images/die6.png"
     },
     {
         "name": "Episode 1 Chest Equipment",
