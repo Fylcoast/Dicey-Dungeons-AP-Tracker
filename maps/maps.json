@@ -9,36 +9,36 @@
         "name": "Episode 1",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Overworld.png"
+        "img": "images/maps/episode_one.png"
     },
     {
         "name": "Episode 2",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Episode 2.png"
+        "img": "images/maps/episode_two.png"
     },
     {
         "name": "Episode 3",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Episode 3.png"
+        "img": "images/maps/episode_three.png"
     },
     {
         "name": "Episode 4",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Episode 4.png"
+        "img": "images/maps/episode_four.png"
     },
     {
         "name": "Episode 5",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Episode 5.png"
+        "img": "images/maps/episode_five.png"
     },
     {
         "name": "Episode 6",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Episode 6.png"
+        "img": "images/maps/episode_six.png"
     }
 ]

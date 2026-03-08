@@ -54,9 +54,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 291,
-                                "y": 1752,
-                                "size": 6
+                                "x": 106,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     }
@@ -110,9 +110,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 870,
-                                "y": 1753,
-                                "size": 6
+                                "x": 305,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     },
@@ -157,9 +157,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 25,
-                                "y": 429,
-                                "size": 6
+                                "x": 302,
+                                "y": 271,
+                                "size": 15
                             }
                         ]
                     },
@@ -180,9 +180,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 2424,
-                                "y": 2221,
-                                "size": 6
+                                "x": 302,
+                                "y": 490,
+                                "size": 15
                             }
                         ]
                     }
@@ -236,9 +236,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 1246,
-                                "y": 2464,
-                                "size": 6
+                                "x": 503,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     },
@@ -283,9 +283,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 1056,
-                                "y": 615,
-                                "size": 6
+                                "x": 503,
+                                "y": 271,
+                                "size": 15
                             }
                         ]
                     },
@@ -312,9 +312,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 765,
-                                "y": 2328,
-                                "size": 6
+                                "x": 503,
+                                "y": 490,
+                                "size": 15
                             }
                         ]
                     },
@@ -335,9 +335,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 2009,
-                                "y": 950,
-                                "size": 6
+                                "x": 503,
+                                "y": 586,
+                                "size": 15
                             }
                         ]
                     }
@@ -391,9 +391,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 1019,
-                                "y": 1296,
-                                "size": 6
+                                "x": 703,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     },
@@ -414,9 +414,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 1645,
-                                "y": 1240,
-                                "size": 6
+                                "x": 703,
+                                "y": 490,
+                                "size": 15
                             }
                         ]
                     },
@@ -461,9 +461,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 2429,
-                                "y": 1095,
-                                "size": 6
+                                "x": 703,
+                                "y": 382,
+                                "size": 15
                             }
                         ]
                     }
@@ -517,9 +517,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 1232,
-                                "y": 2006,
-                                "size": 6
+                                "x": 903,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     },
@@ -564,9 +564,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 2452,
-                                "y": 673,
-                                "size": 6
+                                "x": 903,
+                                "y": 271,
+                                "size": 15
                             }
                         ]
                     },
@@ -593,9 +593,9 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 1306,
-                                "y": 846,
-                                "size": 6
+                                "x": 903,
+                                "y": 490,
+                                "size": 15
                             }
                         ]
                     },
@@ -616,59 +616,115 @@
                         "map_locations": [
                             {
                                 "map": "Episode 1",
-                                "x": 1145,
-                                "y": 268,
-                                "size": 6
+                                "x": 903,
+                                "y": 586,
+                                "size": 15
                             }
                         ]
                     }
                 ]
-            }
-        ],
-        "sections": [
+            },
             {
                 "name": "Level 2",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": 55,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Level 3",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": 165,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Level 4",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": 270,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Level 5",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": 378,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Level 6",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": 487,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Episode Completed",
                 "access_rules": [],
                 "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Episode 1",
-                "x": 1775,
-                "y": 798,
-                "size": 60
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 1",
+                        "x": 1096,
+                        "y": 167,
+                        "size": 15
+                    }
+                ]
             }
         ]
     }
