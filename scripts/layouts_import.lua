@@ -1,6 +1,7 @@
 
 Tracker:AddLayouts("layouts/settings_popup.json")
 Tracker:AddLayouts("layouts/optionsettings.json")
+Tracker:AddLayouts("layouts/settings_with_labels.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
@@ -14,3 +15,10 @@ Tracker:AddLayouts("layouts/episode_three.json")
 Tracker:AddLayouts("layouts/episode_four.json")
 Tracker:AddLayouts("layouts/episode_five.json")
 Tracker:AddLayouts("layouts/episode_six.json")
+
+Tracker:AddLayouts("layouts/episode_one_with_labels.json")
+Tracker:AddLayouts("layouts/episode_two_with_labels.json")
+Tracker:AddLayouts("layouts/episode_three_with_labels.json")
+Tracker:AddLayouts("layouts/episode_four_with_labels.json")
+Tracker:AddLayouts("layouts/episode_five_with_labels.json")
+Tracker:AddLayouts("layouts/episode_six_with_labels.json")

@@ -253,9 +253,9 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 100,
-                        "y": 100,
-                        "size": 60
+                        "x": 90,
+                        "y": 400,
+                        "size": 15
                     }
                 ]
             },
@@ -506,9 +506,9 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 663,
-                        "y": 287,
-                        "size": 6
+                        "x": 267,
+                        "y": 400,
+                        "size": 15
                     }
                 ]
             },
@@ -759,9 +759,9 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1720,
-                        "y": 1852,
-                        "size": 6
+                        "x": 444,
+                        "y": 400,
+                        "size": 15
                     }
                 ]
             },
@@ -1012,9 +1012,9 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1586,
-                        "y": 2330,
-                        "size": 6
+                        "x": 621,
+                        "y": 400,
+                        "size": 15
                     }
                 ]
             },
@@ -1285,9 +1285,9 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 465,
-                        "y": 1798,
-                        "size": 6
+                        "x": 798,
+                        "y": 400,
+                        "size": 15
                     }
                 ]
             },
@@ -1538,9 +1538,9 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 1363,
-                        "y": 2437,
-                        "size": 6
+                        "x": 976,
+                        "y": 400,
+                        "size": 15
                     }
                 ]
             }

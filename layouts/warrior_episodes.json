@@ -23,7 +23,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_one_grid_horizontal"
+                    "key": "episode_one_with_labels_grid_horizontal"
                 }
             },
             {
@@ -34,7 +34,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_two_grid_horizontal"
+                    "key": "episode_two_with_labels_grid_horizontal"
                 }
             },
             {
@@ -45,7 +45,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_three_grid_horizontal"
+                    "key": "episode_three_with_labels_grid_horizontal"
                 }
             },
             {
@@ -56,7 +56,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_four_grid_horizontal"
+                    "key": "episode_four_with_labels_grid_horizontal"
                 }
             },
             {
@@ -67,7 +67,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_five_grid_horizontal"
+                    "key": "episode_five_with_labels_grid_horizontal"
                 }
             },
             {
@@ -78,7 +78,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_six_grid_horizontal"
+                    "key": "episode_six_with_labels_grid_horizontal"
                 }
             }
         ]

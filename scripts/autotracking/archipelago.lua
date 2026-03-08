@@ -413,14 +413,14 @@ function AddEpisodeEquipmentAvailability(equipment, episode)
         return
     end
 
-    if not has_value(eq['episode'], episode) then
-        return
-    end
-
     -- Overall Equipment
     local overall_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "Equipment")
     if overall_equipment then
         overall_equipment.AcquiredCount = overall_equipment.AcquiredCount + 1
+    end
+
+    if not has_value(eq['episode'], episode) then
+        return
     end
 
     -- Chest Equipment

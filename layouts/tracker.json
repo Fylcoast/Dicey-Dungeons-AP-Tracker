@@ -94,7 +94,7 @@
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
-                                "key": "settings_grid_horizontal"
+                                "key": "settings_with_labels_grid_horizontal"
                             }
                         }
                     ]
