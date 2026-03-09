@@ -1,68 +1,58 @@
 [
     {
         "name": "Episode 5",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "$can_reach_episode|5"
         ],
         "children": [
             {
                 "name": "Floor 1",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$can_reach_floor|5|1"
                 ],
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_chests"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Chest 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|1|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|1|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|1|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|1|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|1|5"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 1930,
-                                "y": 2193,
-                                "size": 6
+                                "x": 106,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     }
@@ -70,163 +60,142 @@
             },
             {
                 "name": "Floor 2",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$can_reach_floor|5|2"
                 ],
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_chests"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Chest 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|5"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 6",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|6"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 7",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|7"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 8",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|8"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 9",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|9"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 10",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|2|10"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 1315,
-                                "y": 1507,
-                                "size": 6
+                                "x": 305,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Shop",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_shops"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Shop 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|2|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|2|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|2|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|2|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|2|5"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 1582,
-                                "y": 162,
-                                "size": 6
+                                "x": 302,
+                                "y": 271,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Heal",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_heals"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Heal 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_heal|5|2|1"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 881,
-                                "y": 338,
-                                "size": 6
+                                "x": 302,
+                                "y": 490,
+                                "size": 15
                             }
                         ]
                     }
@@ -234,164 +203,145 @@
             },
             {
                 "name": "Floor 3",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$can_reach_floor|5|3"
                 ],
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_chests"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Chest 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|3|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|3|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|3|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|3|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|3|5"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 1040,
-                                "y": 625,
-                                "size": 6
+                                "x": 503,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Shop",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_shops"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Shop 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|3|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|3|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|3|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|3|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|3|5"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 944,
-                                "y": 203,
-                                "size": 6
+                                "x": 503,
+                                "y": 271,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Heal",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_heals"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Heal 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_heal|5|3|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Heal 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_heal|5|3|2"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 1101,
-                                "y": 1462,
-                                "size": 6
+                                "x": 503,
+                                "y": 490,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Upgrade",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_upgrades"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Upgrade 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_upgrade|5|3|1"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 574,
-                                "y": 2371,
-                                "size": 6
+                                "x": 503,
+                                "y": 586,
+                                "size": 15
                             }
                         ]
                     }
@@ -399,133 +349,117 @@
             },
             {
                 "name": "Floor 4",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$can_reach_floor|5|4"
                 ],
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_chests"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Chest 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|4|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|4|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|4|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|4|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|4|5"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 1153,
-                                "y": 2084,
-                                "size": 6
+                                "x": 703,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Heal",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_heals"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Heal 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_heal|5|4|1"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 98,
-                                "y": 2208,
-                                "size": 6
+                                "x": 703,
+                                "y": 490,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Trade",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_trades"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Trade 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_trade|5|4|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Trade 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_trade|5|4|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Trade 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_trade|5|4|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Trade 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_trade|5|4|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Trade 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_trade|5|4|5"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 1201,
-                                "y": 1075,
-                                "size": 6
+                                "x": 703,
+                                "y": 382,
+                                "size": 15
                             }
                         ]
                     }
@@ -533,214 +467,251 @@
             },
             {
                 "name": "Floor 5",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$can_reach_floor|5|5"
                 ],
                 "children": [
                     {
                         "name": "Chest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_chests"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Chest 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|5|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|5|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|5|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|5|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Chest 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_chest|5|5|5"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 673,
-                                "y": 2466,
-                                "size": 6
+                                "x": 903,
+                                "y": 166,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Shop",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_shops"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Shop 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|5|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|5|2"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|5|3"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 4",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|5|4"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Shop 5",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_shop|5|5|5"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 2005,
-                                "y": 359,
-                                "size": 6
+                                "x": 903,
+                                "y": 271,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Heal",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_heals"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Heal 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_heal|5|5|1"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Heal 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_heal|5|5|2"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 1713,
-                                "y": 830,
-                                "size": 6
+                                "x": 903,
+                                "y": 490,
+                                "size": 15
                             }
                         ]
                     },
                     {
                         "name": "Upgrade",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
+                        "visibility_rules": ["$show_upgrades"],
                         "access_rules": [
                             " "
                         ],
                         "sections": [
                             {
                                 "name": "Upgrade 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["$show_upgrade|5|5|1"],
                                 "item_count": 1
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "Episode 5",
-                                "x": 610,
-                                "y": 234,
-                                "size": 6
+                                "x": 903,
+                                "y": 586,
+                                "size": 15
                             }
                         ]
                     }
                 ]
-            }
-        ],
-        "sections": [
+            },
             {
                 "name": "Level 2",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "access_rules": ["$can_reach_floor|5|1"],
+                "visibility_rules": ["$show_levels"],
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 5",
+                        "x": 55,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Level 3",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "access_rules": ["$can_reach_floor|5|2, [$can_reach_floor|5|3]"],
+                "visibility_rules": ["$show_levels"],
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 5",
+                        "x": 165,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Level 4",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "access_rules": ["$can_reach_floor|5|3, [$can_reach_floor|5|4]"],
+                "visibility_rules": ["$show_levels"],
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 5",
+                        "x": 270,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Level 5",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "access_rules": ["$can_reach_floor|5|4, [$can_reach_floor|5|5]"],
+                "visibility_rules": ["$show_levels"],
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 5",
+                        "x": 378,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Level 6",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "access_rules": ["$can_reach_floor|5|5, [$can_reach_floor|5|6]"],
+                "visibility_rules": ["$show_levels"],
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 5",
+                        "x": 487,
+                        "y": 600,
+                        "size": 15
+                    }
+                ]
             },
             {
                 "name": "Episode Completed",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Episode 5",
-                "x": 2404,
-                "y": 1859,
-                "size": 6
+                "access_rules": ["$can_reach_floor|5|6"],
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Episode 5",
+                        "x": 1096,
+                        "y": 167,
+                        "size": 15
+                    }
+                ]
             }
         ]
     }
