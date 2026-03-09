@@ -38,3 +38,13 @@ EPISODES_NEEDED_BY_EPISODE = {
     [5] = 3,
     [6] = 4
 }
+
+-- List of episode completion codes
+EPISODE_COMPLETED_CODES = {
+    "episode1-episodecompleted",
+    "episode2-episodecompleted",
+    "episode3-episodecompleted",
+    "episode4-episodecompleted",
+    "episode5-episodecompleted",
+    "episode6-episodecompleted",
+}

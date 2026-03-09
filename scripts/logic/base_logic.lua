@@ -19,12 +19,6 @@ function show_chest(episode, floor, iter)
     return checks_per_chest 
         and checks_per_chest.AcquiredCount > 0 
         and tonumber(iter) <= num_chests * checks_per_chest.AcquiredCount
-    
-    -- local checks_per_chest = Tracker:FindObjectForCode("checksperchest")
-    -- if checks_per_chest then
-    --     checks_per_chest.AcquiredCount = 3
-    -- end
-    -- return true
 end
 
 -- Visibility rules to show ANY shop. true leads to more restrictive show logic
@@ -91,11 +85,52 @@ end
 
 -- Access rule for specific episode
 function can_reach_episode(episode)
-    return true
+    -- Gather required setting
+    local episode_progression = Tracker:FindObjectForCode("episodeprogression")
+
+    -- Return true immediately if open world, as all episodes available in open world
+    if not episode_progression or episode_progression.CurrentStage == 1 then
+        return true
+    end
+
+    -- Determine access based on completed episodes
+    local completed_episode_count = 0
+    for _, episode in ipairs(EPISODE_COMPLETED_CODES) do
+        local episode_completion = Tracker:FindObjectForCode(episode)
+        if episode_completion and episode_completion.Active then
+            completed_episode_count = completed_episode_count + 1
+        end
+    end
+
+    return completed_episode_count >= EPISODES_NEEDED_BY_EPISODE[tonumber(episode)]
 end
 
 -- Access rule for specific floor of an episode
 function can_reach_floor(episode, floor)
-    return true
+    -- Equipment check
+    -- Need X Equipment to reach Y floor
+    local overall_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "Equipment")
+    local has_equipment = overall_equipment 
+        and overall_equipment.AcquiredCount >= EQUIPMENT_NEEDED_BY_FLOOR[tonumber(floor)]
+
+    -- Progressive level check
+    -- If levelsanity, then need X progressive levels to reach Y floor
+    local levelsanity = Tracker:FindObjectForCode("levelsanity")
+    local progressive_levels = Tracker:FindObjectForCode("episode" .. episode .. "progressivelevelup")
+    local has_levels = not levelsanity 
+        or not levelsanity.Active 
+        or not progressive_levels 
+        or progressive_levels.AcquiredCount >= LEVELS_NEEDED_BY_FLOOR[tonumber(floor)]
+
+    -- Dice check
+    -- if Split dice, then need X Dice Shards to reach Y floor
+    local dice_shards_per_die = Tracker:FindObjectForCode("diceshardsperdie")
+    local dice_shards = Tracker:FindObjectForCode("diceshard")
+    local has_dice = not dice_shards_per_die
+        or not (dice_shards_per_die.AcquiredCount > 0)
+        or not dice_shards
+        or dice_shards.AcquiredCount >= DICE_NEEDED_BY_FLOOR[tonumber(floor)] * dice_shards_per_die.AcquiredCount
+
+    return has_equipment and has_levels and has_dice
 end
                 
