@@ -18,7 +18,7 @@
                     },
                     {
                         "type": "text",
-                        "text": "Progressive Level Ups",
+                        "text": "Level Ups",
                         "v_alignment": "center"
                     }
                 ]
@@ -37,7 +37,7 @@
                     },
                     {
                         "type": "text",
-                        "text": "Chest Equipment Received",
+                        "text": "Chest Equipment",
                         "v_alignment": "center"
                     }
                 ]
@@ -56,7 +56,7 @@
                     },
                     {
                         "type": "text",
-                        "text": "Shop Equipment Received",
+                        "text": "Shop Equipment",
                         "v_alignment": "center"
                     }
                 ]
@@ -75,7 +75,7 @@
                     },
                     {
                         "type": "text",
-                        "text": "Trade Equipment Received",
+                        "text": "Trade Equipment",
                         "v_alignment": "center"
                     }
                 ]
@@ -94,7 +94,7 @@
                     },
                     {
                         "type": "text",
-                        "text": "Equipment Received",
+                        "text": "Episode Equipment",
                         "v_alignment": "center"
                     }
                 ]
