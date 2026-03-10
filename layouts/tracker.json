@@ -65,35 +65,23 @@
                     "dock": "bottom",
                     "tabs": [
                         {
-                            "type": "group",
-                            "header": "Equipment",
-                            "margin": "0,0,3,0",
+                            "title": "Equipment",
                             "content": {
                                 "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
                                 "key": "shared_item_grid_horizontal"
                             }
                         },
                         {
-                            "type": "group",
-                            "header": "Episodes",
-                            "margin": "0,0,3,0",
+                            "title": "Episodes",
                             "content": {
                                 "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
                                 "key": "episodes_grid_horizontal"
                             }
                         },
                         {
-                            "type": "group",
-                            "header": "Settings",
-                            "margin": "0,0,3,0",
+                            "title": "Settings",
                             "content": {
                                 "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
                                 "key": "settings_with_labels_grid_horizontal"
                             }
                         }

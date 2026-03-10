@@ -230,6 +230,7 @@ function onClear(slot_data)
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
     
+    ResetCustomItems()
     autoFill()
 
     if Archipelago.PlayerNumber > -1 then
@@ -321,6 +322,34 @@ function onLocation(location_id, location_name)
         end
     end
     MANUAL_CHECKED = true
+end
+
+function ResetCustomItems()
+    for episode = 1, 6 do
+        -- Overall Equipment
+        local overall_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "Equipment")
+        if overall_equipment then
+            overall_equipment.AcquiredCount = 0
+        end
+
+        -- Chest Equipment
+        local chest_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "ChestEquipment")
+        if chest_equipment then 
+            chest_equipment.AcquiredCount = 0
+        end
+
+        -- Shop Equipment
+        local shop_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "ShopEquipment")
+        if shop_equipment then
+            shop_equipment.AcquiredCount = 0
+        end
+
+        -- Trade Equipment
+        local trade_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "TradeEquipment")
+        if trade_equipment then
+            trade_equipment.AcquiredCount = 0
+        end
+    end
 end
 
 -- this Autofill function is meant as an example on how to do the reading from slotdata and mapping the values to 
