@@ -174,5 +174,181 @@
                 }
             }
         ]
+    },
+    "settings_with_labels_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Location Options",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "checksperchest",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Checks per Chest",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "checkspershop",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Checks per Shop",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "checkspertrade",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Checks per Trade",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "levelsanity",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Levelsanity",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Dice Options",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "diceshardsperdie",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Dice Shards per Die",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "bonusdiceshards",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Bonus Dice Shards",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Gameplay Options",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "episodeprogression",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Episode Progression",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
     }
 }

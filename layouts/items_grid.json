@@ -1,0 +1,212 @@
+{
+    "shared_item_grid_horizontal": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 20,
+        "item_width": 130,
+        "rows": [
+            [
+                "BattleAxe",
+                "BattleCry",
+                "Blight",
+                "Boomerang",
+                "BoxingGloves",
+                "Broadsword",
+                "Buckler",
+                "Bump"
+            ],
+            [
+                "Candle",
+                "Capacitor",
+                "chocolatecookie",
+                "Claw",
+                "CopperShield",
+                "CounterSpell",
+                "CrystalSword",
+                "Dagger"
+            ],
+            [
+                "Detonator",
+                "DiscoBall",
+                "DramaticExit",
+                "ElasticHeart",
+                "Fireworks",
+                "FirstAidKit",
+                "FishingNet",
+                "FlyingSkull"
+            ],
+            [
+                "GemstoneStaff",
+                "HalfMoonCharm",
+                "Hammer",
+                "HealingCrystal",
+                "Hookshot",
+                "Ignite",
+                "IronShield",
+                "JugglingBall"
+            ],
+            [
+                "Katana",
+                "KiteShield",
+                "LastStand",
+                "LightningRod",
+                "LuckyRoll",
+                "Matchstick",
+                "MidnightCharm",
+                "NailBat"
+            ],
+            [
+                "Nightstick",
+                "ParryingDagger",
+                "ParticleAccelerator",
+                "PeaShooter",
+                "Pickaxe",
+                "Quarterstaff",
+                "Scissors",
+                "Shovel"
+            ],
+            [
+                "Shriek",
+                "SineWave",
+                "Singularity",
+                "SixShooter",
+                "Sledgehammer",
+                "Slingshot",
+                "SnakeEyeCharm",
+                "Snowball"
+            ],
+            [
+                "Spatula",
+                "Staff",
+                "TargetShield",
+                "Tazer",
+                "ThickSkin",
+                "ToxicOoze",
+                "Trident",
+                "Whip"
+            ]
+        ]
+    },
+    "shared_item_grid_vertical": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 20,
+        "item_width": 130,
+        "rows": [
+            [
+                "BattleAxe",
+                "BattleCry",
+                "Blight"
+            ],
+            [
+                "Boomerang",
+                "BoxingGloves",
+                "Broadsword"
+            ],
+            [
+                "Buckler",
+                "Bump",
+                "Candle"
+            ],
+            [
+                "Capacitor",
+                "chocolatecookie",
+                "Claw"
+            ],
+            [
+                "CopperShield",
+                "CounterSpell",
+                "CrystalSword"
+            ],
+            [
+                "Dagger",
+                "Detonator",
+                "DiscoBall"
+            ],
+            [
+                "DramaticExit",
+                "ElasticHeart",
+                "Fireworks"
+            ],
+            [
+                "FirstAidKit",
+                "FishingNet",
+                "FlyingSkull"
+            ],
+            [
+                "GemstoneStaff",
+                "HalfMoonCharm",
+                "Hammer"
+            ],
+            [
+                "HealingCrystal",
+                "Hookshot",
+                "Ignite"
+            ],
+            [
+                "IronShield",
+                "JugglingBall",
+                "Katana"
+            ],
+            [
+                "KiteShield",
+                "LastStand",
+                "LightningRod"
+            ],
+            [
+                "LuckyRoll",
+                "Matchstick",
+                "MidnightCharm"
+            ],
+            [
+                "NailBat",
+                "Nightstick",
+                "ParryingDagger"
+            ],
+            [
+                "ParticleAccelerator",
+                "PeaShooter",
+                "Pickaxe"
+            ],
+            [
+                "Quarterstaff",
+                "Scissors",
+                "Shovel"
+            ],
+            [
+                "Shriek",
+                "SineWave",
+                "Singularity"
+            ],
+            [
+                "SixShooter",
+                "Sledgehammer",
+                "Slingshot"
+            ],
+            [
+                "SnakeEyeCharm",
+                "Snowball",
+                "Spatula"
+            ],
+            [
+                "Staff",
+                "TargetShield",
+                "Tazer"
+            ],
+            [
+                "ThickSkin",
+                "ToxicOoze",
+                "Trident"
+            ],
+            [
+                "Whip"
+            ]
+        ]
+    }
+}

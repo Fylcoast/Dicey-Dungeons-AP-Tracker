@@ -7,36 +7,28 @@
             "dropshadow": true,
             "content": [
                 {
-                    "type": "dock",
+                    "type": "tabbed",
                     "dock": "left",
-                    "v_alignment": "stretch",
-                    "content": [
+                    "tabs": [
                         {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "top",
+                            "title": "Equipment",
                             "content": {
                                 "type": "layout",
                                 "key": "shared_item_grid_vertical"
                             }
                         },
                         {
-                            "type": "group",
-                            "header": "Settings",
-                            "dock": "top",
+                            "title": "Episodes",
                             "content": {
                                 "type": "layout",
-                                "key": "setting_grid"
+                                "key": "episodes_grid_vertical"
                             }
                         },
                         {
-                            "type": "group",
-                            "header": "Pinned Locations",
+                            "title": "Settings",
                             "content": {
-                                "style": "wrap",
-                                "type": "recentpins",
-                                "orientation": "vertical",
-                                "compact": true
+                                "type": "layout",
+                                "key": "settings_with_labels_grid_vertical"
                             }
                         }
                     ]

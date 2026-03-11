@@ -1,5 +1,5 @@
 {
-    "name": "Dicey Dungeons Archipelago REAL",
+    "name": "Dicey Dungeons Archipelago",
     "game_name": "Dicey Dungeons",
     "package_version": "0.0.1",
     "package_uid": "dicey dungeons_ap",
@@ -7,12 +7,6 @@
     "variants": {
         "Map Tracker": {
             "display_name": "Map Tracker",
-            "flags": [
-                "ap"
-            ]
-        },
-        "Items Only": {
-            "display_name": "Items Only",
             "flags": [
                 "ap"
             ]
