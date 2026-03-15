@@ -325,6 +325,12 @@ function onLocation(location_id, location_name)
 end
 
 function ResetCustomItems()
+    -- All Equipment
+    local all_equipment = Tracker:FindObjectForCode("AllEquipment")
+    if all_equipment then
+        all_equipment.AcquiredCount = 0
+    end
+    
     for episode = 1, 6 do
         -- Overall Equipment
         local overall_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "Equipment")
@@ -402,6 +408,14 @@ function autoFill()
         end
     end
 
+    -- Equipment Availability (0 = vanilla, 1 = open)
+    if SLOT_DATA["equipment_availability"] then
+        local equipment_availability = Tracker:FindObjectForCode("equipmentavailability")
+        if equipment_availability then
+            equipment_availability.CurrentStage = SLOT_DATA["equipment_availability"]
+        end
+    end
+
     -- Dice shards per die
     if SLOT_DATA["split_dice"] and SLOT_DATA["dice_shards_per_die"] then
         local dice_shards_per_die = Tracker:FindObjectForCode("diceshardsperdie")
@@ -430,6 +444,11 @@ function has_value (tab, val)
 end
 
 function AddEquipmentAvailability(equipment)
+    local all_equipment = Tracker:FindObjectForCode("AllEquipment")
+    if all_equipment then
+        all_equipment.AcquiredCount = all_equipment.AcquiredCount + 1
+    end
+
     for i = 1, 6 do
         AddEpisodeEquipmentAvailability(equipment, i)
     end

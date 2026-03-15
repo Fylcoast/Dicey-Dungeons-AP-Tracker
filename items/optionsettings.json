@@ -67,6 +67,23 @@
         ]
     },
     {
+        "name": "Equipment Availability",
+        "type": "progressive",
+        "codes": "equipmentavailability",
+        "allow_disabled": false,
+        "loop": true, 
+        "stages": [
+            {
+                "name": "Vanilla",
+                "img": "images/sword.png"
+            },
+            {
+                "name": "Open",
+                "img": "images/shield.png"
+            }
+        ]
+    },
+    {
         "name": "Dice Shards Per Die",
         "type": "consumable",
         "img": "images/die.png",

@@ -142,5 +142,11 @@
         "codes": "Episode6TradeEquipment,TradeEquipment",
         "type": "consumable",
         "img": "images/trade.png"
+    },
+    {
+        "name": "All Equipment",
+        "codes": "AllEquipment",
+        "type": "consumable",
+        "img": "images/sword.png"
     }
 ]

@@ -109,9 +109,23 @@ end
 function can_reach_floor(episode, floor)
     -- Equipment check
     -- Need X Equipment to reach Y floor
-    local overall_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "Equipment")
-    local has_equipment = overall_equipment 
-        and overall_equipment.AcquiredCount >= EQUIPMENT_NEEDED_BY_FLOOR[tonumber(floor)]
+    -- Depends on slot's equipment_availability
+    local equipment_count = 0
+    local equipment_availability = Tracker:FindObjectForCode("equipmentavailability")
+    if equipment_availability and equipment_availability.CurrentStage == 1 then
+        local all_equipment = Tracker:FindObjectForCode("AllEquipment")
+        if all_equipment then
+            equipment_count = all_equipment.AcquiredCount
+        end
+    else
+        local episode_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "Equipment")
+        if episode_equipment then
+            equipment_count = episode_equipment.AcquiredCount
+        end
+    end
+
+    local has_equipment = equipment_count 
+        and equipment_count >= EQUIPMENT_NEEDED_BY_FLOOR[tonumber(floor)]
 
     -- Progressive level check
     -- If levelsanity, then need X progressive levels to reach Y floor

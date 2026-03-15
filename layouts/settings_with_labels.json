@@ -172,6 +172,37 @@
                         }
                     ]
                 }
+            },
+            {
+                "type": "group",
+                "header": "Quality of Life Options",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "equipmentavailability",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Equipment Availability",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         ]
     },
@@ -342,6 +373,37 @@
                                 {
                                     "type": "text",
                                     "text": "Episode Progression",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Quality of Life Options",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "equipmentavailability",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Equipment Availability",
                                     "v_alignment": "center"
                                 }
                             ]
