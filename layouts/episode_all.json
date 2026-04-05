@@ -1,5 +1,5 @@
 {
-    "episode_all_grid_horizontal": {
+    "warrior_episode_all_grid_horizontal": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -19,21 +19,21 @@
                         "item_width": 32,
                         "rows": [
                             [
-                                "episode1-episodecompleted",
-                                "episode2-episodecompleted"
+                                "warriorepisode1completed",
+                                "warriorepisode2completed"
                             ],
                             [
-                                "episode3-episodecompleted",
-                                "episode4-episodecompleted"
+                                "warriorepisode3completed",
+                                "warriorepisode4completed"
                             ],
                             [
-                                "episode5-episodecompleted",
-                                "episode6-episodecompleted"
+                                "warriorepisode5completed",
+                                "warriorepisode6completed"
                             ],
                             [],
                             [
                                 "diceshard",
-                                "AllEquipment"
+                                "AllWarriorEquipment"
                             ]
                         ]
                     }
@@ -41,7 +41,7 @@
             }
         ]
     },
-    "episode_all_grid_vertical": {
+    "warrior_episode_all_grid_vertical": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -61,18 +61,99 @@
                         "item_width": 32,
                         "rows": [
                             [
-                                "episode1-episodecompleted",
-                                "episode2-episodecompleted",
-                                "episode3-episodecompleted"
+                                "warriorepisode1completed",
+                                "warriorepisode2completed",
+                                "warriorepisode3completed"
                             ],
                             [
-                                "episode4-episodecompleted",
-                                "episode5-episodecompleted",
-                                "episode6-episodecompleted"
+                                "warriorepisode4completed",
+                                "warriorepisode5completed",
+                                "warriorepisode6completed"
                             ],
                             [
                                 "diceshard",
-                                "AllEquipment"
+                                "AllWarriorEquipment"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "thief_episode_all_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "thiefepisode1completed",
+                                "thiefepisode2completed"
+                            ],
+                            [
+                                "thiefepisode3completed",
+                                "thiefepisode4completed"
+                            ],
+                            [
+                                "thiefepisode5completed",
+                                "thiefepisode6completed"
+                            ],
+                            [],
+                            [
+                                "diceshard",
+                                "AllThiefEquipment"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "thief_episode_all_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "thiefepisode1completed",
+                                "thiefepisode2completed",
+                                "thiefepisode3completed"
+                            ],
+                            [
+                                "thiefepisode4completed",
+                                "thiefepisode5completed",
+                                "thiefepisode6completed"
+                            ],
+                            [
+                                "diceshard",
+                                "AllThiefEquipment"
                             ]
                         ]
                     }

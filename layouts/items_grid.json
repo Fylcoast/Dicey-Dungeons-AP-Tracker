@@ -1,7 +1,7 @@
 {
-    "shared_item_grid_horizontal": {
+    "warrior_shared_item_grid_horizontal": {
         "type": "itemgrid",
-        "item_margin": "2, 2",
+        "item_margin": "2,2",
         "h_alignment": "left",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
@@ -9,90 +9,98 @@
         "item_width": 130,
         "rows": [
             [
-                "BattleAxe",
-                "BattleCry",
-                "Blight",
-                "Boomerang",
-                "BoxingGloves",
-                "Broadsword",
-                "Buckler",
-                "Bump"
+                "batteringram",
+                "battleaxe",
+                "battlecry",
+                "blight",
+                "boomerang",
+                "boxinggloves",
+                "broadsword",
+                "buckler"
             ],
             [
-                "Candle",
-                "Capacitor",
+                "bump",
+                "candle",
+                "capacitor",
                 "chocolatecookie",
-                "Claw",
-                "CopperShield",
-                "CounterSpell",
-                "CrystalSword",
-                "Dagger"
+                "claw",
+                "coppershield",
+                "counterspell",
+                "crescentmoonblade"
             ],
             [
-                "Detonator",
-                "DiscoBall",
-                "DramaticExit",
-                "ElasticHeart",
-                "Fireworks",
-                "FirstAidKit",
-                "FishingNet",
-                "FlyingSkull"
+                "crystalsword",
+                "dagger",
+                "detonator",
+                "discoball",
+                "dramaticexit",
+                "elasticheart",
+                "fireworks",
+                "firstaidkit"
             ],
             [
-                "GemstoneStaff",
-                "HalfMoonCharm",
-                "Hammer",
-                "HealingCrystal",
-                "Hookshot",
-                "Ignite",
-                "IronShield",
-                "JugglingBall"
+                "fishingnet",
+                "flyingskull",
+                "gemstonestaff",
+                "halfmooncharm",
+                "hammer",
+                "healingcrystal",
+                "hookshot",
+                "ignite"
             ],
             [
-                "Katana",
-                "KiteShield",
-                "LastStand",
-                "LightningRod",
-                "LuckyRoll",
-                "Matchstick",
-                "MidnightCharm",
-                "NailBat"
+                "ironshield",
+                "jugglingball",
+                "katana",
+                "kiteshield",
+                "laststand",
+                "lightningrod",
+                "luckyroll",
+                "matchstick"
             ],
             [
-                "Nightstick",
-                "ParryingDagger",
-                "ParticleAccelerator",
-                "PeaShooter",
-                "Pickaxe",
-                "Quarterstaff",
-                "Scissors",
-                "Shovel"
+                "midnightcharm",
+                "nailbat",
+                "nightstick",
+                "parryingdagger",
+                "particleaccelerator",
+                "peashooter",
+                "pickaxe",
+                "piratehook"
             ],
             [
-                "Shriek",
-                "SineWave",
-                "Singularity",
-                "SixShooter",
-                "Sledgehammer",
-                "Slingshot",
-                "SnakeEyeCharm",
-                "Snowball"
+                "polarstar",
+                "quarterstaff",
+                "scissors",
+                "shieldbash",
+                "shovel",
+                "shriek",
+                "sinewave",
+                "singularity"
             ],
             [
-                "Spatula",
-                "Staff",
-                "TargetShield",
-                "Tazer",
-                "ThickSkin",
-                "ToxicOoze",
-                "Trident",
-                "Whip"
+                "sixshooter",
+                "sledgehammer",
+                "slingshot",
+                "snakeeyecharm",
+                "snowball",
+                "spatula",
+                "spikedshield",
+                "staff"
+            ],
+            [
+                "targetshield",
+                "tazer",
+                "thickskin",
+                "toxicooze",
+                "trident",
+                "whip"
             ]
         ]
     },
-    "shared_item_grid_vertical": {
+    "warrior_shared_item_grid_vertical": {
         "type": "itemgrid",
-        "item_margin": "2, 2",
+        "item_margin": "2,2",
         "h_alignment": "left",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
@@ -100,112 +108,338 @@
         "item_width": 130,
         "rows": [
             [
-                "BattleAxe",
-                "BattleCry",
-                "Blight"
+                "batteringram",
+                "battleaxe",
+                "battlecry"
             ],
             [
-                "Boomerang",
-                "BoxingGloves",
-                "Broadsword"
+                "blight",
+                "boomerang",
+                "boxinggloves"
             ],
             [
-                "Buckler",
-                "Bump",
-                "Candle"
+                "broadsword",
+                "buckler",
+                "bump"
             ],
             [
-                "Capacitor",
-                "chocolatecookie",
-                "Claw"
+                "candle",
+                "capacitor",
+                "chocolatecookie"
             ],
             [
-                "CopperShield",
-                "CounterSpell",
-                "CrystalSword"
+                "claw",
+                "coppershield",
+                "counterspell"
             ],
             [
-                "Dagger",
-                "Detonator",
-                "DiscoBall"
+                "crescentmoonblade",
+                "crystalsword",
+                "dagger"
             ],
             [
-                "DramaticExit",
-                "ElasticHeart",
-                "Fireworks"
+                "detonator",
+                "discoball",
+                "dramaticexit"
             ],
             [
-                "FirstAidKit",
-                "FishingNet",
-                "FlyingSkull"
+                "elasticheart",
+                "fireworks",
+                "firstaidkit"
             ],
             [
-                "GemstoneStaff",
-                "HalfMoonCharm",
-                "Hammer"
+                "fishingnet",
+                "flyingskull",
+                "gemstonestaff"
             ],
             [
-                "HealingCrystal",
-                "Hookshot",
-                "Ignite"
+                "halfmooncharm",
+                "hammer",
+                "healingcrystal"
             ],
             [
-                "IronShield",
-                "JugglingBall",
-                "Katana"
+                "hookshot",
+                "ignite",
+                "ironshield"
             ],
             [
-                "KiteShield",
-                "LastStand",
-                "LightningRod"
+                "jugglingball",
+                "katana",
+                "kiteshield"
             ],
             [
-                "LuckyRoll",
-                "Matchstick",
-                "MidnightCharm"
+                "laststand",
+                "lightningrod",
+                "luckyroll"
             ],
             [
-                "NailBat",
-                "Nightstick",
-                "ParryingDagger"
+                "matchstick",
+                "midnightcharm",
+                "nailbat"
             ],
             [
-                "ParticleAccelerator",
-                "PeaShooter",
-                "Pickaxe"
+                "nightstick",
+                "parryingdagger",
+                "particleaccelerator"
             ],
             [
-                "Quarterstaff",
-                "Scissors",
-                "Shovel"
+                "peashooter",
+                "pickaxe",
+                "piratehook"
             ],
             [
-                "Shriek",
-                "SineWave",
-                "Singularity"
+                "polarstar",
+                "quarterstaff",
+                "scissors"
             ],
             [
-                "SixShooter",
-                "Sledgehammer",
-                "Slingshot"
+                "shieldbash",
+                "shovel",
+                "shriek"
             ],
             [
-                "SnakeEyeCharm",
-                "Snowball",
-                "Spatula"
+                "sinewave",
+                "singularity",
+                "sixshooter"
             ],
             [
-                "Staff",
-                "TargetShield",
-                "Tazer"
+                "sledgehammer",
+                "slingshot",
+                "snakeeyecharm"
             ],
             [
-                "ThickSkin",
-                "ToxicOoze",
-                "Trident"
+                "snowball",
+                "spatula",
+                "spikedshield"
             ],
             [
-                "Whip"
+                "staff",
+                "targetshield",
+                "tazer"
+            ],
+            [
+                "thickskin",
+                "toxicooze",
+                "trident"
+            ],
+            [
+                "whip"
+            ]
+        ]
+    },
+    "thief_shared_item_grid_horizontal": {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 20,
+        "item_width": 130,
+        "rows": [
+            [
+                "backstab",
+                "bandage",
+                "befuddle",
+                "berlinkey",
+                "blastchiller",
+                "blender",
+                "blight",
+                "brokenmirror"
+            ],
+            [
+                "bronzecauldron",
+                "bump",
+                "candle",
+                "catastrophe",
+                "chisel",
+                "cloak",
+                "counterfeit",
+                "cowbell"
+            ],
+            [
+                "crowbar",
+                "determination",
+                "detonator",
+                "dodge",
+                "doppeltwice",
+                "dramaticentrance",
+                "dramaticexit",
+                "firstaidkit"
+            ],
+            [
+                "gemstonestaff",
+                "glasscauldron",
+                "gong",
+                "hacksaw",
+                "hallofmirrors",
+                "healingcrystal",
+                "hookshot",
+                "ironarmor"
+            ],
+            [
+                "kiteshield",
+                "kunai",
+                "lantern",
+                "laststand",
+                "leatherarmor",
+                "lockpick",
+                "lucky7",
+                "magicspear"
+            ],
+            [
+                "mechanicalleg",
+                "midnightcharm",
+                "nudgeblade",
+                "paperlantern",
+                "peashooter",
+                "pickpocket",
+                "plaster",
+                "poisonneedle"
+            ],
+            [
+                "poisonslingshot",
+                "rat",
+                "rawambition",
+                "secretweapon",
+                "signaljammer",
+                "sixshooter",
+                "skeletonkey",
+                "snakeeyecharm"
+            ],
+            [
+                "spatula",
+                "splitula",
+                "squarepair",
+                "staff",
+                "tableslam",
+                "teleportspell",
+                "tetraphobia",
+                "thickskin"
+            ],
+            [
+                "ungeradedice",
+                "wreckingball"
+            ]
+        ]
+    },
+    "thief_shared_item_grid_vertical": {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 20,
+        "item_width": 130,
+        "rows": [
+            [
+                "backstab",
+                "bandage",
+                "befuddle"
+            ],
+            [
+                "berlinkey",
+                "blastchiller",
+                "blender"
+            ],
+            [
+                "blight",
+                "brokenmirror",
+                "bronzecauldron"
+            ],
+            [
+                "bump",
+                "candle",
+                "catastrophe"
+            ],
+            [
+                "chisel",
+                "cloak",
+                "counterfeit"
+            ],
+            [
+                "cowbell",
+                "crowbar",
+                "determination"
+            ],
+            [
+                "detonator",
+                "dodge",
+                "doppeltwice"
+            ],
+            [
+                "dramaticentrance",
+                "dramaticexit",
+                "firstaidkit"
+            ],
+            [
+                "gemstonestaff",
+                "glasscauldron",
+                "gong"
+            ],
+            [
+                "hacksaw",
+                "hallofmirrors",
+                "healingcrystal"
+            ],
+            [
+                "hookshot",
+                "ironarmor",
+                "kiteshield"
+            ],
+            [
+                "kunai",
+                "lantern",
+                "laststand"
+            ],
+            [
+                "leatherarmor",
+                "lockpick",
+                "lucky7"
+            ],
+            [
+                "magicspear",
+                "mechanicalleg",
+                "midnightcharm"
+            ],
+            [
+                "nudgeblade",
+                "paperlantern",
+                "peashooter"
+            ],
+            [
+                "pickpocket",
+                "plaster",
+                "poisonneedle"
+            ],
+            [
+                "poisonslingshot",
+                "rat",
+                "rawambition"
+            ],
+            [
+                "secretweapon",
+                "signaljammer",
+                "sixshooter"
+            ],
+            [
+                "skeletonkey",
+                "snakeeyecharm",
+                "spatula"
+            ],
+            [
+                "splitula",
+                "squarepair",
+                "staff"
+            ],
+            [
+                "tableslam",
+                "teleportspell",
+                "tetraphobia"
+            ],
+            [
+                "thickskin",
+                "ungeradedice",
+                "wreckingball"
             ]
         ]
     }

@@ -13,15 +13,45 @@
                         {
                             "title": "Equipment",
                             "content": {
-                                "type": "layout",
-                                "key": "shared_item_grid_vertical"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Warrior",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "warrior_shared_item_grid_vertical"
+                                        }
+                                    },
+                                    {
+                                        "title": "Thief",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "thief_shared_item_grid_vertical"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         {
                             "title": "Episodes",
                             "content": {
-                                "type": "layout",
-                                "key": "episodes_grid_vertical"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Warrior",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "warrior_episodes_grid_vertical"
+                                        }
+                                    },
+                                    {
+                                        "title": "Thief",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "thief_episodes_grid_vertical"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         {
@@ -59,15 +89,45 @@
                         {
                             "title": "Equipment",
                             "content": {
-                                "type": "layout",
-                                "key": "shared_item_grid_horizontal"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Warrior",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "warrior_shared_item_grid_horizontal"
+                                        }
+                                    },
+                                    {
+                                        "title": "Thief",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "thief_shared_item_grid_horizontal"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         {
                             "title": "Episodes",
                             "content": {
-                                "type": "layout",
-                                "key": "episodes_grid_horizontal"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Warrior",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "warrior_episodes_grid_horizontal"
+                                        }
+                                    },
+                                    {
+                                        "title": "Thief",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "thief_episodes_grid_horizontal"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         {

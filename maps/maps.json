@@ -6,39 +6,75 @@
         "img": "images/maps/Overworld_with_icons.png"
     },
     {
-        "name": "Episode 1",
+        "name": "Warrior Episode 1",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/episode_one.png"
+        "img": "images/maps/warrior_episode_one.png"
     },
     {
-        "name": "Episode 2",
+        "name": "Warrior Episode 2",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/episode_two.png"
+        "img": "images/maps/warrior_episode_two.png"
     },
     {
-        "name": "Episode 3",
+        "name": "Warrior Episode 3",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/episode_three.png"
+        "img": "images/maps/warrior_episode_three.png"
     },
     {
-        "name": "Episode 4",
+        "name": "Warrior Episode 4",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/episode_four.png"
+        "img": "images/maps/warrior_episode_four.png"
     },
     {
-        "name": "Episode 5",
+        "name": "Warrior Episode 5",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/episode_five.png"
+        "img": "images/maps/warrior_episode_five.png"
     },
     {
-        "name": "Episode 6",
+        "name": "Warrior Episode 6",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/episode_six.png"
+        "img": "images/maps/warrior_episode_six.png"
+    },
+    {
+        "name": "Thief Episode 1",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/thief_episode_one.png"
+    },
+    {
+        "name": "Thief Episode 2",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/thief_episode_two.png"
+    },
+    {
+        "name": "Thief Episode 3",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/thief_episode_three.png"
+    },
+    {
+        "name": "Thief Episode 4",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/thief_episode_four.png"
+    },
+    {
+        "name": "Thief Episode 5",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/thief_episode_five.png"
+    },
+    {
+        "name": "Thief Episode 6",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/thief_episode_six.png"
     }
 ]

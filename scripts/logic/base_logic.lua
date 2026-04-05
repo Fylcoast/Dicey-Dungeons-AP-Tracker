@@ -1,6 +1,7 @@
 require("scripts/logic/access_variables")
 require("scripts/logic/logic_helper")
-require("scripts/logic/warrior_episodes")
+require("scripts/logic/all_episodes")
+require("scripts/autotracking/globals")
 
 --==========================================================================
 --==                           VISIBILITY RULES                           ==
@@ -14,8 +15,15 @@ end
 
 -- Visibility rule for a specific chest.
 function show_chest(episode, floor, iter)
+    local character = Tracker:FindObjectForCode("character")
+    if not character then
+        return false
+    end
+
+    local character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
+
     local checks_per_chest = Tracker:FindObjectForCode("checksperchest")
-    local num_chests = WARRIOR_EPISODES[tonumber(episode)][tonumber(floor)]['num_chests']
+    local num_chests = ALL_EPISODES[character_name][tonumber(episode)][tonumber(floor)]['num_chests']
     return checks_per_chest 
         and checks_per_chest.AcquiredCount > 0 
         and tonumber(iter) <= num_chests * checks_per_chest.AcquiredCount
@@ -29,8 +37,15 @@ end
 
 -- Visibility rule for a specific shop.
 function show_shop(episode, floor, iter)
+    local character = Tracker:FindObjectForCode("character")
+    if not character then
+        return
+    end
+
+    local character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
+
     local checks_per_shop = Tracker:FindObjectForCode("checkspershop")
-    local num_shops = WARRIOR_EPISODES[tonumber(episode)][tonumber(floor)]['num_shops']
+    local num_shops = ALL_EPISODES[character_name][tonumber(episode)][tonumber(floor)]['num_shops']
     return checks_per_shop 
         and checks_per_shop.AcquiredCount > 0 
         and tonumber(iter) <= num_shops * checks_per_shop.AcquiredCount
@@ -44,8 +59,15 @@ end
 
 -- Visibility rule for a specific trade.
 function show_trade(episode, floor, iter)
+    local character = Tracker:FindObjectForCode("character")
+    if not character then
+        return
+    end
+
+    local character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
+
     local checks_per_trade = Tracker:FindObjectForCode("checkspertrade")
-    local num_trades = WARRIOR_EPISODES[tonumber(episode)][tonumber(floor)]['num_trades']
+    local num_trades = ALL_EPISODES[character_name][tonumber(episode)][tonumber(floor)]['num_trades']
     return checks_per_trade 
         and checks_per_trade.AcquiredCount > 0 
         and tonumber(iter) <= num_trades * checks_per_trade.AcquiredCount
@@ -75,6 +97,12 @@ end
 function show_levels()
     local levelsanity = Tracker:FindObjectForCode("levelsanity")
     return levelsanity and levelsanity.Active
+end
+
+-- Visibility rule for Character
+function show_character(character)
+    local character_option = Tracker:FindObjectForCode("character")
+    return character_option and tonumber(character) == character_option.CurrentStage
 end
 
 
@@ -110,15 +138,22 @@ function can_reach_floor(episode, floor)
     -- Equipment check
     -- Need X Equipment to reach Y floor
     -- Depends on slot's equipment_availability
+    local character = Tracker:FindObjectForCode("character")
+    if not character then
+        return
+    end
+    
+    local character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
+
     local equipment_count = 0
     local equipment_availability = Tracker:FindObjectForCode("equipmentavailability")
     if equipment_availability and equipment_availability.CurrentStage == 1 then
-        local all_equipment = Tracker:FindObjectForCode("AllEquipment")
+        local all_equipment = Tracker:FindObjectForCode("All" .. character_name .. "Equipment")
         if all_equipment then
             equipment_count = all_equipment.AcquiredCount
         end
     else
-        local episode_equipment = Tracker:FindObjectForCode("Episode" .. episode .. "Equipment")
+        local episode_equipment = Tracker:FindObjectForCode(character_name .. "Episode" .. episode .. "Equipment")
         if episode_equipment then
             equipment_count = episode_equipment.AcquiredCount
         end
@@ -130,7 +165,7 @@ function can_reach_floor(episode, floor)
     -- Progressive level check
     -- If levelsanity, then need X progressive levels to reach Y floor
     local levelsanity = Tracker:FindObjectForCode("levelsanity")
-    local progressive_levels = Tracker:FindObjectForCode("episode" .. episode .. "progressivelevelup")
+    local progressive_levels = Tracker:FindObjectForCode(character_name .. "episode" .. episode .. "progressivelevelup")
     local has_levels = not levelsanity 
         or not levelsanity.Active 
         or not progressive_levels 

@@ -1,147 +1,303 @@
 [
     {
-        "name": "Episode 1 Equipment",
-        "codes": "Episode1Equipment,Equipment",
+        "name": "Warrior Episode 1 Equipment",
+        "codes": "warriorEpisode1Equipment,Equipment",
         "type": "consumable",
         "img": "images/sword.png"
     },
     {
-        "name": "Episode 2 Equipment",
-        "codes": "Episode2Equipment,Equipment",
+        "name": "Warrior Episode 2 Equipment",
+        "codes": "warriorEpisode2Equipment,Equipment",
         "type": "consumable",
         "img": "images/sword.png"
     },
     {
-        "name": "Episode 3 Equipment",
-        "codes": "Episode3Equipment,Equipment",
+        "name": "Warrior Episode 3 Equipment",
+        "codes": "warriorEpisode3Equipment,Equipment",
         "type": "consumable",
         "img": "images/sword.png"
     },
     {
-        "name": "Episode 4 Equipment",
-        "codes": "Episode4Equipment,Equipment",
+        "name": "Warrior Episode 4 Equipment",
+        "codes": "warriorEpisode4Equipment,Equipment",
         "type": "consumable",
         "img": "images/sword.png"
     },
     {
-        "name": "Episode 5 Equipment",
-        "codes": "Episode5Equipment,Equipment",
+        "name": "Warrior Episode 5 Equipment",
+        "codes": "warriorEpisode5Equipment,Equipment",
         "type": "consumable",
         "img": "images/sword.png"
     },
     {
-        "name": "Episode 6 Equipment",
-        "codes": "Episode6Equipment,Equipment",
+        "name": "Warrior Episode 6 Equipment",
+        "codes": "warriorEpisode6Equipment,Equipment",
         "type": "consumable",
         "img": "images/sword.png"
     },
     {
-        "name": "Episode 1 Chest Equipment",
-        "codes": "Episode1ChestEquipment,ChestEquipment",
+        "name": "Warrior Episode 1 Chest Equipment",
+        "codes": "warriorEpisode1ChestEquipment,ChestEquipment",
         "type": "consumable",
         "img": "images/chest.png"
     },
     {
-        "name": "Episode 2 Chest Equipment",
-        "codes": "Episode2ChestEquipment,ChestEquipment",
+        "name": "Warrior Episode 2 Chest Equipment",
+        "codes": "warriorEpisode2ChestEquipment,ChestEquipment",
         "type": "consumable",
         "img": "images/chest.png"
     },
     {
-        "name": "Episode 3 Chest Equipment",
-        "codes": "Episode3ChestEquipment,ChestEquipment",
+        "name": "Warrior Episode 3 Chest Equipment",
+        "codes": "warriorEpisode3ChestEquipment,ChestEquipment",
         "type": "consumable",
         "img": "images/chest.png"
     },
     {
-        "name": "Episode 4 Chest Equipment",
-        "codes": "Episode4ChestEquipment,ChestEquipment",
+        "name": "Warrior Episode 4 Chest Equipment",
+        "codes": "warriorEpisode4ChestEquipment,ChestEquipment",
         "type": "consumable",
         "img": "images/chest.png"
     },
     {
-        "name": "Episode 5 Chest Equipment",
-        "codes": "Episode5ChestEquipment,ChestEquipment",
+        "name": "Warrior Episode 5 Chest Equipment",
+        "codes": "warriorEpisode5ChestEquipment,ChestEquipment",
         "type": "consumable",
         "img": "images/chest.png"
     },
     {
-        "name": "Episode 6 Chest Equipment",
-        "codes": "Episode6ChestEquipment,ChestEquipment",
+        "name": "Warrior Episode 6 Chest Equipment",
+        "codes": "warriorEpisode6ChestEquipment,ChestEquipment",
         "type": "consumable",
         "img": "images/chest.png"
     },
     {
-        "name": "Episode 1 Shop Equipment",
-        "codes": "Episode1ShopEquipment,ShopEquipment",
+        "name": "Warrior Episode 1 Shop Equipment",
+        "codes": "warriorEpisode1ShopEquipment,ShopEquipment",
         "type": "consumable",
         "img": "images/shop.png"
     },
     {
-        "name": "Episode 2 Shop Equipment",
-        "codes": "Episode2ShopEquipment,ShopEquipment",
+        "name": "Warrior Episode 2 Shop Equipment",
+        "codes": "warriorEpisode2ShopEquipment,ShopEquipment",
         "type": "consumable",
         "img": "images/shop.png"
     },
     {
-        "name": "Episode 3 Shop Equipment",
-        "codes": "Episode3ShopEquipment,ShopEquipment",
+        "name": "Warrior Episode 3 Shop Equipment",
+        "codes": "warriorEpisode3ShopEquipment,ShopEquipment",
         "type": "consumable",
         "img": "images/shop.png"
     },
     {
-        "name": "Episode 4 Shop Equipment",
-        "codes": "Episode4ShopEquipment,ShopEquipment",
+        "name": "Warrior Episode 4 Shop Equipment",
+        "codes": "warriorEpisode4ShopEquipment,ShopEquipment",
         "type": "consumable",
         "img": "images/shop.png"
     },
     {
-        "name": "Episode 5 Shop Equipment",
-        "codes": "Episode5ShopEquipment,ShopEquipment",
+        "name": "Warrior Episode 5 Shop Equipment",
+        "codes": "warriorEpisode5ShopEquipment,ShopEquipment",
         "type": "consumable",
         "img": "images/shop.png"
     },
     {
-        "name": "Episode 6 Shop Equipment",
-        "codes": "Episode6ShopEquipment,ShopEquipment",
+        "name": "Warrior Episode 6 Shop Equipment",
+        "codes": "warriorEpisode6ShopEquipment,ShopEquipment",
         "type": "consumable",
         "img": "images/shop.png"
     },
     {
-        "name": "Episode 1 Trade Equipment",
-        "codes": "Episode1TradeEquipment,TradeEquipment",
+        "name": "Warrior Episode 1 Trade Equipment",
+        "codes": "warriorEpisode1TradeEquipment,TradeEquipment",
         "type": "consumable",
         "img": "images/trade.png"
     },
     {
-        "name": "Episode 2 Trade Equipment",
-        "codes": "Episode2TradeEquipment,TradeEquipment",
+        "name": "Warrior Episode 2 Trade Equipment",
+        "codes": "warriorEpisode2TradeEquipment,TradeEquipment",
         "type": "consumable",
         "img": "images/trade.png"
     },
     {
-        "name": "Episode 3 Trade Equipment",
-        "codes": "Episode3TradeEquipment,TradeEquipment",
+        "name": "Warrior Episode 3 Trade Equipment",
+        "codes": "warriorEpisode3TradeEquipment,TradeEquipment",
         "type": "consumable",
         "img": "images/trade.png"
     },
     {
-        "name": "Episode 4 Trade Equipment",
-        "codes": "Episode4TradeEquipment,TradeEquipment",
+        "name": "Warrior Episode 4 Trade Equipment",
+        "codes": "warriorEpisode4TradeEquipment,TradeEquipment",
         "type": "consumable",
         "img": "images/trade.png"
     },
     {
-        "name": "Episode 5 Trade Equipment",
-        "codes": "Episode5TradeEquipment,TradeEquipment",
+        "name": "Warrior Episode 5 Trade Equipment",
+        "codes": "warriorEpisode5TradeEquipment,TradeEquipment",
         "type": "consumable",
         "img": "images/trade.png"
     },
     {
-        "name": "Episode 6 Trade Equipment",
-        "codes": "Episode6TradeEquipment,TradeEquipment",
+        "name": "Warrior Episode 6 Trade Equipment",
+        "codes": "warriorEpisode6TradeEquipment,TradeEquipment",
         "type": "consumable",
         "img": "images/trade.png"
+    },
+    {
+        "name": "All Warrior Equipment",
+        "codes": "AllwarriorEquipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Thief Episode 1 Equipment",
+        "codes": "thiefEpisode1Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Thief Episode 2 Equipment",
+        "codes": "thiefEpisode2Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Thief Episode 3 Equipment",
+        "codes": "thiefEpisode3Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Thief Episode 4 Equipment",
+        "codes": "thiefEpisode4Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Thief Episode 5 Equipment",
+        "codes": "thiefEpisode5Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Thief Episode 6 Equipment",
+        "codes": "thiefEpisode6Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Thief Episode 1 Chest Equipment",
+        "codes": "thiefEpisode1ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Thief Episode 2 Chest Equipment",
+        "codes": "thiefEpisode2ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Thief Episode 3 Chest Equipment",
+        "codes": "thiefEpisode3ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Thief Episode 4 Chest Equipment",
+        "codes": "thiefEpisode4ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Thief Episode 5 Chest Equipment",
+        "codes": "thiefEpisode5ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Thief Episode 6 Chest Equipment",
+        "codes": "thiefEpisode6ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Thief Episode 1 Shop Equipment",
+        "codes": "thiefEpisode1ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Thief Episode 2 Shop Equipment",
+        "codes": "thiefEpisode2ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Thief Episode 3 Shop Equipment",
+        "codes": "thiefEpisode3ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Thief Episode 4 Shop Equipment",
+        "codes": "thiefEpisode4ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Thief Episode 5 Shop Equipment",
+        "codes": "thiefEpisode5ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Thief Episode 6 Shop Equipment",
+        "codes": "thiefEpisode6ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Thief Episode 1 Trade Equipment",
+        "codes": "thiefEpisode1TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Thief Episode 2 Trade Equipment",
+        "codes": "thiefEpisode2TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Thief Episode 3 Trade Equipment",
+        "codes": "thiefEpisode3TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Thief Episode 4 Trade Equipment",
+        "codes": "thiefEpisode4TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Thief Episode 5 Trade Equipment",
+        "codes": "thiefEpisode5TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Thief Episode 6 Trade Equipment",
+        "codes": "thiefEpisode6TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "All Thief Equipment",
+        "codes": "AllthiefEquipment",
+        "type": "consumable",
+        "img": "images/sword.png"
     },
     {
         "name": "All Equipment",

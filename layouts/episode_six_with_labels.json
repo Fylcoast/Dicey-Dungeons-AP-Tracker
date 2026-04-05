@@ -1,5 +1,5 @@
 {
-    "episode_six_with_labels_grid_horizontal": {
+    "warrior_episode_six_with_labels_grid_horizontal": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -11,7 +11,7 @@
                 "content": [
                     {
                         "type": "item",
-                        "item": "episode6progressivelevelup",
+                        "item": "warriorepisode6progressivelevelup",
                         "max_height": 32,
                         "max_width": 32,
                         "margin": 4
@@ -30,7 +30,7 @@
                 "content": [
                     {
                         "type": "item",
-                        "item": "Episode6ChestEquipment",
+                        "item": "WarriorEpisode6ChestEquipment",
                         "max_height": 32,
                         "max_width": 32,
                         "margin": 4
@@ -49,7 +49,7 @@
                 "content": [
                     {
                         "type": "item",
-                        "item": "Episode6ShopEquipment",
+                        "item": "WarriorEpisode6ShopEquipment",
                         "max_height": 32,
                         "max_width": 32,
                         "margin": 4
@@ -68,7 +68,7 @@
                 "content": [
                     {
                         "type": "item",
-                        "item": "Episode6TradeEquipment",
+                        "item": "WarriorEpisode6TradeEquipment",
                         "max_height": 32,
                         "max_width": 32,
                         "margin": 4
@@ -87,7 +87,109 @@
                 "content": [
                     {
                         "type": "item",
-                        "item": "Episode6Equipment",
+                        "item": "WarriorEpisode6Equipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Episode Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            }
+        ]
+    },
+    "thief_episode_six_with_labels_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "thiefepisode6progressivelevelup",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Level Ups",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "ThiefEpisode6ChestEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Chest Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "ThiefEpisode6ShopEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Shop Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "ThiefEpisode6TradeEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Trade Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "ThiefEpisode6Equipment",
                         "max_height": 32,
                         "max_width": 32,
                         "margin": 4

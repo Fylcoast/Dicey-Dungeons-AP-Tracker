@@ -1,5 +1,5 @@
 {
-    "episodes_grid_horizontal": {
+    "warrior_episodes_grid_horizontal": {
         "type": "array",
         "orientation": "horizontal",
         "margin": "0,0",
@@ -12,7 +12,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_all_grid_horizontal"
+                    "key": "warrior_episode_all_grid_horizontal"
                 }
             },
             {
@@ -23,7 +23,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_one_with_labels_grid_horizontal"
+                    "key": "warrior_episode_one_with_labels_grid_horizontal"
                 }
             },
             {
@@ -34,7 +34,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_two_with_labels_grid_horizontal"
+                    "key": "warrior_episode_two_with_labels_grid_horizontal"
                 }
             },
             {
@@ -45,7 +45,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_three_with_labels_grid_horizontal"
+                    "key": "warrior_episode_three_with_labels_grid_horizontal"
                 }
             },
             {
@@ -56,7 +56,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_four_with_labels_grid_horizontal"
+                    "key": "warrior_episode_four_with_labels_grid_horizontal"
                 }
             },
             {
@@ -67,7 +67,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_five_with_labels_grid_horizontal"
+                    "key": "warrior_episode_five_with_labels_grid_horizontal"
                 }
             },
             {
@@ -78,12 +78,12 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_six_with_labels_grid_horizontal"
+                    "key": "warrior_episode_six_with_labels_grid_horizontal"
                 }
             }
         ]
     },
-    "episodes_grid_vertical": {
+    "warrior_episodes_grid_vertical": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -96,7 +96,7 @@
                     "type": "layout",
                     "h_alignment": "center",
                     "v_alignment": "center",
-                    "key": "episode_all_grid_vertical"
+                    "key": "warrior_episode_all_grid_vertical"
                 }
             },
             {
@@ -111,7 +111,7 @@
                             "type": "layout",
                             "h_alignment": "center",
                             "v_alignment": "center",
-                            "key": "episode_one_with_labels_grid_horizontal"
+                            "key": "warrior_episode_one_with_labels_grid_horizontal"
                         }
                     },
                     {
@@ -122,7 +122,7 @@
                             "type": "layout",
                             "h_alignment": "center",
                             "v_alignment": "center",
-                            "key": "episode_two_with_labels_grid_horizontal"
+                            "key": "warrior_episode_two_with_labels_grid_horizontal"
                         }
                     }
                 ]
@@ -139,7 +139,7 @@
                             "type": "layout",
                             "h_alignment": "center",
                             "v_alignment": "center",
-                            "key": "episode_three_with_labels_grid_horizontal"
+                            "key": "warrior_episode_three_with_labels_grid_horizontal"
                         }
                     },
                     {
@@ -150,7 +150,7 @@
                             "type": "layout",
                             "h_alignment": "center",
                             "v_alignment": "center",
-                            "key": "episode_four_with_labels_grid_horizontal"
+                            "key": "warrior_episode_four_with_labels_grid_horizontal"
                         }
                     }
                 ]
@@ -167,7 +167,7 @@
                             "type": "layout",
                             "h_alignment": "center",
                             "v_alignment": "center",
-                            "key": "episode_five_with_labels_grid_horizontal"
+                            "key": "warrior_episode_five_with_labels_grid_horizontal"
                         }
                     },
                     {
@@ -178,7 +178,7 @@
                             "type": "layout",
                             "h_alignment": "center",
                             "v_alignment": "center",
-                            "key": "episode_six_with_labels_grid_horizontal"
+                            "key": "warrior_episode_six_with_labels_grid_horizontal"
                         }
                     }
                 ]

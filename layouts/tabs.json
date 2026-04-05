@@ -12,56 +12,126 @@
                 }
             },
             {
-                "title": "Episode 1",
+                "title": "Warrior Episodes",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 1"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Episode 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
-                "title": "Episode 2",
+                "title": "Thief Episodes",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 2"
-                    ]
-                }
-            },
-            {
-                "title": "Episode 3",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 3"
-                    ]
-                }
-            },
-            {
-                "title": "Episode 4",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 4"
-                    ]
-                }
-            },
-            {
-                "title": "Episode 5",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 5"
-                    ]
-                }
-            },
-            {
-                "title": "Episode 6",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 6"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Episode 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 6"
+                                ]
+                            }
+                        }
                     ]
                 }
             }
@@ -80,56 +150,126 @@
                 }
             },
             {
-                "title": "Episode 1",
+                "title": "Warrior Episodes",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 1"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Episode 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Warrior Episode 6"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
-                "title": "Episode 2",
+                "title": "Thief Episodes",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 2"
-                    ]
-                }
-            },
-            {
-                "title": "Episode 3",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 3"
-                    ]
-                }
-            },
-            {
-                "title": "Episode 4",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 4"
-                    ]
-                }
-            },
-            {
-                "title": "Episode 5",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 5"
-                    ]
-                }
-            },
-            {
-                "title": "Episode 6",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Episode 6"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Episode 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 4"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 5",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 5"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Episode 6",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thief Episode 6"
+                                ]
+                            }
+                        }
                     ]
                 }
             }

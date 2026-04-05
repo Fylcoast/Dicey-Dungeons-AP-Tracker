@@ -84,6 +84,23 @@
         ]
     },
     {
+        "name": "Character",
+        "type": "progressive",
+        "codes": "character",
+        "allow_disabled": false,
+        "loop": true, 
+        "stages": [
+            {
+                "name": "Warrior",
+                "img": "images/characters/warrior.png"
+            },
+            {
+                "name": "Thief",
+                "img": "images/characters/thief.png"
+            }
+        ]
+    },
+    {
         "name": "Dice Shards Per Die",
         "type": "consumable",
         "img": "images/die.png",

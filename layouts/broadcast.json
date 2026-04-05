@@ -1,17 +1,25 @@
 {
     "tracker_broadcast": {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "margin": "0,0",
         "content": [
             {
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
+                "type": "tabbed",
+                "tabs": [
                     {
-                        "type": "layout",
-                        "key": "episodes_grid_horizontal"
+                        "title": "Warrior",
+                        "content": {
+                            "type": "layout",
+                            "key": "warrior_shared_item_grid_horizontal"
+                        }
+                    },
+                    {
+                        "title": "Thief",
+                        "content": {
+                            "type": "layout",
+                            "key": "thief_shared_item_grid_horizontal"
+                        }
                     }
                 ]
             }
