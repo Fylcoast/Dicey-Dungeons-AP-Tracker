@@ -473,7 +473,6 @@ function AddEquipmentAvailability(equipment)
     end
 
     local all_character_equipment = Tracker:FindObjectForCode("All" .. character_name .. "Equipment")
-    --if all_character_equipment and EQUIPMENT_MAPPING[equipment] and EQUIPMENT_MAPPING[equipment][character_name] and EQUIPMENT_MAPPING[equipment][character_name]['episode'] and next(EQUIPMENT_MAPPING[equipment][character_name]['episode']) ~= nil then
     if all_character_equipment and next(EQUIPMENT_MAPPING[equipment][character_name]['episode']) ~= nil then
         all_character_equipment.AcquiredCount = all_character_equipment.AcquiredCount + 1
     end
@@ -485,12 +484,20 @@ end
 
 function AddEpisodeEquipmentAvailability(equipment, character, episode)
     local eq = EQUIPMENT_MAPPING[equipment][character]
+
+    local is_equipment_open = false
+    local equipment_availability = Tracker:FindObjectForCode("equipmentavailability")
+    if not equipment_availability then
+        return
+    else
+        is_equipment_open = equipment_availability.CurrentStage == 1
+    end
     
-    if not eq or not eq['episode'] then
+    if not is_equipment_open and (not eq or not eq['episode']) then
         return
     end
 
-    if not has_value(eq['episode'], episode) then
+    if not is_equipment_open and not has_value(eq['episode'], episode) then
         return
     end
 
@@ -501,7 +508,7 @@ function AddEpisodeEquipmentAvailability(equipment, character, episode)
     end
 
     -- Chest Equipment
-    if has_value(eq['location_types'], 'chest') then
+    if is_equipment_open or has_value(eq['location_types'], 'chest') then
         local chest_equipment = Tracker:FindObjectForCode(character .. "Episode" .. episode .. "ChestEquipment")
         if chest_equipment then 
             chest_equipment.AcquiredCount = chest_equipment.AcquiredCount + 1
@@ -509,7 +516,7 @@ function AddEpisodeEquipmentAvailability(equipment, character, episode)
     end
 
     -- Shop Equipment
-    if has_value(eq['location_types'], 'shop') then
+    if is_equipment_open or has_value(eq['location_types'], 'shop') then
         local shop_equipment = Tracker:FindObjectForCode(character .. "Episode" .. episode .. "ShopEquipment")
         if shop_equipment then
             shop_equipment.AcquiredCount = shop_equipment.AcquiredCount + 1
@@ -517,7 +524,7 @@ function AddEpisodeEquipmentAvailability(equipment, character, episode)
     end
 
     -- Trade Equipment
-    if has_value(eq['location_types'], 'trade') then
+    if is_equipment_open or has_value(eq['location_types'], 'trade') then
         local trade_equipment = Tracker:FindObjectForCode(character .. "Episode" .. episode .. "TradeEquipment")
         if trade_equipment then
             trade_equipment.AcquiredCount = trade_equipment.AcquiredCount + 1
