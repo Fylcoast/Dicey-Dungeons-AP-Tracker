@@ -101,6 +101,14 @@
         ]
     },
     {
+        "name": "Split Dice",
+        "type": "toggle",
+        "img": "images/die.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "splitdice"
+    },
+    {
         "name": "Dice Shards Per Die",
         "type": "consumable",
         "img": "images/die.png",

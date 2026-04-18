@@ -425,21 +425,62 @@ function autoFill()
         end
     end
 
-    -- Dice shards per die
-    if SLOT_DATA["split_dice"] == true and SLOT_DATA["dice_shards_per_die"] then
-        local dice_shards_per_die = Tracker:FindObjectForCode("diceshardsperdie")
-        if dice_shards_per_die then
-            dice_shards_per_die.AcquiredCount = SLOT_DATA["dice_shards_per_die"]
+    -- Split Dice
+    if SLOT_DATA["split_dice"] then
+        local split_dice = Tracker:FindObjectForCode("splitdice")
+        if split_dice then
+            split_dice.Active = SLOT_DATA["split_dice"]
+            if split_dice.Active then
+                -- Dice shards per die
+                if SLOT_DATA["dice_shards_per_die"] then
+                    local dice_shards_per_die = Tracker:FindObjectForCode("diceshardsperdie")
+                    if dice_shards_per_die then
+                        dice_shards_per_die.AcquiredCount = SLOT_DATA["dice_shards_per_die"]
+                    end
+                end
+
+                -- Bonus dice shards
+                if SLOT_DATA["spare_dice_shards"] then
+                    local bonus_dice_shards = Tracker:FindObjectForCode("bonusdiceshards")
+                    if bonus_dice_shards then
+                        bonus_dice_shards.AcquiredCount = SLOT_DATA["spare_dice_shards"]
+                    end
+                end
+            else
+                -- Dice shards per die
+                if SLOT_DATA["dice_shards_per_die"] then
+                    local dice_shards_per_die = Tracker:FindObjectForCode("diceshardsperdie")
+                    if dice_shards_per_die then
+                        dice_shards_per_die.AcquiredCount = 0
+                    end
+                end
+
+                -- Bonus dice shards
+                if SLOT_DATA["spare_dice_shards"] then
+                    local bonus_dice_shards = Tracker:FindObjectForCode("bonusdiceshards")
+                    if bonus_dice_shards then
+                        bonus_dice_shards.AcquiredCount = 0
+                    end
+                end
+            end
         end
     end
 
-    -- Bonus dice shards
-    if SLOT_DATA["split_dice"] == true and SLOT_DATA["spare_dice_shards"] then
-        local bonus_dice_shards = Tracker:FindObjectForCode("bonusdiceshards")
-        if bonus_dice_shards then
-            bonus_dice_shards.AcquiredCount = SLOT_DATA["spare_dice_shards"]
-        end
-    end
+    -- -- Dice shards per die
+    -- if SLOT_DATA["split_dice"] == true and SLOT_DATA["dice_shards_per_die"] then
+    --     local dice_shards_per_die = Tracker:FindObjectForCode("diceshardsperdie")
+    --     if dice_shards_per_die then
+    --         dice_shards_per_die.AcquiredCount = SLOT_DATA["dice_shards_per_die"]
+    --     end
+    -- end
+
+    -- -- Bonus dice shards
+    -- if SLOT_DATA["split_dice"] == true and SLOT_DATA["spare_dice_shards"] then
+    --     local bonus_dice_shards = Tracker:FindObjectForCode("bonusdiceshards")
+    --     if bonus_dice_shards then
+    --         bonus_dice_shards.AcquiredCount = SLOT_DATA["spare_dice_shards"]
+    --     end
+    -- end
 
     -- Character
     if SLOT_DATA["character"] then
