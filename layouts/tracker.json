@@ -28,6 +28,13 @@
                                             "type": "layout",
                                             "key": "thief_shared_item_grid_vertical"
                                         }
+                                    },
+                                    {
+                                        "title": "Robot",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "robot_shared_item_grid_vertical"
+                                        }
                                     }
                                 ]
                             }
@@ -49,6 +56,13 @@
                                         "content": {
                                             "type": "layout",
                                             "key": "thief_episodes_grid_vertical"
+                                        }
+                                    },
+                                    {
+                                        "title": "Robot",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "robot_episodes_grid_vertical"
                                         }
                                     }
                                 ]
@@ -104,6 +118,13 @@
                                             "type": "layout",
                                             "key": "thief_shared_item_grid_horizontal"
                                         }
+                                    },
+                                    {
+                                        "title": "Robot",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "robot_shared_item_grid_horizontal"
+                                        }
                                     }
                                 ]
                             }
@@ -125,6 +146,13 @@
                                         "content": {
                                             "type": "layout",
                                             "key": "thief_episodes_grid_horizontal"
+                                        }
+                                    },
+                                    {
+                                        "title": "Robot",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "robot_episodes_grid_horizontal"
                                         }
                                     }
                                 ]

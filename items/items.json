@@ -1,5 +1,261 @@
 [
     {
+        "name": "Buster Sword",
+        "type": "toggle",
+        "img": "images/items/bustersword.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bustersword"
+    },
+    {
+        "name": "Cold Snap",
+        "type": "toggle",
+        "img": "images/items/coldsnap.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coldsnap"
+    },
+    {
+        "name": "Concatenate",
+        "type": "toggle",
+        "img": "images/items/concatenate.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "concatenate"
+    },
+    {
+        "name": "Cooling Fan",
+        "type": "toggle",
+        "img": "images/items/coolingfan.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coolingfan"
+    },
+    {
+        "name": "Daffodil",
+        "type": "toggle",
+        "img": "images/items/daffodil.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "daffodil"
+    },
+    {
+        "name": "Dexterity Charm",
+        "type": "toggle",
+        "img": "images/items/dexteritycharm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dexteritycharm"
+    },
+    {
+        "name": "Duplicate",
+        "type": "toggle",
+        "img": "images/items/duplicate.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "duplicate"
+    },
+    {
+        "name": "Flamethrower",
+        "type": "toggle",
+        "img": "images/items/flamethrower.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "flamethrower"
+    },
+    {
+        "name": "Flame War",
+        "type": "toggle",
+        "img": "images/items/flamewar.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "flamewar"
+    },
+    {
+        "name": "Grindstone",
+        "type": "toggle",
+        "img": "images/items/grindstone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grindstone"
+    },
+    {
+        "name": "Heat Sink",
+        "type": "toggle",
+        "img": "images/items/heatsink.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "heatsink"
+    },
+    {
+        "name": "Increment",
+        "type": "toggle",
+        "img": "images/items/increment.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "increment"
+    },
+    {
+        "name": "Magnifying Glass",
+        "type": "toggle",
+        "img": "images/items/magnifyingglass.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "magnifyingglass"
+    },
+    {
+        "name": "Molotov Cocktail",
+        "type": "toggle",
+        "img": "images/items/molotovcocktail.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "molotovcocktail"
+    },
+    {
+        "name": "Precious Egg@6",
+        "type": "toggle",
+        "img": "images/items/preciousegg@6.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "preciousegg@6"
+    },
+    {
+        "name": "Ruby Weapon",
+        "type": "toggle",
+        "img": "images/items/rubyweapon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rubyweapon"
+    },
+    {
+        "name": "Spare 4",
+        "type": "toggle",
+        "img": "images/items/spare4.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spare4"
+    },
+    {
+        "name": "Spud Cannon",
+        "type": "toggle",
+        "img": "images/items/spudcannon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spudcannon"
+    },
+    {
+        "name": "Stack Overflow",
+        "type": "toggle",
+        "img": "images/items/stackoverflow.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stackoverflow"
+    },
+    {
+        "name": "Sun Beam",
+        "type": "toggle",
+        "img": "images/items/sunbeam.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sunbeam"
+    },
+    {
+        "name": "System Shock",
+        "type": "toggle",
+        "img": "images/items/systemshock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "systemshock"
+    },
+    {
+        "name": "Ultima Weapon",
+        "type": "toggle",
+        "img": "images/items/ultimaweapon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ultimaweapon"
+    },
+    {
+        "name": "Call for Backup Inventor",
+        "type": "toggle",
+        "img": "images/items/callforbackupinventor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackupinventor"
+    },
+    {
+        "name": "Call for Backup Inventor?",
+        "type": "toggle",
+        "img": "images/items/callforbackupinventor_q.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackupinventor_q"
+    },
+    {
+        "name": "Call for Backup Robot",
+        "type": "toggle",
+        "img": "images/items/callforbackuprobot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackuprobot"
+    },
+    {
+        "name": "Call for Backup Robot?",
+        "type": "toggle",
+        "img": "images/items/callforbackuprobot_q.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackuprobot_q"
+    },
+    {
+        "name": "Call for Backup Thief",
+        "type": "toggle",
+        "img": "images/items/callforbackupthief.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackupthief"
+    },
+    {
+        "name": "Call for Backup Thief?",
+        "type": "toggle",
+        "img": "images/items/callforbackupthief_q.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackupthief_q"
+    },
+    {
+        "name": "Call for Backup Warrior",
+        "type": "toggle",
+        "img": "images/items/callforbackupwarrior.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackupwarrior"
+    },
+    {
+        "name": "Call for Backup Warrior?",
+        "type": "toggle",
+        "img": "images/items/callforbackupwarrior_q.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackupwarrior_q"
+    },
+    {
+        "name": "Call for Backup Witch",
+        "type": "toggle",
+        "img": "images/items/callforbackupwitch.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackupwitch"
+    },
+    {
+        "name": "Call for Backup Witch?",
+        "type": "toggle",
+        "img": "images/items/callforbackupwitch_q.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "callforbackupwitch_q"
+    },
+    {
         "name": "Plasma Cannon",
         "type": "toggle",
         "img": "images/items/plasmacannon.png",
@@ -2802,7 +3058,7 @@
     {
         "name": "Robot Episode 4 Completed",
         "type": "toggle",
-        "img": "images/character_quests/quest_robot4.png",
+        "img": "images/character_quests/quest_robot_4.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "robotepisode4completed"

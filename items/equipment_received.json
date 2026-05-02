@@ -300,6 +300,156 @@
         "img": "images/sword.png"
     },
     {
+        "name": "Robot Episode 1 Equipment",
+        "codes": "robotEpisode1Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Robot Episode 2 Equipment",
+        "codes": "robotEpisode2Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Robot Episode 3 Equipment",
+        "codes": "robotEpisode3Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Robot Episode 4 Equipment",
+        "codes": "robotEpisode4Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Robot Episode 5 Equipment",
+        "codes": "robotEpisode5Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Robot Episode 6 Equipment",
+        "codes": "robotEpisode6Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Robot Episode 1 Chest Equipment",
+        "codes": "robotEpisode1ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Robot Episode 2 Chest Equipment",
+        "codes": "robotEpisode2ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Robot Episode 3 Chest Equipment",
+        "codes": "robotEpisode3ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Robot Episode 4 Chest Equipment",
+        "codes": "robotEpisode4ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Robot Episode 5 Chest Equipment",
+        "codes": "robotEpisode5ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Robot Episode 6 Chest Equipment",
+        "codes": "robotEpisode6ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Robot Episode 1 Shop Equipment",
+        "codes": "robotEpisode1ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Robot Episode 2 Shop Equipment",
+        "codes": "robotEpisode2ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Robot Episode 3 Shop Equipment",
+        "codes": "robotEpisode3ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Robot Episode 4 Shop Equipment",
+        "codes": "robotEpisode4ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Robot Episode 5 Shop Equipment",
+        "codes": "robotEpisode5ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Robot Episode 6 Shop Equipment",
+        "codes": "robotEpisode6ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Robot Episode 1 Trade Equipment",
+        "codes": "robotEpisode1TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Robot Episode 2 Trade Equipment",
+        "codes": "robotEpisode2TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Robot Episode 3 Trade Equipment",
+        "codes": "robotEpisode3TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Robot Episode 4 Trade Equipment",
+        "codes": "robotEpisode4TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Robot Episode 5 Trade Equipment",
+        "codes": "robotEpisode5TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Robot Episode 6 Trade Equipment",
+        "codes": "robotEpisode6TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "All Robot Equipment",
+        "codes": "AllrobotEquipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
         "name": "All Equipment",
         "codes": "AllEquipment",
         "type": "consumable",
