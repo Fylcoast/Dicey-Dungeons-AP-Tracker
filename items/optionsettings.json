@@ -97,6 +97,10 @@
             {
                 "name": "Thief",
                 "img": "images/characters/thief.png"
+            },
+            {
+                "name": "Robot",
+                "img": "images/characters/robot.png"
             }
         ]
     },

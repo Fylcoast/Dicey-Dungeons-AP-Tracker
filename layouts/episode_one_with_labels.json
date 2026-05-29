@@ -202,5 +202,107 @@
                 ]
             }
         ]
+    },
+    "robot_episode_one_with_labels_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "robotepisode1progressivelevelup",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Level Ups",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "RobotEpisode1ChestEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Chest Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "RobotEpisode1ShopEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Shop Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "RobotEpisode1TradeEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Trade Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "RobotEpisode1Equipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Episode Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -1,0 +1,1592 @@
+[
+    {
+        "name": "Overworld - Robot",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "visibility_rules": [
+            "$show_character|2"
+        ],
+        "children": [
+            {
+                "name": "Episode 1 Completed",
+                "sections": [
+                    {
+                        "ref": "Robot/Episode 1/Episode Completed/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 149,
+                        "y": 337,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 2 Completed",
+                "sections": [
+                    {
+                        "ref": "Robot/Episode 2/Episode Completed/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 327,
+                        "y": 337,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 3 Completed",
+                "sections": [
+                    {
+                        "ref": "Robot/Episode 3/Episode Completed/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 503,
+                        "y": 337,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 4 Completed",
+                "sections": [
+                    {
+                        "ref": "Robot/Episode 4/Episode Completed/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 682,
+                        "y": 337,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 5 Completed",
+                "sections": [
+                    {
+                        "ref": "Robot/Episode 5/Episode Completed/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 860,
+                        "y": 337,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 6 Completed",
+                "sections": [
+                    {
+                        "ref": "Robot/Episode 6/Episode Completed/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1038,
+                        "y": 337,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 1",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Floor 1 - Chest 1",
+                        "ref": "Robot/Episode 1/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 2",
+                        "ref": "Robot/Episode 1/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 3",
+                        "ref": "Robot/Episode 1/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 4",
+                        "ref": "Robot/Episode 1/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 5",
+                        "ref": "Robot/Episode 1/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 1",
+                        "ref": "Robot/Episode 1/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 2",
+                        "ref": "Robot/Episode 1/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 3",
+                        "ref": "Robot/Episode 1/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 4",
+                        "ref": "Robot/Episode 1/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 5",
+                        "ref": "Robot/Episode 1/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 1",
+                        "ref": "Robot/Episode 1/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 2",
+                        "ref": "Robot/Episode 1/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 3",
+                        "ref": "Robot/Episode 1/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 4",
+                        "ref": "Robot/Episode 1/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 5",
+                        "ref": "Robot/Episode 1/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 1",
+                        "ref": "Robot/Episode 1/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 2",
+                        "ref": "Robot/Episode 1/Floor 2/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 1",
+                        "ref": "Robot/Episode 1/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 2",
+                        "ref": "Robot/Episode 1/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 3",
+                        "ref": "Robot/Episode 1/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 4",
+                        "ref": "Robot/Episode 1/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 5",
+                        "ref": "Robot/Episode 1/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 1",
+                        "ref": "Robot/Episode 1/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 2",
+                        "ref": "Robot/Episode 1/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 3",
+                        "ref": "Robot/Episode 1/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 4",
+                        "ref": "Robot/Episode 1/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 5",
+                        "ref": "Robot/Episode 1/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 1",
+                        "ref": "Robot/Episode 1/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 2",
+                        "ref": "Robot/Episode 1/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Upgrade 1",
+                        "ref": "Robot/Episode 1/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 1",
+                        "ref": "Robot/Episode 1/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 2",
+                        "ref": "Robot/Episode 1/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 3",
+                        "ref": "Robot/Episode 1/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 4",
+                        "ref": "Robot/Episode 1/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 5",
+                        "ref": "Robot/Episode 1/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 1",
+                        "ref": "Robot/Episode 1/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 2",
+                        "ref": "Robot/Episode 1/Floor 4/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 1",
+                        "ref": "Robot/Episode 1/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 2",
+                        "ref": "Robot/Episode 1/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 3",
+                        "ref": "Robot/Episode 1/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 4",
+                        "ref": "Robot/Episode 1/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 5",
+                        "ref": "Robot/Episode 1/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 1",
+                        "ref": "Robot/Episode 1/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 2",
+                        "ref": "Robot/Episode 1/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 3",
+                        "ref": "Robot/Episode 1/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 4",
+                        "ref": "Robot/Episode 1/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 5",
+                        "ref": "Robot/Episode 1/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 1",
+                        "ref": "Robot/Episode 1/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 2",
+                        "ref": "Robot/Episode 1/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 3",
+                        "ref": "Robot/Episode 1/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 4",
+                        "ref": "Robot/Episode 1/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 5",
+                        "ref": "Robot/Episode 1/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 1",
+                        "ref": "Robot/Episode 1/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 2",
+                        "ref": "Robot/Episode 1/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 5 - Upgrade 1",
+                        "ref": "Robot/Episode 1/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Level 2",
+                        "ref": "Robot/Episode 1/Level 2/"
+                    },
+                    {
+                        "name": "Level 3",
+                        "ref": "Robot/Episode 1/Level 3/"
+                    },
+                    {
+                        "name": "Level 4",
+                        "ref": "Robot/Episode 1/Level 4/"
+                    },
+                    {
+                        "name": "Level 5",
+                        "ref": "Robot/Episode 1/Level 5/"
+                    },
+                    {
+                        "name": "Level 6",
+                        "ref": "Robot/Episode 1/Level 6/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 90,
+                        "y": 400,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 2",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Floor 1 - Chest 1",
+                        "ref": "Robot/Episode 2/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 2",
+                        "ref": "Robot/Episode 2/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 3",
+                        "ref": "Robot/Episode 2/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 4",
+                        "ref": "Robot/Episode 2/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 5",
+                        "ref": "Robot/Episode 2/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 1",
+                        "ref": "Robot/Episode 2/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 2",
+                        "ref": "Robot/Episode 2/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 3",
+                        "ref": "Robot/Episode 2/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 4",
+                        "ref": "Robot/Episode 2/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 5",
+                        "ref": "Robot/Episode 2/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 1",
+                        "ref": "Robot/Episode 2/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 2",
+                        "ref": "Robot/Episode 2/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 3",
+                        "ref": "Robot/Episode 2/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 4",
+                        "ref": "Robot/Episode 2/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 5",
+                        "ref": "Robot/Episode 2/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 1",
+                        "ref": "Robot/Episode 2/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 2",
+                        "ref": "Robot/Episode 2/Floor 2/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 1",
+                        "ref": "Robot/Episode 2/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 2",
+                        "ref": "Robot/Episode 2/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 3",
+                        "ref": "Robot/Episode 2/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 4",
+                        "ref": "Robot/Episode 2/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 5",
+                        "ref": "Robot/Episode 2/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 1",
+                        "ref": "Robot/Episode 2/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 2",
+                        "ref": "Robot/Episode 2/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 3",
+                        "ref": "Robot/Episode 2/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 4",
+                        "ref": "Robot/Episode 2/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 5",
+                        "ref": "Robot/Episode 2/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 1",
+                        "ref": "Robot/Episode 2/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 2",
+                        "ref": "Robot/Episode 2/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Upgrade 1",
+                        "ref": "Robot/Episode 2/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 1",
+                        "ref": "Robot/Episode 2/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 2",
+                        "ref": "Robot/Episode 2/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 3",
+                        "ref": "Robot/Episode 2/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 4",
+                        "ref": "Robot/Episode 2/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 5",
+                        "ref": "Robot/Episode 2/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 1",
+                        "ref": "Robot/Episode 2/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 2",
+                        "ref": "Robot/Episode 2/Floor 4/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 1",
+                        "ref": "Robot/Episode 2/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 2",
+                        "ref": "Robot/Episode 2/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 3",
+                        "ref": "Robot/Episode 2/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 4",
+                        "ref": "Robot/Episode 2/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 5",
+                        "ref": "Robot/Episode 2/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 1",
+                        "ref": "Robot/Episode 2/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 2",
+                        "ref": "Robot/Episode 2/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 3",
+                        "ref": "Robot/Episode 2/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 4",
+                        "ref": "Robot/Episode 2/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 5",
+                        "ref": "Robot/Episode 2/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 1",
+                        "ref": "Robot/Episode 2/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 2",
+                        "ref": "Robot/Episode 2/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 3",
+                        "ref": "Robot/Episode 2/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 4",
+                        "ref": "Robot/Episode 2/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 5",
+                        "ref": "Robot/Episode 2/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 1",
+                        "ref": "Robot/Episode 2/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 2",
+                        "ref": "Robot/Episode 2/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 5 - Upgrade 1",
+                        "ref": "Robot/Episode 2/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Level 2",
+                        "ref": "Robot/Episode 2/Level 2/"
+                    },
+                    {
+                        "name": "Level 3",
+                        "ref": "Robot/Episode 2/Level 3/"
+                    },
+                    {
+                        "name": "Level 4",
+                        "ref": "Robot/Episode 2/Level 4/"
+                    },
+                    {
+                        "name": "Level 5",
+                        "ref": "Robot/Episode 2/Level 5/"
+                    },
+                    {
+                        "name": "Level 6",
+                        "ref": "Robot/Episode 2/Level 6/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 267,
+                        "y": 400,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 3",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Floor 1 - Chest 1",
+                        "ref": "Robot/Episode 3/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 2",
+                        "ref": "Robot/Episode 3/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 3",
+                        "ref": "Robot/Episode 3/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 4",
+                        "ref": "Robot/Episode 3/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 5",
+                        "ref": "Robot/Episode 3/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 1",
+                        "ref": "Robot/Episode 3/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 2",
+                        "ref": "Robot/Episode 3/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 3",
+                        "ref": "Robot/Episode 3/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 4",
+                        "ref": "Robot/Episode 3/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 5",
+                        "ref": "Robot/Episode 3/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 1",
+                        "ref": "Robot/Episode 3/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 2",
+                        "ref": "Robot/Episode 3/Floor 2/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 1",
+                        "ref": "Robot/Episode 3/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 2",
+                        "ref": "Robot/Episode 3/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 3",
+                        "ref": "Robot/Episode 3/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 4",
+                        "ref": "Robot/Episode 3/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 5",
+                        "ref": "Robot/Episode 3/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 1",
+                        "ref": "Robot/Episode 3/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 2",
+                        "ref": "Robot/Episode 3/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Upgrade 1",
+                        "ref": "Robot/Episode 3/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 1",
+                        "ref": "Robot/Episode 3/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 2",
+                        "ref": "Robot/Episode 3/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 3",
+                        "ref": "Robot/Episode 3/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 4",
+                        "ref": "Robot/Episode 3/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 5",
+                        "ref": "Robot/Episode 3/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 1",
+                        "ref": "Robot/Episode 3/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 2",
+                        "ref": "Robot/Episode 3/Floor 4/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 1",
+                        "ref": "Robot/Episode 3/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 2",
+                        "ref": "Robot/Episode 3/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 3",
+                        "ref": "Robot/Episode 3/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 4",
+                        "ref": "Robot/Episode 3/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 5",
+                        "ref": "Robot/Episode 3/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 1",
+                        "ref": "Robot/Episode 3/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 2",
+                        "ref": "Robot/Episode 3/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 3",
+                        "ref": "Robot/Episode 3/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 4",
+                        "ref": "Robot/Episode 3/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 5",
+                        "ref": "Robot/Episode 3/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 1",
+                        "ref": "Robot/Episode 3/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 2",
+                        "ref": "Robot/Episode 3/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 5 - Upgrade 1",
+                        "ref": "Robot/Episode 3/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Level 2",
+                        "ref": "Robot/Episode 3/Level 2/"
+                    },
+                    {
+                        "name": "Level 3",
+                        "ref": "Robot/Episode 3/Level 3/"
+                    },
+                    {
+                        "name": "Level 4",
+                        "ref": "Robot/Episode 3/Level 4/"
+                    },
+                    {
+                        "name": "Level 5",
+                        "ref": "Robot/Episode 3/Level 5/"
+                    },
+                    {
+                        "name": "Level 6",
+                        "ref": "Robot/Episode 3/Level 6/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 444,
+                        "y": 400,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 4",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Floor 1 - Chest 1",
+                        "ref": "Robot/Episode 4/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 2",
+                        "ref": "Robot/Episode 4/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 3",
+                        "ref": "Robot/Episode 4/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 4",
+                        "ref": "Robot/Episode 4/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 5",
+                        "ref": "Robot/Episode 4/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 1",
+                        "ref": "Robot/Episode 4/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 2",
+                        "ref": "Robot/Episode 4/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 3",
+                        "ref": "Robot/Episode 4/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 4",
+                        "ref": "Robot/Episode 4/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 5",
+                        "ref": "Robot/Episode 4/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 1",
+                        "ref": "Robot/Episode 4/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 2",
+                        "ref": "Robot/Episode 4/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 3",
+                        "ref": "Robot/Episode 4/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 4",
+                        "ref": "Robot/Episode 4/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 5",
+                        "ref": "Robot/Episode 4/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 1",
+                        "ref": "Robot/Episode 4/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 2",
+                        "ref": "Robot/Episode 4/Floor 2/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 1",
+                        "ref": "Robot/Episode 4/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 2",
+                        "ref": "Robot/Episode 4/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 3",
+                        "ref": "Robot/Episode 4/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 4",
+                        "ref": "Robot/Episode 4/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 5",
+                        "ref": "Robot/Episode 4/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 1",
+                        "ref": "Robot/Episode 4/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 2",
+                        "ref": "Robot/Episode 4/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 3",
+                        "ref": "Robot/Episode 4/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 4",
+                        "ref": "Robot/Episode 4/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 5",
+                        "ref": "Robot/Episode 4/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 1",
+                        "ref": "Robot/Episode 4/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 2",
+                        "ref": "Robot/Episode 4/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Upgrade 1",
+                        "ref": "Robot/Episode 4/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 1",
+                        "ref": "Robot/Episode 4/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 2",
+                        "ref": "Robot/Episode 4/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 3",
+                        "ref": "Robot/Episode 4/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 4",
+                        "ref": "Robot/Episode 4/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 5",
+                        "ref": "Robot/Episode 4/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 1",
+                        "ref": "Robot/Episode 4/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 2",
+                        "ref": "Robot/Episode 4/Floor 4/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 1",
+                        "ref": "Robot/Episode 4/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 2",
+                        "ref": "Robot/Episode 4/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 3",
+                        "ref": "Robot/Episode 4/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 4",
+                        "ref": "Robot/Episode 4/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 5",
+                        "ref": "Robot/Episode 4/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 1",
+                        "ref": "Robot/Episode 4/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 2",
+                        "ref": "Robot/Episode 4/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 3",
+                        "ref": "Robot/Episode 4/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 4",
+                        "ref": "Robot/Episode 4/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 5",
+                        "ref": "Robot/Episode 4/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 1",
+                        "ref": "Robot/Episode 4/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 2",
+                        "ref": "Robot/Episode 4/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 3",
+                        "ref": "Robot/Episode 4/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 4",
+                        "ref": "Robot/Episode 4/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 5",
+                        "ref": "Robot/Episode 4/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 1",
+                        "ref": "Robot/Episode 4/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 2",
+                        "ref": "Robot/Episode 4/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 5 - Upgrade 1",
+                        "ref": "Robot/Episode 4/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Level 2",
+                        "ref": "Robot/Episode 4/Level 2/"
+                    },
+                    {
+                        "name": "Level 3",
+                        "ref": "Robot/Episode 4/Level 3/"
+                    },
+                    {
+                        "name": "Level 4",
+                        "ref": "Robot/Episode 4/Level 4/"
+                    },
+                    {
+                        "name": "Level 5",
+                        "ref": "Robot/Episode 4/Level 5/"
+                    },
+                    {
+                        "name": "Level 6",
+                        "ref": "Robot/Episode 4/Level 6/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 621,
+                        "y": 400,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 5",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Floor 1 - Chest 1",
+                        "ref": "Robot/Episode 5/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 2",
+                        "ref": "Robot/Episode 5/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 3",
+                        "ref": "Robot/Episode 5/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 4",
+                        "ref": "Robot/Episode 5/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 5",
+                        "ref": "Robot/Episode 5/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 1",
+                        "ref": "Robot/Episode 5/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 2",
+                        "ref": "Robot/Episode 5/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 3",
+                        "ref": "Robot/Episode 5/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 4",
+                        "ref": "Robot/Episode 5/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 5",
+                        "ref": "Robot/Episode 5/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 1",
+                        "ref": "Robot/Episode 5/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 2",
+                        "ref": "Robot/Episode 5/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 3",
+                        "ref": "Robot/Episode 5/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 4",
+                        "ref": "Robot/Episode 5/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 5",
+                        "ref": "Robot/Episode 5/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 1",
+                        "ref": "Robot/Episode 5/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 2",
+                        "ref": "Robot/Episode 5/Floor 2/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 1",
+                        "ref": "Robot/Episode 5/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 2",
+                        "ref": "Robot/Episode 5/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 3",
+                        "ref": "Robot/Episode 5/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 4",
+                        "ref": "Robot/Episode 5/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 5",
+                        "ref": "Robot/Episode 5/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 1",
+                        "ref": "Robot/Episode 5/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 2",
+                        "ref": "Robot/Episode 5/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 3",
+                        "ref": "Robot/Episode 5/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 4",
+                        "ref": "Robot/Episode 5/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 5",
+                        "ref": "Robot/Episode 5/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 1",
+                        "ref": "Robot/Episode 5/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 2",
+                        "ref": "Robot/Episode 5/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Upgrade 1",
+                        "ref": "Robot/Episode 5/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 1",
+                        "ref": "Robot/Episode 5/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 2",
+                        "ref": "Robot/Episode 5/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 3",
+                        "ref": "Robot/Episode 5/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 4",
+                        "ref": "Robot/Episode 5/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 5",
+                        "ref": "Robot/Episode 5/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 1",
+                        "ref": "Robot/Episode 5/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 2",
+                        "ref": "Robot/Episode 5/Floor 4/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 1",
+                        "ref": "Robot/Episode 5/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 2",
+                        "ref": "Robot/Episode 5/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 3",
+                        "ref": "Robot/Episode 5/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 4",
+                        "ref": "Robot/Episode 5/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 5",
+                        "ref": "Robot/Episode 5/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 1",
+                        "ref": "Robot/Episode 5/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 2",
+                        "ref": "Robot/Episode 5/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 3",
+                        "ref": "Robot/Episode 5/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 4",
+                        "ref": "Robot/Episode 5/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 5",
+                        "ref": "Robot/Episode 5/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 1",
+                        "ref": "Robot/Episode 5/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 2",
+                        "ref": "Robot/Episode 5/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 3",
+                        "ref": "Robot/Episode 5/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 4",
+                        "ref": "Robot/Episode 5/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 5",
+                        "ref": "Robot/Episode 5/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 1",
+                        "ref": "Robot/Episode 5/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 2",
+                        "ref": "Robot/Episode 5/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 5 - Upgrade 1",
+                        "ref": "Robot/Episode 5/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Level 2",
+                        "ref": "Robot/Episode 5/Level 2/"
+                    },
+                    {
+                        "name": "Level 3",
+                        "ref": "Robot/Episode 5/Level 3/"
+                    },
+                    {
+                        "name": "Level 4",
+                        "ref": "Robot/Episode 5/Level 4/"
+                    },
+                    {
+                        "name": "Level 5",
+                        "ref": "Robot/Episode 5/Level 5/"
+                    },
+                    {
+                        "name": "Level 6",
+                        "ref": "Robot/Episode 5/Level 6/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 798,
+                        "y": 400,
+                        "size": 15
+                    }
+                ]
+            },
+            {
+                "name": "Episode 6",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Floor 1 - Chest 1",
+                        "ref": "Robot/Episode 6/Floor 1/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 2",
+                        "ref": "Robot/Episode 6/Floor 1/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 3",
+                        "ref": "Robot/Episode 6/Floor 1/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 4",
+                        "ref": "Robot/Episode 6/Floor 1/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 1 - Chest 5",
+                        "ref": "Robot/Episode 6/Floor 1/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 1",
+                        "ref": "Robot/Episode 6/Floor 2/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 2",
+                        "ref": "Robot/Episode 6/Floor 2/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 3",
+                        "ref": "Robot/Episode 6/Floor 2/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 4",
+                        "ref": "Robot/Episode 6/Floor 2/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 2 - Chest 5",
+                        "ref": "Robot/Episode 6/Floor 2/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 1",
+                        "ref": "Robot/Episode 6/Floor 2/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 2",
+                        "ref": "Robot/Episode 6/Floor 2/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 3",
+                        "ref": "Robot/Episode 6/Floor 2/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 4",
+                        "ref": "Robot/Episode 6/Floor 2/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 2 - Shop 5",
+                        "ref": "Robot/Episode 6/Floor 2/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 1",
+                        "ref": "Robot/Episode 6/Floor 2/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 2 - Heal 2",
+                        "ref": "Robot/Episode 6/Floor 2/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 1",
+                        "ref": "Robot/Episode 6/Floor 3/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 2",
+                        "ref": "Robot/Episode 6/Floor 3/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 3",
+                        "ref": "Robot/Episode 6/Floor 3/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 4",
+                        "ref": "Robot/Episode 6/Floor 3/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 3 - Chest 5",
+                        "ref": "Robot/Episode 6/Floor 3/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 1",
+                        "ref": "Robot/Episode 6/Floor 3/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 2",
+                        "ref": "Robot/Episode 6/Floor 3/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 3",
+                        "ref": "Robot/Episode 6/Floor 3/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 4",
+                        "ref": "Robot/Episode 6/Floor 3/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 3 - Shop 5",
+                        "ref": "Robot/Episode 6/Floor 3/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 1",
+                        "ref": "Robot/Episode 6/Floor 3/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 3 - Heal 2",
+                        "ref": "Robot/Episode 6/Floor 3/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 3 - Upgrade 1",
+                        "ref": "Robot/Episode 6/Floor 3/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 1",
+                        "ref": "Robot/Episode 6/Floor 4/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 2",
+                        "ref": "Robot/Episode 6/Floor 4/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 3",
+                        "ref": "Robot/Episode 6/Floor 4/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 4",
+                        "ref": "Robot/Episode 6/Floor 4/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 4 - Chest 5",
+                        "ref": "Robot/Episode 6/Floor 4/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 1",
+                        "ref": "Robot/Episode 6/Floor 4/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 4 - Heal 2",
+                        "ref": "Robot/Episode 6/Floor 4/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 1",
+                        "ref": "Robot/Episode 6/Floor 4/Trade/Trade 1"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 2",
+                        "ref": "Robot/Episode 6/Floor 4/Trade/Trade 2"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 3",
+                        "ref": "Robot/Episode 6/Floor 4/Trade/Trade 3"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 4",
+                        "ref": "Robot/Episode 6/Floor 4/Trade/Trade 4"
+                    },
+                    {
+                        "name": "Floor 4 - Trade 5",
+                        "ref": "Robot/Episode 6/Floor 4/Trade/Trade 5"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 1",
+                        "ref": "Robot/Episode 6/Floor 5/Chest/Chest 1"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 2",
+                        "ref": "Robot/Episode 6/Floor 5/Chest/Chest 2"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 3",
+                        "ref": "Robot/Episode 6/Floor 5/Chest/Chest 3"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 4",
+                        "ref": "Robot/Episode 6/Floor 5/Chest/Chest 4"
+                    },
+                    {
+                        "name": "Floor 5 - Chest 5",
+                        "ref": "Robot/Episode 6/Floor 5/Chest/Chest 5"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 1",
+                        "ref": "Robot/Episode 6/Floor 5/Shop/Shop 1"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 2",
+                        "ref": "Robot/Episode 6/Floor 5/Shop/Shop 2"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 3",
+                        "ref": "Robot/Episode 6/Floor 5/Shop/Shop 3"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 4",
+                        "ref": "Robot/Episode 6/Floor 5/Shop/Shop 4"
+                    },
+                    {
+                        "name": "Floor 5 - Shop 5",
+                        "ref": "Robot/Episode 6/Floor 5/Shop/Shop 5"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 1",
+                        "ref": "Robot/Episode 6/Floor 5/Heal/Heal 1"
+                    },
+                    {
+                        "name": "Floor 5 - Heal 2",
+                        "ref": "Robot/Episode 6/Floor 5/Heal/Heal 2"
+                    },
+                    {
+                        "name": "Floor 5 - Upgrade 1",
+                        "ref": "Robot/Episode 6/Floor 5/Upgrade/Upgrade 1"
+                    },
+                    {
+                        "name": "Level 2",
+                        "ref": "Robot/Episode 6/Level 2/"
+                    },
+                    {
+                        "name": "Level 3",
+                        "ref": "Robot/Episode 6/Level 3/"
+                    },
+                    {
+                        "name": "Level 4",
+                        "ref": "Robot/Episode 6/Level 4/"
+                    },
+                    {
+                        "name": "Level 5",
+                        "ref": "Robot/Episode 6/Level 5/"
+                    },
+                    {
+                        "name": "Level 6",
+                        "ref": "Robot/Episode 6/Level 6/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 976,
+                        "y": 400,
+                        "size": 15
+                    }
+                ]
+            }
+        ]
+    }
+]
