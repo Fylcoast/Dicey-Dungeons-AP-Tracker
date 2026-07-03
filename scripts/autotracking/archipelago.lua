@@ -425,6 +425,14 @@ function autoFill()
         end
     end
 
+    -- Use equipment from any character (T/F)
+    if SLOT_DATA["use_equipment_from_any_character"] then
+        local use_equipment_from_any_character = Tracker:FindObjectForCode("useequipmentfromanycharacter")
+        if use_equipment_from_any_character then
+            use_equipment_from_any_character.Active = SLOT_DATA["use_equipment_from_any_character"]
+        end
+    end
+
     -- Split Dice
     if SLOT_DATA["split_dice"] then
         local split_dice = Tracker:FindObjectForCode("splitdice")
@@ -513,8 +521,10 @@ function AddEquipmentAvailability(equipment)
         character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
     end
 
+    local use_equipment_from_any_character = Tracker:FindObjectForCode("useequipmentfromanycharacter")
     local all_character_equipment = Tracker:FindObjectForCode("All" .. character_name .. "Equipment")
-    if all_character_equipment and next(EQUIPMENT_MAPPING[equipment][character_name]['episode']) ~= nil then
+    if (all_character_equipment and next(EQUIPMENT_MAPPING[equipment][character_name]['episode']) ~= nil)
+        or (all_character_equipment and use_equipment_from_any_character and use_equipment_from_any_character.Active) then
         all_character_equipment.AcquiredCount = all_character_equipment.AcquiredCount + 1
     end
 
@@ -532,6 +542,15 @@ function AddEpisodeEquipmentAvailability(equipment, character, episode)
         return
     else
         is_equipment_open = equipment_availability.CurrentStage == 1
+    end
+    
+    local use_equipment_from_any_character = Tracker:FindObjectForCode("useequipmentfromanycharacter")
+    if not use_equipment_from_any_character then
+        return
+    end
+
+    if not (next(eq['episode']) ~= nil) and not use_equipment_from_any_character.Active then
+        return
     end
     
     if not is_equipment_open and (not eq or not eq['episode']) then

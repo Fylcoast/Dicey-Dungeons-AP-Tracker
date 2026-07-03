@@ -35,6 +35,13 @@
                                             "type": "layout",
                                             "key": "robot_shared_item_grid_vertical"
                                         }
+                                    },
+                                    {
+                                        "title": "Inventor",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "inventor_shared_item_grid_vertical"
+                                        }
                                     }
                                 ]
                             }
@@ -124,6 +131,13 @@
                                         "content": {
                                             "type": "layout",
                                             "key": "robot_shared_item_grid_horizontal"
+                                        }
+                                    },
+                                    {
+                                        "title": "Inventor",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "inventor_shared_item_grid_horizontal"
                                         }
                                     }
                                 ]

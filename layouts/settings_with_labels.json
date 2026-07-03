@@ -188,6 +188,25 @@
                                     "v_alignment": "center"
                                 }
                             ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "useequipmentfromanycharacter",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Use Equipment From Any Character",
+                                    "v_alignment": "center"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -411,6 +430,25 @@
                                 {
                                     "type": "text",
                                     "text": "Character",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "useequipmentfromanycharacter",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Use Equipment From Any Character",
                                     "v_alignment": "center"
                                 }
                             ]

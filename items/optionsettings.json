@@ -113,6 +113,14 @@
         "codes": "splitdice"
     },
     {
+        "name": "Use Equipment From Any Character",
+        "type": "toggle",
+        "img": "images/coin.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "useequipmentfromanycharacter"
+    },
+    {
         "name": "Dice Shards Per Die",
         "type": "consumable",
         "img": "images/die.png",
