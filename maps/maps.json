@@ -112,5 +112,41 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/robot_episode_six.png"
+    },
+    {
+        "name": "Inventor Episode 1",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/inventor_episode_one.png"
+    },
+    {
+        "name": "Inventor Episode 2",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/inventor_episode_two.png"
+    },
+    {
+        "name": "Inventor Episode 3",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/inventor_episode_three.png"
+    },
+    {
+        "name": "Inventor Episode 4",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/inventor_episode_four.png"
+    },
+    {
+        "name": "Inventor Episode 5",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/inventor_episode_five.png"
+    },
+    {
+        "name": "Inventor Episode 6",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/inventor_episode_six.png"
     }
 ]

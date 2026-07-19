@@ -450,6 +450,156 @@
         "img": "images/sword.png"
     },
     {
+        "name": "Inventor Episode 1 Equipment",
+        "codes": "inventorEpisode1Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Inventor Episode 2 Equipment",
+        "codes": "inventorEpisode2Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Inventor Episode 3 Equipment",
+        "codes": "inventorEpisode3Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Inventor Episode 4 Equipment",
+        "codes": "inventorEpisode4Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Inventor Episode 5 Equipment",
+        "codes": "inventorEpisode5Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Inventor Episode 6 Equipment",
+        "codes": "inventorEpisode6Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Inventor Episode 1 Chest Equipment",
+        "codes": "inventorEpisode1ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Inventor Episode 2 Chest Equipment",
+        "codes": "inventorEpisode2ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Inventor Episode 3 Chest Equipment",
+        "codes": "inventorEpisode3ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Inventor Episode 4 Chest Equipment",
+        "codes": "inventorEpisode4ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Inventor Episode 5 Chest Equipment",
+        "codes": "inventorEpisode5ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Inventor Episode 6 Chest Equipment",
+        "codes": "inventorEpisode6ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Inventor Episode 1 Shop Equipment",
+        "codes": "inventorEpisode1ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Inventor Episode 2 Shop Equipment",
+        "codes": "inventorEpisode2ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Inventor Episode 3 Shop Equipment",
+        "codes": "inventorEpisode3ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Inventor Episode 4 Shop Equipment",
+        "codes": "inventorEpisode4ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Inventor Episode 5 Shop Equipment",
+        "codes": "inventorEpisode5ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Inventor Episode 6 Shop Equipment",
+        "codes": "inventorEpisode6ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Inventor Episode 1 Trade Equipment",
+        "codes": "inventorEpisode1TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Inventor Episode 2 Trade Equipment",
+        "codes": "inventorEpisode2TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Inventor Episode 3 Trade Equipment",
+        "codes": "inventorEpisode3TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Inventor Episode 4 Trade Equipment",
+        "codes": "inventorEpisode4TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Inventor Episode 5 Trade Equipment",
+        "codes": "inventorEpisode5TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Inventor Episode 6 Trade Equipment",
+        "codes": "inventorEpisode6TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "All Inventor Equipment",
+        "codes": "AllinventorEquipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
         "name": "All Equipment",
         "codes": "AllEquipment",
         "type": "consumable",

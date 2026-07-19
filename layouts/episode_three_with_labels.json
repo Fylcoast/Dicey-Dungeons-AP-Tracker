@@ -304,5 +304,107 @@
                 ]
             }
         ]
+    },
+    "inventor_episode_three_with_labels_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "inventorepisode3progressivelevelup",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Level Ups",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "InventorEpisode3ChestEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Chest Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "InventorEpisode3ShopEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Shop Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "InventorEpisode3TradeEquipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Trade Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "InventorEpisode3Equipment",
+                        "max_height": 32,
+                        "max_width": 32,
+                        "margin": 4
+                    },
+                    {
+                        "type": "text",
+                        "text": "Episode Equipment",
+                        "v_alignment": "center"
+                    }
+                ]
+            }
+        ]
     }
 }

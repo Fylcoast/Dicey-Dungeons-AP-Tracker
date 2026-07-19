@@ -241,5 +241,86 @@
                 ]
             }
         ]
+    },
+    "inventor_episode_all_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "inventorepisode1completed",
+                                "inventorepisode2completed"
+                            ],
+                            [
+                                "inventorepisode3completed",
+                                "inventorepisode4completed"
+                            ],
+                            [
+                                "inventorepisode5completed",
+                                "inventorepisode6completed"
+                            ],
+                            [],
+                            [
+                                "diceshard",
+                                "AllInventorEquipment"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "inventor_episode_all_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "inventorepisode1completed",
+                                "inventorepisode2completed",
+                                "inventorepisode3completed"
+                            ],
+                            [
+                                "inventorepisode4completed",
+                                "inventorepisode5completed",
+                                "inventorepisode6completed"
+                            ],
+                            [
+                                "diceshard",
+                                "AllInventorEquipment"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -101,6 +101,10 @@
             {
                 "name": "Robot",
                 "img": "images/characters/robot.png"
+            },
+            {
+                "name": "Inventor",
+                "img": "images/characters/inventor.png"
             }
         ]
     },

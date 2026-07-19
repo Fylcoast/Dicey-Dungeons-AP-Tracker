@@ -71,6 +71,13 @@
                                             "type": "layout",
                                             "key": "robot_episodes_grid_vertical"
                                         }
+                                    },
+                                    {
+                                        "title": "Inventor",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "inventor_episodes_grid_vertical"
+                                        }
                                     }
                                 ]
                             }
@@ -167,6 +174,13 @@
                                         "content": {
                                             "type": "layout",
                                             "key": "robot_episodes_grid_horizontal"
+                                        }
+                                    },
+                                    {
+                                        "title": "Inventor",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "inventor_episodes_grid_horizontal"
                                         }
                                     }
                                 ]
