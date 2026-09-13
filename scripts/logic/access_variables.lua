@@ -8,6 +8,16 @@ EQUIPMENT_NEEDED_BY_FLOOR = {
     [6] = 6
 }
 
+-- INVENTOR equipment needed by floor, floor -> equipment needed count
+INVENTOR_EQUIPMENT_NEEDED_BY_FLOOR = {
+    [1] = 0,
+    [2] = 1,
+    [3] = 6,
+    [4] = 10,
+    [5] = 15,
+    [6] = 20
+}
+
 -- Levels needed by floor, floor -> progressive level count required
 LEVELS_NEEDED_BY_FLOOR = {
     [1] = 0,

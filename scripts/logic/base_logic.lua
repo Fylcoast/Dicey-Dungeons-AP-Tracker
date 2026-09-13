@@ -159,8 +159,12 @@ function can_reach_floor(episode, floor)
         end
     end
 
-    local has_equipment = equipment_count 
-        and equipment_count >= EQUIPMENT_NEEDED_BY_FLOOR[tonumber(floor)]
+    local has_equipment = true
+    if character_name == "inventor" then
+        has_equipment = has_equipment and equipment_count >= INVENTOR_EQUIPMENT_NEEDED_BY_FLOOR[tonumber(floor)]
+    else
+        has_equipment = has_equipment and equipment_count >= EQUIPMENT_NEEDED_BY_FLOOR[tonumber(floor)]
+    end
 
     -- Progressive level check
     -- If levelsanity, then need X progressive levels to reach Y floor
