@@ -6,6 +6,94 @@
         "content": [
             {
                 "type": "group",
+                "header": "Characters",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterwarrior",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Warrior",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterthief",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Thief",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterrobot",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Robot",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterinventor",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Inventor",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
                 "header": "Location Options",
                 "margin": "0,0,3,0",
                 "content": {
@@ -177,14 +265,14 @@
                             "content": [
                                 {
                                     "type": "item",
-                                    "item": "character",
+                                    "item": "equipmentavailability",
                                     "max_height": 48,
                                     "max_width": 48,
                                     "margin": 4
                                 },
                                 {
                                     "type": "text",
-                                    "text": "Character",
+                                    "text": "Equipment Availability",
                                     "v_alignment": "center"
                                 }
                             ]
@@ -204,37 +292,6 @@
                                 {
                                     "type": "text",
                                     "text": "Use Equipment From Any Character",
-                                    "v_alignment": "center"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "group",
-                "header": "Quality of Life Options",
-                "margin": "0,0,3,0",
-                "content": {
-                    "type": "array",
-                    "orientation": "vertical",
-                    "margin": "0,0",
-                    "content": [
-                        {
-                            "type": "array",
-                            "orientation": "horizontal",
-                            "margin": "0,0",
-                            "content": [
-                                {
-                                    "type": "item",
-                                    "item": "equipmentavailability",
-                                    "max_height": 48,
-                                    "max_width": 48,
-                                    "margin": 4
-                                },
-                                {
-                                    "type": "text",
-                                    "text": "Equipment Availability",
                                     "v_alignment": "center"
                                 }
                             ]
@@ -251,6 +308,94 @@
         "content": [
             {
                 "type": "group",
+                "header": "Characters",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterwarrior",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Warrior",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterthief",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Thief",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterrobot",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Robot",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterinventor",
+                                    "max_height": 48,
+                                    "max_width": 48,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Inventor",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
                 "header": "Location Options",
                 "margin": "0,0,3,0",
                 "content": {
@@ -422,14 +567,14 @@
                             "content": [
                                 {
                                     "type": "item",
-                                    "item": "character",
+                                    "item": "equipmentavailability",
                                     "max_height": 48,
                                     "max_width": 48,
                                     "margin": 4
                                 },
                                 {
                                     "type": "text",
-                                    "text": "Character",
+                                    "text": "Equipment Availability",
                                     "v_alignment": "center"
                                 }
                             ]
@@ -449,37 +594,6 @@
                                 {
                                     "type": "text",
                                     "text": "Use Equipment From Any Character",
-                                    "v_alignment": "center"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "group",
-                "header": "Quality of Life Options",
-                "margin": "0,0,3,0",
-                "content": {
-                    "type": "array",
-                    "orientation": "vertical",
-                    "margin": "0,0",
-                    "content": [
-                        {
-                            "type": "array",
-                            "orientation": "horizontal",
-                            "margin": "0,0",
-                            "content": [
-                                {
-                                    "type": "item",
-                                    "item": "equipmentavailability",
-                                    "max_height": 48,
-                                    "max_width": 48,
-                                    "margin": 4
-                                },
-                                {
-                                    "type": "text",
-                                    "text": "Equipment Availability",
                                     "v_alignment": "center"
                                 }
                             ]

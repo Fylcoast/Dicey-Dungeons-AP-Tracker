@@ -492,11 +492,27 @@ function autoFill()
 
     -- Character
     if SLOT_DATA["character"] then
-        local character = Tracker:FindObjectForCode("character")
-        if character then
-            character.CurrentStage = SLOT_DATA["character"]
+        local characterwarrior = Tracker:FindObjectForCode("characterwarrior")
+        if characterwarrior then
+            characterwarrior.Active = has_value(SLOT_DATA["character"], "Warrior")
+        end
+        
+        local characterthief = Tracker:FindObjectForCode("characterthief")
+        if characterthief then
+            characterthief.Active = has_value(SLOT_DATA["character"], "Thief")
+        end
+        
+        local characterrobot = Tracker:FindObjectForCode("characterrobot")
+        if characterrobot then
+            characterrobot.Active = has_value(SLOT_DATA["character"], "Robot")
+        end
+        
+        local characterinventor = Tracker:FindObjectForCode("characterinventor")
+        if characterinventor then
+            characterinventor.Active = has_value(SLOT_DATA["character"], "Inventor")
         end
     end
+
 end
 
 function has_value (tab, val)
