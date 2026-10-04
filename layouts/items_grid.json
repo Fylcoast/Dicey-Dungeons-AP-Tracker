@@ -722,71 +722,72 @@
                 "Keyblade",
                 "KnittingNeedle",
                 "Lament",
+                "LastLaugh",
                 "LeatherArmor",
-                "Lighter",
-                "LightningRod"
+                "Lighter"
             ],
             [
+                "LightningRod",
                 "Lockpick",
                 "Lucky7",
                 "LuckyStar",
                 "MagicMissile",
                 "MidnightCharm",
                 "MolotovCocktail",
-                "MosquitoBite",
-                "Nunchucks"
+                "MosquitoBite"
             ],
             [
+                "Nunchucks",
                 "PeaShooter",
                 "PlasmaBlaster",
                 "PlasmaCannon",
                 "PolarStar",
                 "PuppyPaws",
                 "RayGun",
-                "RottenEgg@6",
-                "RubberMallet"
+                "RottenEgg@6"
             ],
             [
+                "RubberMallet",
                 "SawWave",
                 "Scissors",
                 "Scorpion",
                 "ScrapBook",
                 "ScrapBump",
                 "ScrapClub",
-                "ScrapKettle",
-                "ScrapMetal"
+                "ScrapKettle"
             ],
             [
+                "ScrapMetal",
                 "ScrapNettle",
                 "ScrapSpear",
                 "Screwdriver",
                 "ShortSword",
                 "Shovel",
                 "SilverDagger",
-                "SmushTogether",
-                "Snowflake"
+                "SmushTogether"
             ],
             [
+                "Snowflake",
                 "Spanner",
                 "Spannersword",
                 "Spark",
                 "Spike",
                 "SpikedShield",
                 "Staff",
-                "Sword",
-                "SystemShock"
+                "Sword"
             ],
             [
+                "SystemShock",
                 "Tetraphobia",
                 "ToxicOoze",
                 "Transformer@1",
                 "TwoHandedSword",
                 "VenusFlyTrap",
                 "Whip",
-                "Whisper",
-                "WoodenShield"
+                "Whisper"
             ],
             [
+                "WoodenShield",
                 "WreckingBall"
             ]
         ]
@@ -862,90 +863,91 @@
             ],
             [
                 "Lament",
-                "LeatherArmor",
-                "Lighter"
+                "LastLaugh",
+                "LeatherArmor"
             ],
             [
+                "Lighter",
                 "LightningRod",
-                "Lockpick",
-                "Lucky7"
+                "Lockpick"
             ],
             [
+                "Lucky7",
                 "LuckyStar",
-                "MagicMissile",
-                "MidnightCharm"
+                "MagicMissile"
             ],
             [
+                "MidnightCharm",
                 "MolotovCocktail",
-                "MosquitoBite",
-                "Nunchucks"
+                "MosquitoBite"
             ],
             [
+                "Nunchucks",
                 "PeaShooter",
-                "PlasmaBlaster",
-                "PlasmaCannon"
+                "PlasmaBlaster"
             ],
             [
+                "PlasmaCannon",
                 "PolarStar",
-                "PuppyPaws",
-                "RayGun"
+                "PuppyPaws"
             ],
             [
+                "RayGun",
                 "RottenEgg@6",
-                "RubberMallet",
-                "SawWave"
+                "RubberMallet"
             ],
             [
+                "SawWave",
                 "Scissors",
-                "Scorpion",
-                "ScrapBook"
+                "Scorpion"
             ],
             [
+                "ScrapBook",
                 "ScrapBump",
-                "ScrapClub",
-                "ScrapKettle"
+                "ScrapClub"
             ],
             [
+                "ScrapKettle",
                 "ScrapMetal",
-                "ScrapNettle",
-                "ScrapSpear"
+                "ScrapNettle"
             ],
             [
+                "ScrapSpear",
                 "Screwdriver",
-                "ShortSword",
-                "Shovel"
+                "ShortSword"
             ],
             [
+                "Shovel",
                 "SilverDagger",
-                "SmushTogether",
-                "Snowflake"
+                "SmushTogether"
             ],
             [
+                "Snowflake",
                 "Spanner",
-                "Spannersword",
-                "Spark"
+                "Spannersword"
             ],
             [
+                "Spark",
                 "Spike",
-                "SpikedShield",
-                "Staff"
+                "SpikedShield"
             ],
             [
+                "Staff",
                 "Sword",
-                "SystemShock",
-                "Tetraphobia"
+                "SystemShock"
             ],
             [
+                "Tetraphobia",
                 "ToxicOoze",
-                "Transformer@1",
-                "TwoHandedSword"
+                "Transformer@1"
             ],
             [
+                "TwoHandedSword",
                 "VenusFlyTrap",
-                "Whip",
-                "Whisper"
+                "Whip"
             ],
             [
+                "Whisper",
                 "WoodenShield",
                 "WreckingBall"
             ]
