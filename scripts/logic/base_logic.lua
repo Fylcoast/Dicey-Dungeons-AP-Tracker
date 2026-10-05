@@ -14,14 +14,7 @@ function show_chests()
 end
 
 -- Visibility rule for a specific chest.
-function show_chest(episode, floor, iter)
-    local character = Tracker:FindObjectForCode("character")
-    if not character then
-        return false
-    end
-
-    local character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
-
+function show_chest(character_name, episode, floor, iter)
     local checks_per_chest = Tracker:FindObjectForCode("checksperchest")
     local num_chests = ALL_EPISODES[character_name][tonumber(episode)][tonumber(floor)]['num_chests']
     return checks_per_chest 
@@ -36,14 +29,7 @@ function show_shops()
 end
 
 -- Visibility rule for a specific shop.
-function show_shop(episode, floor, iter)
-    local character = Tracker:FindObjectForCode("character")
-    if not character then
-        return
-    end
-
-    local character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
-
+function show_shop(character_name, episode, floor, iter)
     local checks_per_shop = Tracker:FindObjectForCode("checkspershop")
     local num_shops = ALL_EPISODES[character_name][tonumber(episode)][tonumber(floor)]['num_shops']
     return checks_per_shop 
@@ -58,14 +44,7 @@ function show_trades()
 end
 
 -- Visibility rule for a specific trade.
-function show_trade(episode, floor, iter)
-    local character = Tracker:FindObjectForCode("character")
-    if not character then
-        return
-    end
-
-    local character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
-
+function show_trade(character_name, episode, floor, iter)
     local checks_per_trade = Tracker:FindObjectForCode("checkspertrade")
     local num_trades = ALL_EPISODES[character_name][tonumber(episode)][tonumber(floor)]['num_trades']
     return checks_per_trade 
@@ -79,7 +58,7 @@ function show_heals()
 end
 
 -- Visibility rule for a specific heal.
-function show_heal(episode, floor, iter)
+function show_heal(character_name, episode, floor, iter)
     return false
 end
 
@@ -89,7 +68,7 @@ function show_upgrades()
 end
 
 -- Visibility rule for a specific upgrade.
-function show_upgrade(episode, floor, iter)
+function show_upgrade(character_name, episode, floor, iter)
     return false
 end
 
@@ -100,9 +79,9 @@ function show_levels()
 end
 
 -- Visibility rule for Character
-function show_character(character)
-    local character_option = Tracker:FindObjectForCode("character")
-    return character_option and tonumber(character) == character_option.CurrentStage
+function show_character(character_name)
+    local character_option = Tracker:FindObjectForCode("character" .. character_name)
+    return character_option and character_option.Active
 end
 
 
@@ -112,7 +91,7 @@ end
 --==========================================================================
 
 -- Access rule for specific episode
-function can_reach_episode(episode)
+function can_reach_episode(character_name, episode)
     -- Gather required setting
     local episode_progression = Tracker:FindObjectForCode("episodeprogression")
 
@@ -125,7 +104,7 @@ function can_reach_episode(episode)
     local completed_episode_count = 0
     for _, episode in ipairs(EPISODE_COMPLETED_CODES) do
         local episode_completion = Tracker:FindObjectForCode(episode)
-        if episode_completion and episode_completion.Active then
+        if episode_completion and episode_completion.Active and string.find(episode, character_name) then
             completed_episode_count = completed_episode_count + 1
         end
     end
@@ -134,17 +113,10 @@ function can_reach_episode(episode)
 end
 
 -- Access rule for specific floor of an episode
-function can_reach_floor(episode, floor)
+function can_reach_floor(character_name, episode, floor)
     -- Equipment check
     -- Need X Equipment to reach Y floor
     -- Depends on slot's equipment_availability
-    local character = Tracker:FindObjectForCode("character")
-    if not character then
-        return
-    end
-    
-    local character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
-
     local equipment_count = 0
     local equipment_availability = Tracker:FindObjectForCode("equipmentavailability")
     if equipment_availability and equipment_availability.CurrentStage == 1 then

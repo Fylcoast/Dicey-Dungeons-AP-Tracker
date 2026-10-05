@@ -6,7 +6,7 @@
             " "
         ],
         "visibility_rules": [
-            "$show_character|0"
+            "$show_character|warrior"
         ],
         "children": [
             {
