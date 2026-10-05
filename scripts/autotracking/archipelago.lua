@@ -474,22 +474,6 @@ function autoFill()
         end
     end
 
-    -- -- Dice shards per die
-    -- if SLOT_DATA["split_dice"] == true and SLOT_DATA["dice_shards_per_die"] then
-    --     local dice_shards_per_die = Tracker:FindObjectForCode("diceshardsperdie")
-    --     if dice_shards_per_die then
-    --         dice_shards_per_die.AcquiredCount = SLOT_DATA["dice_shards_per_die"]
-    --     end
-    -- end
-
-    -- -- Bonus dice shards
-    -- if SLOT_DATA["split_dice"] == true and SLOT_DATA["spare_dice_shards"] then
-    --     local bonus_dice_shards = Tracker:FindObjectForCode("bonusdiceshards")
-    --     if bonus_dice_shards then
-    --         bonus_dice_shards.AcquiredCount = SLOT_DATA["spare_dice_shards"]
-    --     end
-    -- end
-
     -- Character
     if SLOT_DATA["character"] then
         local characterwarrior = Tracker:FindObjectForCode("characterwarrior")
@@ -531,22 +515,20 @@ function AddEquipmentAvailability(equipment)
         all_equipment.AcquiredCount = all_equipment.AcquiredCount + 1
     end
 
-    local character_name = "warrior"
-    local character = Tracker:FindObjectForCode("character")
-    if character then
-        character_name = CHARACTER_INDEX_TO_NAME[character.CurrentStage + 1]
-    end
-
     local use_equipment_from_any_character = Tracker:FindObjectForCode("useequipmentfromanycharacter")
-    local all_character_equipment = Tracker:FindObjectForCode("All" .. character_name .. "Equipment")
-    if (all_character_equipment and next(EQUIPMENT_MAPPING[equipment][character_name]['episode']) ~= nil)
-        or (all_character_equipment and use_equipment_from_any_character and use_equipment_from_any_character.Active) then
-        all_character_equipment.AcquiredCount = all_character_equipment.AcquiredCount + 1
+
+    for _, character_name in ipairs(CHARACTER_INDEX_TO_NAME) do
+        local all_character_equipment = Tracker:FindObjectForCode("All" .. character_name .. "Equipment")
+        if (all_character_equipment and next(EQUIPMENT_MAPPING[equipment][character_name]['episode']) ~= nil)
+            or (all_character_equipment and use_equipment_from_any_character and use_equipment_from_any_character.Active) then
+            all_character_equipment.AcquiredCount = all_character_equipment.AcquiredCount + 1
+        end
+
+        for i = 1, 6 do
+            AddEpisodeEquipmentAvailability(equipment, character_name, i)
+        end
     end
 
-    for i = 1, 6 do
-        AddEpisodeEquipmentAvailability(equipment, character_name, i)
-    end
 end
 
 function AddEpisodeEquipmentAvailability(equipment, character, episode)
