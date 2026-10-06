@@ -10,102 +10,6 @@
         ],
         "children": [
             {
-                "name": "Episode 1 Completed",
-                "sections": [
-                    {
-                        "ref": "Robot/Episode 1/Episode Completed/"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 149,
-                        "y": 337,
-                        "size": 15
-                    }
-                ]
-            },
-            {
-                "name": "Episode 2 Completed",
-                "sections": [
-                    {
-                        "ref": "Robot/Episode 2/Episode Completed/"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 327,
-                        "y": 337,
-                        "size": 15
-                    }
-                ]
-            },
-            {
-                "name": "Episode 3 Completed",
-                "sections": [
-                    {
-                        "ref": "Robot/Episode 3/Episode Completed/"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 503,
-                        "y": 337,
-                        "size": 15
-                    }
-                ]
-            },
-            {
-                "name": "Episode 4 Completed",
-                "sections": [
-                    {
-                        "ref": "Robot/Episode 4/Episode Completed/"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 682,
-                        "y": 337,
-                        "size": 15
-                    }
-                ]
-            },
-            {
-                "name": "Episode 5 Completed",
-                "sections": [
-                    {
-                        "ref": "Robot/Episode 5/Episode Completed/"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 860,
-                        "y": 337,
-                        "size": 15
-                    }
-                ]
-            },
-            {
-                "name": "Episode 6 Completed",
-                "sections": [
-                    {
-                        "ref": "Robot/Episode 6/Episode Completed/"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Overworld",
-                        "x": 1038,
-                        "y": 337,
-                        "size": 15
-                    }
-                ]
-            },
-            {
                 "name": "Episode 1",
                 "overlay_background": "#000000",
                 "access_rules": [
@@ -351,13 +255,17 @@
                     {
                         "name": "Level 6",
                         "ref": "Robot/Episode 1/Level 6/"
+                    },
+                    {
+                        "name": "Episode Completed",
+                        "ref": "Robot/Episode 1/Episode Completed/"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 90,
-                        "y": 400,
+                        "x": 115,
+                        "y": 356,
                         "size": 15
                     }
                 ]
@@ -608,13 +516,17 @@
                     {
                         "name": "Level 6",
                         "ref": "Robot/Episode 2/Level 6/"
+                    },
+                    {
+                        "name": "Episode Completed",
+                        "ref": "Robot/Episode 2/Episode Completed/"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 267,
-                        "y": 400,
+                        "x": 292,
+                        "y": 356,
                         "size": 15
                     }
                 ]
@@ -805,13 +717,17 @@
                     {
                         "name": "Level 6",
                         "ref": "Robot/Episode 3/Level 6/"
+                    },
+                    {
+                        "name": "Episode Completed",
+                        "ref": "Robot/Episode 3/Episode Completed/"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 444,
-                        "y": 400,
+                        "x": 469,
+                        "y": 356,
                         "size": 15
                     }
                 ]
@@ -1062,13 +978,17 @@
                     {
                         "name": "Level 6",
                         "ref": "Robot/Episode 4/Level 6/"
+                    },
+                    {
+                        "name": "Episode Completed",
+                        "ref": "Robot/Episode 4/Episode Completed/"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 621,
-                        "y": 400,
+                        "x": 646,
+                        "y": 356,
                         "size": 15
                     }
                 ]
@@ -1319,13 +1239,17 @@
                     {
                         "name": "Level 6",
                         "ref": "Robot/Episode 5/Level 6/"
+                    },
+                    {
+                        "name": "Episode Completed",
+                        "ref": "Robot/Episode 5/Episode Completed/"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 798,
-                        "y": 400,
+                        "x": 823,
+                        "y": 356,
                         "size": 15
                     }
                 ]
@@ -1576,13 +1500,17 @@
                     {
                         "name": "Level 6",
                         "ref": "Robot/Episode 6/Level 6/"
+                    },
+                    {
+                        "name": "Episode Completed",
+                        "ref": "Robot/Episode 6/Episode Completed/"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 976,
-                        "y": 400,
+                        "x": 1001,
+                        "y": 356,
                         "size": 15
                     }
                 ]
