@@ -477,62 +477,63 @@
                 "fourleafclover",
                 "freespin",
                 "glare",
+                "grindstone",
                 "halfmooncharm",
                 "heatsink",
-                "hammer",
-                "headbutt"
+                "hammer"
             ],
             [
+                "headbutt",
                 "healingcrystal",
                 "increment",
                 "ironarmor",
                 "jugglingball",
                 "kiteshield",
                 "lament",
-                "leatherarmor",
-                "luckystar"
+                "leatherarmor"
             ],
             [
+                "luckystar",
                 "magicshield",
                 "mechanicalarm",
                 "mechanicalleg",
                 "memoryleak",
                 "midnightcharm",
                 "missingscore",
-                "nudge",
-                "overclock"
+                "nudge"
             ],
             [
+                "overclock",
                 "parryingdagger",
                 "plasmacannon",
                 "preciousegg@6",
                 "premiumheart",
                 "princessguard",
                 "raygun",
-                "rubyweapon",
-                "safebet"
+                "rubyweapon"
             ],
             [
+                "safebet",
                 "sawwave",
                 "shortcircuit",
                 "shovel",
                 "slingshot",
                 "smallshield",
                 "snowball",
-                "spanner",
-                "spare4"
+                "spanner"
             ],
             [
+                "spare4",
                 "spatula",
                 "spatulasword",
                 "spikedshield",
                 "spudcannon",
                 "stackoverflow",
                 "starspear",
-                "swordhilt",
-                "ultimaweapon"
+                "swordhilt"
             ],
             [
+                "ultimaweapon",
                 "ungeradedice",
                 "venusflytrap",
                 "venusgospel",
@@ -583,86 +584,89 @@
             [
                 "freespin",
                 "glare",
-                "halfmooncharm"
+                "grindstone"
             ],
             [
+                "halfmooncharm",
                 "heatsink",
-                "hammer",
-                "headbutt"
+                "hammer"
             ],
             [
+                "headbutt",
                 "healingcrystal",
-                "increment",
-                "ironarmor"
+                "increment"
             ],
             [
+                "ironarmor",
                 "jugglingball",
-                "kiteshield",
-                "lament"
+                "kiteshield"
             ],
             [
+                "lament",
                 "leatherarmor",
-                "luckystar",
-                "magicshield"
+                "luckystar"
             ],
             [
+                "magicshield",
                 "mechanicalarm",
-                "mechanicalleg",
-                "memoryleak"
+                "mechanicalleg"
             ],
             [
+                "memoryleak",
                 "midnightcharm",
-                "missingscore",
-                "nudge"
+                "missingscore"
             ],
             [
+                "nudge",
                 "overclock",
-                "parryingdagger",
-                "plasmacannon"
+                "parryingdagger"
             ],
             [
+                "plasmacannon",
                 "preciousegg@6",
-                "premiumheart",
-                "princessguard"
+                "premiumheart"
             ],
             [
+                "princessguard",
                 "raygun",
-                "rubyweapon",
-                "safebet"
+                "rubyweapon"
             ],
             [
+                "safebet",
                 "sawwave",
-                "shortcircuit",
-                "shovel"
+                "shortcircuit"
             ],
             [
+                "shovel",
                 "slingshot",
-                "smallshield",
-                "snowball"
+                "smallshield"
             ],
             [
+                "snowball",
                 "spanner",
-                "spare4",
-                "spatula"
+                "spare4"
             ],
             [
+                "spatula",
                 "spatulasword",
-                "spikedshield",
-                "spudcannon"
+                "spikedshield"
             ],
             [
+                "spudcannon",
                 "stackoverflow",
-                "starspear",
-                "swordhilt"
+                "starspear"
             ],
             [
+                "swordhilt",
                 "ultimaweapon",
-                "ungeradedice",
-                "venusflytrap"
+                "ungeradedice"
             ],
             [
+                "venusflytrap",
                 "venusgospel",
-                "virus",
+                "virus"
+            ],
+            [
                 "visegrip"
             ]
         ]
