@@ -477,67 +477,72 @@
                 "fourleafclover",
                 "freespin",
                 "glare",
-                "grindstone",
                 "halfmooncharm",
                 "heatsink",
-                "hammer"
+                "hammer",
+                "headbutt"
             ],
             [
-                "headbutt",
                 "healingcrystal",
                 "increment",
                 "ironarmor",
                 "jugglingball",
                 "kiteshield",
                 "lament",
-                "leatherarmor"
+                "leatherarmor",
+                "luckystar"
             ],
             [
-                "luckystar",
                 "magicshield",
                 "mechanicalarm",
                 "mechanicalleg",
                 "memoryleak",
                 "midnightcharm",
                 "missingscore",
-                "nudge"
+                "nudge",
+                "overclock"
             ],
             [
-                "overclock",
                 "parryingdagger",
+                "plasmablaster",
                 "plasmacannon",
+                "poisonslingshot",
                 "preciousegg@6",
                 "premiumheart",
                 "princessguard",
-                "raygun",
-                "rubyweapon"
+                "raygun"
             ],
             [
+                "rubyweapon",
                 "safebet",
                 "sawwave",
                 "shortcircuit",
                 "shovel",
+                "sledgehammer",
                 "slingshot",
-                "smallshield",
-                "snowball",
-                "spanner"
+                "smallshield"
             ],
             [
+                "snowball",
+                "spanner",
                 "spare4",
                 "spatula",
                 "spatulasword",
                 "spikedshield",
                 "spudcannon",
-                "stackoverflow",
-                "starspear",
-                "swordhilt"
+                "stackoverflow"
             ],
             [
+                "starspear",
+                "swordhilt",
+                "systemshock",
                 "ultimaweapon",
                 "ungeradedice",
                 "venusflytrap",
                 "venusgospel",
-                "virus",
+                "virus"
+            ],
+            [
                 "visegrip"
             ]
         ]
@@ -584,80 +589,85 @@
             [
                 "freespin",
                 "glare",
-                "grindstone"
+                "halfmooncharm"
             ],
             [
-                "halfmooncharm",
                 "heatsink",
-                "hammer"
+                "hammer",
+                "headbutt"
             ],
             [
-                "headbutt",
                 "healingcrystal",
-                "increment"
+                "increment",
+                "ironarmor"
             ],
             [
-                "ironarmor",
                 "jugglingball",
-                "kiteshield"
+                "kiteshield",
+                "lament"
             ],
             [
-                "lament",
                 "leatherarmor",
-                "luckystar"
+                "luckystar",
+                "magicshield"
             ],
             [
-                "magicshield",
                 "mechanicalarm",
-                "mechanicalleg"
+                "mechanicalleg",
+                "memoryleak"
             ],
             [
-                "memoryleak",
                 "midnightcharm",
-                "missingscore"
+                "missingscore",
+                "nudge"
             ],
             [
-                "nudge",
                 "overclock",
-                "parryingdagger"
+                "parryingdagger",
+                "plasmablaster"
             ],
             [
                 "plasmacannon",
-                "preciousegg@6",
-                "premiumheart"
+                "poisonslingshot",
+                "preciousegg@6"
             ],
             [
+                "premiumheart",
                 "princessguard",
-                "raygun",
-                "rubyweapon"
+                "raygun"
             ],
             [
+                "rubyweapon",
                 "safebet",
-                "sawwave",
-                "shortcircuit"
+                "sawwave"
             ],
             [
+                "shortcircuit",
                 "shovel",
+                "sledgehammer"
+            ],
+            [
                 "slingshot",
-                "smallshield"
+                "smallshield",
+                "snowball"
             ],
             [
-                "snowball",
                 "spanner",
-                "spare4"
+                "spare4",
+                "spatula"
             ],
             [
-                "spatula",
                 "spatulasword",
-                "spikedshield"
+                "spikedshield",
+                "spudcannon"
             ],
             [
-                "spudcannon",
                 "stackoverflow",
-                "starspear"
+                "starspear",
+                "swordhilt"
             ],
             [
-                "swordhilt",
+                "systemshock",
                 "ultimaweapon",
                 "ungeradedice"
             ],
@@ -681,118 +691,124 @@
         "item_width": 130,
         "rows": [
             [
-                "Befuddle",
-                "BerlinKey",
-                "BigStick",
-                "BlastChiller",
-                "Boomerang",
-                "Broadsword",
-                "BrokenMirror",
-                "Bump"
+                "befuddle",
+                "berlinkey",
+                "bigstick",
+                "blastchiller",
+                "boomerang",
+                "broadsword",
+                "brokenmirror",
+                "bump"
             ],
             [
-                "Buzzer",
-                "Calculator",
-                "Capacitor",
-                "Chainsaw",
-                "ChangeMachine",
-                "ChocolateCookie",
-                "Counterfeit",
-                "Crossbow"
+                "buzzer",
+                "calculator",
+                "capacitor",
+                "chainsaw",
+                "changemachine",
+                "chocolatecookie",
+                "counterfeit",
+                "crossbow"
             ],
             [
-                "CrystalSword",
-                "Dagger",
-                "DoubleEdge",
-                "ElasticHeart",
-                "ElectricShock",
-                "Electromagnet",
-                "Encyclopedia",
-                "Flamethrower"
+                "crystalsword",
+                "dagger",
+                "doppeldice",
+                "doppeltwice",
+                "doubleedge",
+                "elasticheart",
+                "electricshock",
+                "electromagnet"
             ],
             [
-                "GemstoneStaff",
-                "GiantSpatula",
-                "GoldDagger",
-                "Grindstone",
-                "Hacksaw",
-                "HallofMirrors",
-                "HealingCrystal",
-                "HiVisJacket"
+                "encyclopedia",
+                "flamethrower",
+                "gemstonestaff",
+                "giantspatula",
+                "golddagger",
+                "grindstone",
+                "hacksaw",
+                "hallofmirrors"
             ],
             [
-                "Hookshot",
-                "Inferno",
-                "Keyblade",
-                "KnittingNeedle",
-                "Lament",
-                "LastLaugh",
-                "LeatherArmor",
-                "Lighter"
+                "hammer",
+                "healingcrystal",
+                "hivisjacket",
+                "hookshot",
+                "iceshard",
+                "inferno",
+                "keyblade",
+                "knittingneedle"
             ],
             [
-                "LightningRod",
-                "Lockpick",
-                "Lucky7",
-                "LuckyStar",
-                "MagicMissile",
-                "MidnightCharm",
-                "MolotovCocktail",
-                "MosquitoBite"
+                "lament",
+                "lastlaugh",
+                "leatherarmor",
+                "lighter",
+                "lightningrod",
+                "lockpick",
+                "lucky7",
+                "luckystar"
             ],
             [
-                "Nunchucks",
-                "PeaShooter",
-                "PlasmaBlaster",
-                "PlasmaCannon",
-                "PolarStar",
-                "PuppyPaws",
-                "RayGun",
-                "RottenEgg@6"
+                "magicmissile",
+                "midnightcharm",
+                "molotovcocktail",
+                "mosquitobite",
+                "nunchucks",
+                "peashooter",
+                "plasmablaster",
+                "plasmacannon"
             ],
             [
-                "RubberMallet",
-                "SawWave",
-                "Scissors",
-                "Scorpion",
-                "ScrapBook",
-                "ScrapBump",
-                "ScrapClub",
-                "ScrapKettle"
+                "polarstar",
+                "puppypaws",
+                "raygun",
+                "rottenegg@6",
+                "rubbermallet",
+                "sawwave",
+                "scissors",
+                "scorpion"
             ],
             [
-                "ScrapMetal",
-                "ScrapNettle",
-                "ScrapSpear",
-                "Screwdriver",
-                "ShortSword",
-                "Shovel",
-                "SilverDagger",
-                "SmushTogether"
+                "scrapbook",
+                "scrapbump",
+                "scrapclub",
+                "scrapkettle",
+                "scrapmetal",
+                "scrapnettle",
+                "scrapspear",
+                "screwdriver"
             ],
             [
-                "Snowflake",
-                "Spanner",
-                "Spannersword",
-                "Spark",
-                "Spike",
-                "SpikedShield",
-                "Staff",
-                "Sword"
+                "shortsword",
+                "shovel",
+                "silverdagger",
+                "sixshooter",
+                "sledgehammer",
+                "smushtogether",
+                "snowflake",
+                "sonicwave"
             ],
             [
-                "SystemShock",
-                "Tetraphobia",
-                "ToxicOoze",
-                "Transformer@1",
-                "TwoHandedSword",
-                "VenusFlyTrap",
-                "Whip",
-                "Whisper"
+                "spanner",
+                "spannersword",
+                "spark",
+                "spike",
+                "spikedshield",
+                "staff",
+                "sword",
+                "tetraphobia"
             ],
             [
-                "WoodenShield",
-                "WreckingBall"
+                "toxicooze",
+                "transformer@1",
+                "twohandedsword",
+                "venusflytrap",
+                "whip",
+                "whisper",
+                "woodenshield",
+                "wreckingball"
             ]
         ]
     },
@@ -806,154 +822,164 @@
         "item_width": 130,
         "rows": [
             [
-                "Befuddle",
-                "BerlinKey",
-                "BigStick"
+                "befuddle",
+                "berlinkey",
+                "bigstick"
             ],
             [
-                "BlastChiller",
-                "Boomerang",
-                "Broadsword"
+                "blastchiller",
+                "boomerang",
+                "broadsword"
             ],
             [
-                "BrokenMirror",
-                "Bump",
-                "Buzzer"
+                "brokenmirror",
+                "bump",
+                "buzzer"
             ],
             [
-                "Calculator",
-                "Capacitor",
-                "Chainsaw"
+                "calculator",
+                "capacitor",
+                "chainsaw"
             ],
             [
-                "ChangeMachine",
-                "ChocolateCookie",
-                "Counterfeit"
+                "changemachine",
+                "chocolatecookie",
+                "counterfeit"
             ],
             [
-                "Crossbow",
-                "CrystalSword",
-                "Dagger"
+                "crossbow",
+                "crystalsword",
+                "dagger"
             ],
             [
-                "DoubleEdge",
-                "ElasticHeart",
-                "ElectricShock"
+                "doppeldice",
+                "doppeltwice",
+                "doubleedge"
             ],
             [
-                "Electromagnet",
-                "Encyclopedia",
-                "Flamethrower"
+                "elasticheart",
+                "electricshock",
+                "electromagnet"
             ],
             [
-                "GemstoneStaff",
-                "GiantSpatula",
-                "GoldDagger"
+                "encyclopedia",
+                "flamethrower",
+                "gemstonestaff"
             ],
             [
-                "Grindstone",
-                "Hacksaw",
-                "HallofMirrors"
+                "giantspatula",
+                "golddagger",
+                "grindstone"
             ],
             [
-                "HealingCrystal",
-                "HiVisJacket",
-                "Hookshot"
+                "hacksaw",
+                "hallofmirrors",
+                "hammer"
             ],
             [
-                "Inferno",
-                "Keyblade",
-                "KnittingNeedle"
+                "healingcrystal",
+                "hivisjacket",
+                "hookshot"
             ],
             [
-                "Lament",
-                "LastLaugh",
-                "LeatherArmor"
+                "iceshard",
+                "inferno",
+                "keyblade"
             ],
             [
-                "Lighter",
-                "LightningRod",
-                "Lockpick"
+                "knittingneedle",
+                "lament",
+                "lastlaugh"
             ],
             [
-                "Lucky7",
-                "LuckyStar",
-                "MagicMissile"
+                "leatherarmor",
+                "lighter",
+                "lightningrod"
             ],
             [
-                "MidnightCharm",
-                "MolotovCocktail",
-                "MosquitoBite"
+                "lockpick",
+                "lucky7",
+                "luckystar"
             ],
             [
-                "Nunchucks",
-                "PeaShooter",
-                "PlasmaBlaster"
+                "magicmissile",
+                "midnightcharm",
+                "molotovcocktail"
             ],
             [
-                "PlasmaCannon",
-                "PolarStar",
-                "PuppyPaws"
+                "mosquitobite",
+                "nunchucks",
+                "peashooter"
             ],
             [
-                "RayGun",
-                "RottenEgg@6",
-                "RubberMallet"
+                "plasmablaster",
+                "plasmacannon",
+                "polarstar"
             ],
             [
-                "SawWave",
-                "Scissors",
-                "Scorpion"
+                "puppypaws",
+                "raygun",
+                "rottenegg@6"
             ],
             [
-                "ScrapBook",
-                "ScrapBump",
-                "ScrapClub"
+                "rubbermallet",
+                "sawwave",
+                "scissors"
             ],
             [
-                "ScrapKettle",
-                "ScrapMetal",
-                "ScrapNettle"
+                "scorpion",
+                "scrapbook",
+                "scrapbump"
             ],
             [
-                "ScrapSpear",
-                "Screwdriver",
-                "ShortSword"
+                "scrapclub",
+                "scrapkettle",
+                "scrapmetal"
             ],
             [
-                "Shovel",
-                "SilverDagger",
-                "SmushTogether"
+                "scrapnettle",
+                "scrapspear",
+                "screwdriver"
             ],
             [
-                "Snowflake",
-                "Spanner",
-                "Spannersword"
+                "shortsword",
+                "shovel",
+                "silverdagger"
             ],
             [
-                "Spark",
-                "Spike",
-                "SpikedShield"
+                "sixshooter",
+                "sledgehammer",
+                "smushtogether"
             ],
             [
-                "Staff",
-                "Sword",
-                "SystemShock"
+                "snowflake",
+                "sonicwave",
+                "spanner"
             ],
             [
-                "Tetraphobia",
-                "ToxicOoze",
-                "Transformer@1"
+                "spannersword",
+                "spark",
+                "spike"
             ],
             [
-                "TwoHandedSword",
-                "VenusFlyTrap",
-                "Whip"
+                "spikedshield",
+                "staff",
+                "sword"
             ],
             [
-                "Whisper",
-                "WoodenShield",
-                "WreckingBall"
+                "tetraphobia",
+                "toxicooze",
+                "transformer@1"
+            ],
+            [
+                "twohandedsword",
+                "venusflytrap",
+                "whip"
+            ],
+            [
+                "whisper",
+                "woodenshield",
+                "wreckingball"
             ]
         ]
     }
