@@ -3,21 +3,21 @@
         "name": "Thief",
         "overlay_background": "#000000",
         "visibility_rules": [
-            "$show_character|1"
+            "$show_character|thief"
         ],
         "children": [
             {
                 "name": "Episode 5",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$can_reach_episode|5"
+                    "$can_reach_episode|thief|5"
                 ],
                 "children": [
                     {
                         "name": "Floor 1",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            "$can_reach_floor|5|1"
+                            "$can_reach_floor|thief|5|1"
                         ],
                         "children": [
                             {
@@ -30,27 +30,27 @@
                                 "sections": [
                                     {
                                         "name": "Chest 1",
-                                        "visibility_rules": ["$show_chest|5|1|1"],
+                                        "visibility_rules": ["$show_chest|thief|5|1|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 2",
-                                        "visibility_rules": ["$show_chest|5|1|2"],
+                                        "visibility_rules": ["$show_chest|thief|5|1|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 3",
-                                        "visibility_rules": ["$show_chest|5|1|3"],
+                                        "visibility_rules": ["$show_chest|thief|5|1|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 4",
-                                        "visibility_rules": ["$show_chest|5|1|4"],
+                                        "visibility_rules": ["$show_chest|thief|5|1|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 5",
-                                        "visibility_rules": ["$show_chest|5|1|5"],
+                                        "visibility_rules": ["$show_chest|thief|5|1|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -69,7 +69,7 @@
                         "name": "Floor 2",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            "$can_reach_floor|5|2"
+                            "$can_reach_floor|thief|5|2"
                         ],
                         "children": [
                             {
@@ -82,27 +82,27 @@
                                 "sections": [
                                     {
                                         "name": "Chest 1",
-                                        "visibility_rules": ["$show_chest|5|2|1"],
+                                        "visibility_rules": ["$show_chest|thief|5|2|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 2",
-                                        "visibility_rules": ["$show_chest|5|2|2"],
+                                        "visibility_rules": ["$show_chest|thief|5|2|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 3",
-                                        "visibility_rules": ["$show_chest|5|2|3"],
+                                        "visibility_rules": ["$show_chest|thief|5|2|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 4",
-                                        "visibility_rules": ["$show_chest|5|2|4"],
+                                        "visibility_rules": ["$show_chest|thief|5|2|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 5",
-                                        "visibility_rules": ["$show_chest|5|2|5"],
+                                        "visibility_rules": ["$show_chest|thief|5|2|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -125,27 +125,27 @@
                                 "sections": [
                                     {
                                         "name": "Shop 1",
-                                        "visibility_rules": ["$show_shop|5|2|1"],
+                                        "visibility_rules": ["$show_shop|thief|5|2|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 2",
-                                        "visibility_rules": ["$show_shop|5|2|2"],
+                                        "visibility_rules": ["$show_shop|thief|5|2|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 3",
-                                        "visibility_rules": ["$show_shop|5|2|3"],
+                                        "visibility_rules": ["$show_shop|thief|5|2|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 4",
-                                        "visibility_rules": ["$show_shop|5|2|4"],
+                                        "visibility_rules": ["$show_shop|thief|5|2|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 5",
-                                        "visibility_rules": ["$show_shop|5|2|5"],
+                                        "visibility_rules": ["$show_shop|thief|5|2|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -168,12 +168,12 @@
                                 "sections": [
                                     {
                                         "name": "Heal 1",
-                                        "visibility_rules": ["$show_heal|5|2|1"],
+                                        "visibility_rules": ["$show_heal|thief|5|2|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Heal 2",
-                                        "visibility_rules": ["$show_heal|5|2|2"],
+                                        "visibility_rules": ["$show_heal|thief|5|2|2"],
                                         "item_count": 1
                                     }
                                 ],
@@ -192,7 +192,7 @@
                         "name": "Floor 3",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            "$can_reach_floor|5|3"
+                            "$can_reach_floor|thief|5|3"
                         ],
                         "children": [
                             {
@@ -205,27 +205,27 @@
                                 "sections": [
                                     {
                                         "name": "Chest 1",
-                                        "visibility_rules": ["$show_chest|5|3|1"],
+                                        "visibility_rules": ["$show_chest|thief|5|3|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 2",
-                                        "visibility_rules": ["$show_chest|5|3|2"],
+                                        "visibility_rules": ["$show_chest|thief|5|3|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 3",
-                                        "visibility_rules": ["$show_chest|5|3|3"],
+                                        "visibility_rules": ["$show_chest|thief|5|3|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 4",
-                                        "visibility_rules": ["$show_chest|5|3|4"],
+                                        "visibility_rules": ["$show_chest|thief|5|3|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 5",
-                                        "visibility_rules": ["$show_chest|5|3|5"],
+                                        "visibility_rules": ["$show_chest|thief|5|3|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -248,27 +248,27 @@
                                 "sections": [
                                     {
                                         "name": "Shop 1",
-                                        "visibility_rules": ["$show_shop|5|3|1"],
+                                        "visibility_rules": ["$show_shop|thief|5|3|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 2",
-                                        "visibility_rules": ["$show_shop|5|3|2"],
+                                        "visibility_rules": ["$show_shop|thief|5|3|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 3",
-                                        "visibility_rules": ["$show_shop|5|3|3"],
+                                        "visibility_rules": ["$show_shop|thief|5|3|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 4",
-                                        "visibility_rules": ["$show_shop|5|3|4"],
+                                        "visibility_rules": ["$show_shop|thief|5|3|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 5",
-                                        "visibility_rules": ["$show_shop|5|3|5"],
+                                        "visibility_rules": ["$show_shop|thief|5|3|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -291,12 +291,12 @@
                                 "sections": [
                                     {
                                         "name": "Heal 1",
-                                        "visibility_rules": ["$show_heal|5|3|1"],
+                                        "visibility_rules": ["$show_heal|thief|5|3|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Heal 2",
-                                        "visibility_rules": ["$show_heal|5|3|2"],
+                                        "visibility_rules": ["$show_heal|thief|5|3|2"],
                                         "item_count": 1
                                     }
                                 ],
@@ -319,7 +319,7 @@
                                 "sections": [
                                     {
                                         "name": "Upgrade 1",
-                                        "visibility_rules": ["$show_upgrade|5|3|1"],
+                                        "visibility_rules": ["$show_upgrade|thief|5|3|1"],
                                         "item_count": 1
                                     }
                                 ],
@@ -338,7 +338,7 @@
                         "name": "Floor 4",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            "$can_reach_floor|5|4"
+                            "$can_reach_floor|thief|5|4"
                         ],
                         "children": [
                             {
@@ -351,27 +351,27 @@
                                 "sections": [
                                     {
                                         "name": "Chest 1",
-                                        "visibility_rules": ["$show_chest|5|4|1"],
+                                        "visibility_rules": ["$show_chest|thief|5|4|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 2",
-                                        "visibility_rules": ["$show_chest|5|4|2"],
+                                        "visibility_rules": ["$show_chest|thief|5|4|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 3",
-                                        "visibility_rules": ["$show_chest|5|4|3"],
+                                        "visibility_rules": ["$show_chest|thief|5|4|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 4",
-                                        "visibility_rules": ["$show_chest|5|4|4"],
+                                        "visibility_rules": ["$show_chest|thief|5|4|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 5",
-                                        "visibility_rules": ["$show_chest|5|4|5"],
+                                        "visibility_rules": ["$show_chest|thief|5|4|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -394,27 +394,27 @@
                                 "sections": [
                                     {
                                         "name": "Shop 1",
-                                        "visibility_rules": ["$show_shop|5|4|1"],
+                                        "visibility_rules": ["$show_shop|thief|5|4|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 2",
-                                        "visibility_rules": ["$show_shop|5|4|2"],
+                                        "visibility_rules": ["$show_shop|thief|5|4|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 3",
-                                        "visibility_rules": ["$show_shop|5|4|3"],
+                                        "visibility_rules": ["$show_shop|thief|5|4|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 4",
-                                        "visibility_rules": ["$show_shop|5|4|4"],
+                                        "visibility_rules": ["$show_shop|thief|5|4|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 5",
-                                        "visibility_rules": ["$show_shop|5|4|5"],
+                                        "visibility_rules": ["$show_shop|thief|5|4|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -437,12 +437,12 @@
                                 "sections": [
                                     {
                                         "name": "Heal 1",
-                                        "visibility_rules": ["$show_heal|5|4|1"],
+                                        "visibility_rules": ["$show_heal|thief|5|4|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Heal 2",
-                                        "visibility_rules": ["$show_heal|5|4|2"],
+                                        "visibility_rules": ["$show_heal|thief|5|4|2"],
                                         "item_count": 1
                                     }
                                 ],
@@ -465,27 +465,27 @@
                                 "sections": [
                                     {
                                         "name": "Trade 1",
-                                        "visibility_rules": ["$show_trade|5|4|1"],
+                                        "visibility_rules": ["$show_trade|thief|5|4|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Trade 2",
-                                        "visibility_rules": ["$show_trade|5|4|2"],
+                                        "visibility_rules": ["$show_trade|thief|5|4|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Trade 3",
-                                        "visibility_rules": ["$show_trade|5|4|3"],
+                                        "visibility_rules": ["$show_trade|thief|5|4|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Trade 4",
-                                        "visibility_rules": ["$show_trade|5|4|4"],
+                                        "visibility_rules": ["$show_trade|thief|5|4|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Trade 5",
-                                        "visibility_rules": ["$show_trade|5|4|5"],
+                                        "visibility_rules": ["$show_trade|thief|5|4|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -504,7 +504,7 @@
                         "name": "Floor 5",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            "$can_reach_floor|5|5"
+                            "$can_reach_floor|thief|5|5"
                         ],
                         "children": [
                             {
@@ -517,27 +517,27 @@
                                 "sections": [
                                     {
                                         "name": "Chest 1",
-                                        "visibility_rules": ["$show_chest|5|5|1"],
+                                        "visibility_rules": ["$show_chest|thief|5|5|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 2",
-                                        "visibility_rules": ["$show_chest|5|5|2"],
+                                        "visibility_rules": ["$show_chest|thief|5|5|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 3",
-                                        "visibility_rules": ["$show_chest|5|5|3"],
+                                        "visibility_rules": ["$show_chest|thief|5|5|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 4",
-                                        "visibility_rules": ["$show_chest|5|5|4"],
+                                        "visibility_rules": ["$show_chest|thief|5|5|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Chest 5",
-                                        "visibility_rules": ["$show_chest|5|5|5"],
+                                        "visibility_rules": ["$show_chest|thief|5|5|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -560,27 +560,27 @@
                                 "sections": [
                                     {
                                         "name": "Shop 1",
-                                        "visibility_rules": ["$show_shop|5|5|1"],
+                                        "visibility_rules": ["$show_shop|thief|5|5|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 2",
-                                        "visibility_rules": ["$show_shop|5|5|2"],
+                                        "visibility_rules": ["$show_shop|thief|5|5|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 3",
-                                        "visibility_rules": ["$show_shop|5|5|3"],
+                                        "visibility_rules": ["$show_shop|thief|5|5|3"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 4",
-                                        "visibility_rules": ["$show_shop|5|5|4"],
+                                        "visibility_rules": ["$show_shop|thief|5|5|4"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Shop 5",
-                                        "visibility_rules": ["$show_shop|5|5|5"],
+                                        "visibility_rules": ["$show_shop|thief|5|5|5"],
                                         "item_count": 1
                                     }
                                 ],
@@ -603,17 +603,17 @@
                                 "sections": [
                                     {
                                         "name": "Heal 1",
-                                        "visibility_rules": ["$show_heal|5|5|1"],
+                                        "visibility_rules": ["$show_heal|thief|5|5|1"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Heal 2",
-                                        "visibility_rules": ["$show_heal|5|5|2"],
+                                        "visibility_rules": ["$show_heal|thief|5|5|2"],
                                         "item_count": 1
                                     },
                                     {
                                         "name": "Heal 3",
-                                        "visibility_rules": ["$show_heal|5|5|3"],
+                                        "visibility_rules": ["$show_heal|thief|5|5|3"],
                                         "item_count": 1
                                     }
                                 ],
@@ -636,7 +636,7 @@
                                 "sections": [
                                     {
                                         "name": "Upgrade 1",
-                                        "visibility_rules": ["$show_upgrade|5|5|1"],
+                                        "visibility_rules": ["$show_upgrade|thief|5|5|1"],
                                         "item_count": 1
                                     }
                                 ],
@@ -653,7 +653,7 @@
                     },
                     {
                         "name": "Level 2",
-                        "access_rules": ["$can_reach_floor|5|1"],
+                        "access_rules": ["$can_reach_floor|thief|5|1"],
                         "visibility_rules": ["$show_levels"],
                         "sections": [
                             {
@@ -670,7 +670,7 @@
                     },
                     {
                         "name": "Level 3",
-                        "access_rules": ["$can_reach_floor|5|2, [$can_reach_floor|5|3]"],
+                        "access_rules": ["$can_reach_floor|thief|5|2, [$can_reach_floor|thief|5|3]"],
                         "visibility_rules": ["$show_levels"],
                         "sections": [
                             {
@@ -687,7 +687,7 @@
                     },
                     {
                         "name": "Level 4",
-                        "access_rules": ["$can_reach_floor|5|3, [$can_reach_floor|5|4]"],
+                        "access_rules": ["$can_reach_floor|thief|5|3, [$can_reach_floor|thief|5|4]"],
                         "visibility_rules": ["$show_levels"],
                         "sections": [
                             {
@@ -704,7 +704,7 @@
                     },
                     {
                         "name": "Level 5",
-                        "access_rules": ["$can_reach_floor|5|4, [$can_reach_floor|5|5]"],
+                        "access_rules": ["$can_reach_floor|thief|5|4, [$can_reach_floor|thief|5|5]"],
                         "visibility_rules": ["$show_levels"],
                         "sections": [
                             {
@@ -721,7 +721,7 @@
                     },
                     {
                         "name": "Level 6",
-                        "access_rules": ["$can_reach_floor|5|5, [$can_reach_floor|5|6]"],
+                        "access_rules": ["$can_reach_floor|thief|5|5, [$can_reach_floor|thief|5|6]"],
                         "visibility_rules": ["$show_levels"],
                         "sections": [
                             {
@@ -738,7 +738,7 @@
                     },
                     {
                         "name": "Episode Completed",
-                        "access_rules": ["$can_reach_floor|5|6"],
+                        "access_rules": ["$can_reach_floor|thief|5|6"],
                         "visibility_rules": [""],
                         "sections": [
                             {

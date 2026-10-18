@@ -416,6 +416,14 @@
         "codes": "targetshield"
     },
     {
+        "name": "Last Laugh",
+        "type": "toggle",
+        "img": "images/items/lastlaugh.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lastlaugh"
+    },
+    {
         "name": "Last Stand",
         "type": "toggle",
         "img": "images/items/laststand.png",

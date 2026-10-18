@@ -639,7 +639,7 @@ EQUIPMENT_MAPPING = {
         ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
-    ['dragon\'stooth'] = {
+    ['dragonstooth'] = {
         ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
@@ -1148,6 +1148,14 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
+    },
+    ['lastlaugh'] = {
+        ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['inventor'] = { ['episode'] = { 5 }, ['location_types'] = { 'chest' }, },
         ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },

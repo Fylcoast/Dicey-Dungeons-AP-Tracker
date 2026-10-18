@@ -84,29 +84,36 @@
         ]
     },
     {
-        "name": "Character",
-        "type": "progressive",
-        "codes": "character",
-        "allow_disabled": false,
-        "loop": true, 
-        "stages": [
-            {
-                "name": "Warrior",
-                "img": "images/characters/warrior.png"
-            },
-            {
-                "name": "Thief",
-                "img": "images/characters/thief.png"
-            },
-            {
-                "name": "Robot",
-                "img": "images/characters/robot.png"
-            },
-            {
-                "name": "Inventor",
-                "img": "images/characters/inventor.png"
-            }
-        ]
+        "name": "Warrior Enabled",
+        "type": "toggle",
+        "img": "images/characters/warrior.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "characterwarrior"
+    },
+    {
+        "name": "Thief Enabled",
+        "type": "toggle",
+        "img": "images/characters/thief.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "characterthief"
+    },
+    {
+        "name": "Robot Enabled",
+        "type": "toggle",
+        "img": "images/characters/robot.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "characterrobot"
+    },
+    {
+        "name": "Inventor Enabled",
+        "type": "toggle",
+        "img": "images/characters/inventor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "characterinventor"
     },
     {
         "name": "Split Dice",
