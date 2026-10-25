@@ -982,5 +982,227 @@
                 "wreckingball"
             ]
         ]
+    },
+    "witch_shared_item_grid_horizontal": {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 20,
+        "item_width": 130,
+        "rows": [
+            [
+                "absolutezero",
+                "bandage",
+                "blizzard",
+                "bloodcauldron",
+                "blueocean",
+                "bronzecauldron",
+                "burninglight",
+                "candle"
+            ],
+            [
+                "catastrophe",
+                "coldsnap",
+                "counterspell",
+                "crucible",
+                "daffodil",
+                "doppeldice",
+                "duplicate",
+                "electricshock"
+            ],
+            [
+                "enchantedbolt",
+                "enchantedshield",
+                "flowerpot",
+                "furyspell",
+                "gladioli",
+                "glasscauldron",
+                "goldcauldron",
+                "gumballmachine"
+            ],
+            [
+                "hallofmirrors",
+                "harvestscythe",
+                "healingcrystal",
+                "hex",
+                "honeysuckle",
+                "iceshard",
+                "illuminate",
+                "inferno"
+            ],
+            [
+                "lifedrain",
+                "lightningbolt",
+                "lucky7",
+                "lunasa",
+                "magicdagger",
+                "magickey",
+                "magicmissile",
+                "magicshield"
+            ],
+            [
+                "magicspear",
+                "magicthistle",
+                "magnifyingglass",
+                "meteor",
+                "mirrorcauldron",
+                "moonbeam",
+                "moonlightspear",
+                "northernlights"
+            ],
+            [
+                "nudge",
+                "rat",
+                "sawwave",
+                "shockwave",
+                "silvercauldron",
+                "skeletonkey",
+                "slimeball",
+                "snapdragon"
+            ],
+            [
+                "sonicwave",
+                "springequinox",
+                "stewpot",
+                "subdivide",
+                "summersolstice",
+                "sunbeam",
+                "sunburn",
+                "teleportspell"
+            ],
+            [
+                "thickskin",
+                "visegrip",
+                "windsofwinter",
+                "wintersolstice"
+            ]
+        ]
+    },
+    "witch_shared_item_grid_vertical": {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 20,
+        "item_width": 130,
+        "rows": [
+            [
+                "absolutezero",
+                "bandage",
+                "blizzard"
+            ],
+            [
+                "bloodcauldron",
+                "blueocean",
+                "bronzecauldron"
+            ],
+            [
+                "burninglight",
+                "candle",
+                "catastrophe"
+            ],
+            [
+                "coldsnap",
+                "counterspell",
+                "crucible"
+            ],
+            [
+                "daffodil",
+                "doppeldice",
+                "duplicate"
+            ],
+            [
+                "electricshock",
+                "enchantedbolt",
+                "enchantedshield"
+            ],
+            [
+                "flowerpot",
+                "furyspell",
+                "gladioli"
+            ],
+            [
+                "glasscauldron",
+                "goldcauldron",
+                "gumballmachine"
+            ],
+            [
+                "hallofmirrors",
+                "harvestscythe",
+                "healingcrystal"
+            ],
+            [
+                "hex",
+                "honeysuckle",
+                "iceshard"
+            ],
+            [
+                "illuminate",
+                "inferno",
+                "lifedrain"
+            ],
+            [
+                "lightningbolt",
+                "lucky7",
+                "lunasa"
+            ],
+            [
+                "magicdagger",
+                "magickey",
+                "magicmissile"
+            ],
+            [
+                "magicshield",
+                "magicspear",
+                "magicthistle"
+            ],
+            [
+                "magnifyingglass",
+                "meteor",
+                "mirrorcauldron"
+            ],
+            [
+                "moonbeam",
+                "moonlightspear",
+                "northernlights"
+            ],
+            [
+                "nudge",
+                "rat",
+                "sawwave"
+            ],
+            [
+                "shockwave",
+                "silvercauldron",
+                "skeletonkey"
+            ],
+            [
+                "slimeball",
+                "snapdragon",
+                "sonicwave"
+            ],
+            [
+                "springequinox",
+                "stewpot",
+                "subdivide"
+            ],
+            [
+                "summersolstice",
+                "sunbeam",
+                "sunburn"
+            ],
+            [
+                "teleportspell",
+                "thickskin",
+                "visegrip"
+            ],
+            [
+                "windsofwinter",
+                "wintersolstice"
+            ]
+        ]
     }
 }

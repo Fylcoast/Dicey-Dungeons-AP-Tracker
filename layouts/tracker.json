@@ -42,6 +42,13 @@
                                             "type": "layout",
                                             "key": "inventor_shared_item_grid_vertical"
                                         }
+                                    },
+                                    {
+                                        "title": "Witch",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "witch_shared_item_grid_vertical"
+                                        }
                                     }
                                 ]
                             }
@@ -77,6 +84,13 @@
                                         "content": {
                                             "type": "layout",
                                             "key": "inventor_episodes_grid_vertical"
+                                        }
+                                    },
+                                    {
+                                        "title": "Witch",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "witch_episodes_grid_vertical"
                                         }
                                     }
                                 ]
@@ -146,6 +160,13 @@
                                             "type": "layout",
                                             "key": "inventor_shared_item_grid_horizontal"
                                         }
+                                    },
+                                    {
+                                        "title": "Witch",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "witch_shared_item_grid_horizontal"
+                                        }
                                     }
                                 ]
                             }
@@ -181,6 +202,13 @@
                                         "content": {
                                             "type": "layout",
                                             "key": "inventor_episodes_grid_horizontal"
+                                        }
+                                    },
+                                    {
+                                        "title": "Witch",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "witch_episodes_grid_horizontal"
                                         }
                                     }
                                 ]

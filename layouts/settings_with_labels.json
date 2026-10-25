@@ -21,8 +21,8 @@
                                 {
                                     "type": "item",
                                     "item": "characterwarrior",
-                                    "max_height": 48,
-                                    "max_width": 48,
+                                    "max_height": 32,
+                                    "max_width": 32,
                                     "margin": 4
                                 },
                                 {
@@ -40,8 +40,8 @@
                                 {
                                     "type": "item",
                                     "item": "characterthief",
-                                    "max_height": 48,
-                                    "max_width": 48,
+                                    "max_height": 32,
+                                    "max_width": 32,
                                     "margin": 4
                                 },
                                 {
@@ -59,8 +59,8 @@
                                 {
                                     "type": "item",
                                     "item": "characterrobot",
-                                    "max_height": 48,
-                                    "max_width": 48,
+                                    "max_height": 32,
+                                    "max_width": 32,
                                     "margin": 4
                                 },
                                 {
@@ -78,13 +78,32 @@
                                 {
                                     "type": "item",
                                     "item": "characterinventor",
-                                    "max_height": 48,
-                                    "max_width": 48,
+                                    "max_height": 32,
+                                    "max_width": 32,
                                     "margin": 4
                                 },
                                 {
                                     "type": "text",
                                     "text": "Inventor",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterwitch",
+                                    "max_height": 32,
+                                    "max_width": 32,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Witch",
                                     "v_alignment": "center"
                                 }
                             ]
@@ -323,8 +342,8 @@
                                 {
                                     "type": "item",
                                     "item": "characterwarrior",
-                                    "max_height": 48,
-                                    "max_width": 48,
+                                    "max_height": 32,
+                                    "max_width": 32,
                                     "margin": 4
                                 },
                                 {
@@ -342,8 +361,8 @@
                                 {
                                     "type": "item",
                                     "item": "characterthief",
-                                    "max_height": 48,
-                                    "max_width": 48,
+                                    "max_height": 32,
+                                    "max_width": 32,
                                     "margin": 4
                                 },
                                 {
@@ -361,8 +380,8 @@
                                 {
                                     "type": "item",
                                     "item": "characterrobot",
-                                    "max_height": 48,
-                                    "max_width": 48,
+                                    "max_height": 32,
+                                    "max_width": 32,
                                     "margin": 4
                                 },
                                 {
@@ -380,13 +399,32 @@
                                 {
                                     "type": "item",
                                     "item": "characterinventor",
-                                    "max_height": 48,
-                                    "max_width": 48,
+                                    "max_height": 32,
+                                    "max_width": 32,
                                     "margin": 4
                                 },
                                 {
                                     "type": "text",
                                     "text": "Inventor",
+                                    "v_alignment": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "characterwitch",
+                                    "max_height": 32,
+                                    "max_width": 32,
+                                    "margin": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Witch",
                                     "v_alignment": "center"
                                 }
                             ]

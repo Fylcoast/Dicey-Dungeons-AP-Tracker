@@ -432,12 +432,12 @@
         "codes": "laststand"
     },
     {
-        "name": "Dice Detonator",
+        "name": "Crucible",
         "type": "toggle",
-        "img": "images/items/dicedetonator.png",
+        "img": "images/items/crucible.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "dicedetonator"
+        "codes": "crucible"
     },
     {
         "name": "Slime Ball",
@@ -1048,12 +1048,20 @@
         "codes": "toxicooze"
     },
     {
-        "name": "Wooden Stake",
+        "name": "Lunasa",
         "type": "toggle",
-        "img": "images/items/woodenstake.png",
+        "img": "images/items/lunasa.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "woodenstake"
+        "codes": "lunasa"
+    },
+    {
+        "name": "Spring Equinox",
+        "type": "toggle",
+        "img": "images/items/springequinox.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "springequinox"
     },
     {
         "name": "Spanner Sword",
