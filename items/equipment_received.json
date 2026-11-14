@@ -600,6 +600,156 @@
         "img": "images/sword.png"
     },
     {
+        "name": "Witch Episode 1 Equipment",
+        "codes": "witchEpisode1Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Witch Episode 2 Equipment",
+        "codes": "witchEpisode2Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Witch Episode 3 Equipment",
+        "codes": "witchEpisode3Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Witch Episode 4 Equipment",
+        "codes": "witchEpisode4Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Witch Episode 5 Equipment",
+        "codes": "witchEpisode5Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Witch Episode 6 Equipment",
+        "codes": "witchEpisode6Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Witch Episode 1 Chest Equipment",
+        "codes": "witchEpisode1ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Witch Episode 2 Chest Equipment",
+        "codes": "witchEpisode2ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Witch Episode 3 Chest Equipment",
+        "codes": "witchEpisode3ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Witch Episode 4 Chest Equipment",
+        "codes": "witchEpisode4ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Witch Episode 5 Chest Equipment",
+        "codes": "witchEpisode5ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Witch Episode 6 Chest Equipment",
+        "codes": "witchEpisode6ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Witch Episode 1 Shop Equipment",
+        "codes": "witchEpisode1ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Witch Episode 2 Shop Equipment",
+        "codes": "witchEpisode2ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Witch Episode 3 Shop Equipment",
+        "codes": "witchEpisode3ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Witch Episode 4 Shop Equipment",
+        "codes": "witchEpisode4ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Witch Episode 5 Shop Equipment",
+        "codes": "witchEpisode5ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Witch Episode 6 Shop Equipment",
+        "codes": "witchEpisode6ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Witch Episode 1 Trade Equipment",
+        "codes": "witchEpisode1TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Witch Episode 2 Trade Equipment",
+        "codes": "witchEpisode2TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Witch Episode 3 Trade Equipment",
+        "codes": "witchEpisode3TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Witch Episode 4 Trade Equipment",
+        "codes": "witchEpisode4TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Witch Episode 5 Trade Equipment",
+        "codes": "witchEpisode5TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Witch Episode 6 Trade Equipment",
+        "codes": "witchEpisode6TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "All Witch Equipment",
+        "codes": "AllwitchEquipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
         "name": "All Equipment",
         "codes": "AllEquipment",
         "type": "consumable",

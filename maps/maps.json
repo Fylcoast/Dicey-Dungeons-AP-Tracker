@@ -148,5 +148,41 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/inventor_episode_six.png"
+    },
+    {
+        "name": "Witch Episode 1",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/witch_episode_one.png"
+    },
+    {
+        "name": "Witch Episode 2",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/witch_episode_two.png"
+    },
+    {
+        "name": "Witch Episode 3",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/witch_episode_three.png"
+    },
+    {
+        "name": "Witch Episode 4",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/witch_episode_four.png"
+    },
+    {
+        "name": "Witch Episode 5",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/witch_episode_five.png"
+    },
+    {
+        "name": "Witch Episode 6",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/witch_episode_six.png"
     }
 ]

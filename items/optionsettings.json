@@ -116,6 +116,14 @@
         "codes": "characterinventor"
     },
     {
+        "name": "Witch Enabled",
+        "type": "toggle",
+        "img": "images/characters/witch.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "characterwitch"
+    },
+    {
         "name": "Split Dice",
         "type": "toggle",
         "img": "images/die.png",

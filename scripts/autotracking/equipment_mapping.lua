@@ -4,7 +4,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['action!'] = {
@@ -28,7 +28,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['battleaxe,nudge'] = {
@@ -124,7 +124,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['bloodcauldron'] = {
@@ -132,7 +132,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['bloodlet'] = {
@@ -156,7 +156,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['boomerang'] = {
@@ -204,7 +204,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 6 }, ['location_types'] = { 'chest' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['buckler'] = {
@@ -244,7 +244,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest' }, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['bustersword'] = {
@@ -356,7 +356,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['capacitor'] = {
@@ -372,7 +372,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'trade' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['cauldron'] = {
@@ -492,7 +492,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['counterfeit'] = {
@@ -533,6 +533,14 @@ EQUIPMENT_MAPPING = {
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
+    },
+    ['crucible'] = {
+        ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['crystalsword'] = {
@@ -584,14 +592,6 @@ EQUIPMENT_MAPPING = {
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['dicecannon'] = {
-        ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
-    },
-    ['dicedetonator'] = {
         ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
@@ -700,7 +700,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['enchantedshield'] = {
@@ -708,7 +708,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['encyclopedia'] = {
@@ -788,7 +788,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['flyingskull'] = {
@@ -828,7 +828,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['gemstonestaff'] = {
@@ -852,7 +852,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['glare'] = {
@@ -868,7 +868,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'trade' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['goldcauldron'] = {
@@ -876,7 +876,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['golddagger'] = {
@@ -916,7 +916,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['hacksaw'] = {
@@ -940,7 +940,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 3 }, ['location_types'] = { 'chest', 'trade' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = { 3, 6 }, ['location_types'] = { 'chest' }, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['hammer'] = {
@@ -964,7 +964,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['headbutt'] = {
@@ -988,7 +988,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest' }, },
         ['robot'] = { ['episode'] = { 1, 2, 3, 4 }, ['location_types'] = { 'chest', 'shop' }, },
         ['inventor'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['hex'] = {
@@ -996,7 +996,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['hivisjacket'] = {
@@ -1012,7 +1012,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['hookshot'] = {
@@ -1028,7 +1028,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest' }, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['ignite'] = {
@@ -1044,7 +1044,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['increment'] = {
@@ -1060,7 +1060,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = { 3 }, ['location_types'] = { 'chest' }, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['ironarmor'] = {
@@ -1188,7 +1188,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['lighter'] = {
@@ -1204,7 +1204,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['lightningrod'] = {
@@ -1255,12 +1255,20 @@ EQUIPMENT_MAPPING = {
         ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
+    ['lunasa'] = {
+        ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
+        ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
+    },
     ['magicdagger'] = {
         ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['magickey'] = {
@@ -1268,7 +1276,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['magicmissile'] = {
@@ -1276,7 +1284,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = { 3 }, ['location_types'] = { 'chest' }, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['magicshield'] = {
@@ -1284,7 +1292,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = { 3 }, ['location_types'] = { 'chest', 'shop' }, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['magicspear'] = {
@@ -1292,7 +1300,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 3 }, ['location_types'] = { 'chest', 'shop' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['magicthistle'] = {
@@ -1300,7 +1308,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['magnifyingglass'] = {
@@ -1348,7 +1356,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['midnightcharm'] = {
@@ -1364,7 +1372,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['mirrorshard'] = {
@@ -1396,7 +1404,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['moonlightspear'] = {
@@ -1404,7 +1412,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['mosquitobite'] = {
@@ -1436,7 +1444,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['nunchucks'] = {
@@ -1452,7 +1460,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = { 1, 2, 3, 4 }, ['location_types'] = { 'chest', 'shop' }, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['nudgeblade'] = {
@@ -1628,7 +1636,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 1, 2, 3, 4 }, ['location_types'] = { 'trade' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['rawambition'] = {
@@ -1692,7 +1700,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = { 5 }, ['location_types'] = { 'chest', 'shop' }, },
         ['inventor'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['scissors'] = {
@@ -1804,7 +1812,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['shortcircuit'] = {
@@ -1860,7 +1868,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['silverdagger'] = {
@@ -1892,7 +1900,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 1, 2, 3 }, ['location_types'] = { 'chest' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['sixshooter'] = {
@@ -1908,7 +1916,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['sledgehammer'] = {
@@ -1948,7 +1956,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['snakeeyecharm'] = {
@@ -1980,7 +1988,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest' }, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 1, 2, 3, 4, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['spanner'] = {
@@ -2055,6 +2063,14 @@ EQUIPMENT_MAPPING = {
         ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
+    ['springequinox'] = {
+        ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
+        ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
+    },
     ['spudcannon'] = {
         ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
@@ -2108,7 +2124,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['subdivide'] = {
@@ -2116,7 +2132,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest' }, },
     },
     ['summersolstice'] = {
@@ -2124,7 +2140,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['sunburn'] = {
@@ -2132,7 +2148,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['sunbeam'] = {
@@ -2212,7 +2228,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 3 }, ['location_types'] = { 'chest', 'shop' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['tetraphobia'] = {
@@ -2228,7 +2244,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest' }, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['toxicooze'] = {
@@ -2324,7 +2340,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'chest', 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['whisper'] = {
@@ -2356,7 +2372,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['wintersolstice'] = {
@@ -2364,7 +2380,7 @@ EQUIPMENT_MAPPING = {
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
+        ['witch'] = { ['episode'] = { 5, 6 }, ['location_types'] = { 'shop' }, },
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['woodenshield'] = {
@@ -2376,14 +2392,6 @@ EQUIPMENT_MAPPING = {
         ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
     },
     ['woodenshield,spare4'] = {
-        ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['inventor'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['witch'] = { ['episode'] = {}, ['location_types'] = {}, },
-        ['jester'] = { ['episode'] = {}, ['location_types'] = {}, },
-    },
-    ['woodenstake'] = {
         ['warrior'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['thief'] = { ['episode'] = {}, ['location_types'] = {}, },
         ['robot'] = { ['episode'] = {}, ['location_types'] = {}, },
