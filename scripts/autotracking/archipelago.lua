@@ -500,6 +500,11 @@ function autoFill()
         if characterwitch then
             characterwitch.Active = has_value(SLOT_DATA["character"], "Witch")
         end
+        
+        local characterjester = Tracker:FindObjectForCode("characterjester")
+        if characterjester then
+            characterjester.Active = has_value(SLOT_DATA["character"], "Jester")
+        end
     end
 
 end

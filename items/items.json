@@ -688,12 +688,12 @@
         "codes": "hammer"
     },
     {
-        "name": "claw",
+        "name": "Claw,Claw",
         "type": "toggle",
-        "img": "images/items/claw.png",
+        "img": "images/items/claw,claw.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "claw"
+        "codes": "clawclaw"
     },
     {
         "name": "Screw Driver",
@@ -816,12 +816,12 @@
         "codes": "illuminate"
     },
     {
-        "name": "Short Sword",
+        "name": "Short Sword,Short Sword",
         "type": "toggle",
-        "img": "images/items/shortsword.png",
+        "img": "images/items/shortsword,shortsword.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "shortsword"
+        "codes": "shortswordshortsword"
     },
     {
         "name": "Boxing Gloves",
@@ -1424,12 +1424,12 @@
         "codes": "battleaxe"
     },
     {
-        "name": "Venus Fly Trap",
+        "name": "Venus Fly Trap,Bump",
         "type": "toggle",
-        "img": "images/items/venusflytrap.png",
+        "img": "images/items/venusflytrap,bump.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "venusflytrap"
+        "codes": "venusflytrapbump"
     },
     {
         "name": "Double Edge",
@@ -1480,20 +1480,20 @@
         "codes": "tetraphobia"
     },
     {
-        "name": "Toxic Ooze",
+        "name": "Toxic Ooze,Slime Ball",
         "type": "toggle",
-        "img": "images/items/toxicooze.png",
+        "img": "images/items/toxicooze,slimeball.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "toxicooze"
+        "codes": "toxicoozeslimeball"
     },
     {
-        "name": "Bump Blade",
+        "name": "Bump Blade,Spatula",
         "type": "toggle",
-        "img": "images/items/bumpblade.png",
+        "img": "images/items/bumpblade,spatula.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "bumpblade"
+        "codes": "bumpbladespatula"
     },
     {
         "name": "Four Leaf Clover",
@@ -1680,12 +1680,12 @@
         "codes": "golddagger"
     },
     {
-        "name": "Whip",
+        "name": "Whip,Bump",
         "type": "toggle",
-        "img": "images/items/whip.png",
+        "img": "images/items/whip,bump.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "whip"
+        "codes": "whipbump"
     },
     {
         "name": "Ray Gun",
@@ -1880,12 +1880,12 @@
         "codes": "buckler"
     },
     {
-        "name": "Chocolate Cookie",
+        "name": "Chocolate Cookie,Spatula",
         "type": "toggle",
-        "img": "images/items/chocolatecookie.png",
+        "img": "images/items/chocolatecookie,spatula.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "chocolatecookie"
+        "codes": "chocolatecookiespatula"
     },
     {
         "name": "Bronze Cauldron",
@@ -1968,12 +1968,12 @@
         "codes": "sunburn"
     },
     {
-        "name": "Battle Axe",
+        "name": "Battle Axe,Nudge",
         "type": "toggle",
-        "img": "images/items/battleaxe.png",
+        "img": "images/items/battleaxe,nudge.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "battleaxe"
+        "codes": "battleaxenudge"
     },
     {
         "name": "Befuddle",
@@ -2104,12 +2104,12 @@
         "codes": "spark"
     },
     {
-        "name": "Wooden Shield",
+        "name": "Wooden Shield,Spare 4",
         "type": "toggle",
-        "img": "images/items/woodenshield.png",
+        "img": "images/items/woodenshield,spare4.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "woodenshield"
+        "codes": "woodenshieldspare4"
     },
     {
         "name": "Fury Spell",
@@ -2224,12 +2224,12 @@
         "codes": "smallshield"
     },
     {
-        "name": "Tazer",
+        "name": "Tazer,Bump",
         "type": "toggle",
-        "img": "images/items/tazer.png",
+        "img": "images/items/tazer,bump.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "tazer"
+        "codes": "tazerbump"
     },
     {
         "name": "Over Clock",
@@ -2344,12 +2344,12 @@
         "codes": "lighter"
     },
     {
-        "name": "Hammer",
+        "name": "Hammer,Bump",
         "type": "toggle",
-        "img": "images/items/hammer.png",
+        "img": "images/items/hammer,bump.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "hammer"
+        "codes": "hammerbump"
     },
     {
         "name": "Hall of Mirrors",
@@ -2376,12 +2376,12 @@
         "codes": "shortsword"
     },
     {
-        "name": "Staff",
+        "name": "Staff,Juggling Ball",
         "type": "toggle",
-        "img": "images/items/staff.png",
+        "img": "images/items/staff,jugglingball.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "staff"
+        "codes": "staffjugglingball"
     },
     {
         "name": "Blender",

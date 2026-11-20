@@ -9,6 +9,7 @@ Tracker:AddLayouts("layouts/thief_episodes.json")
 Tracker:AddLayouts("layouts/robot_episodes.json")
 Tracker:AddLayouts("layouts/inventor_episodes.json")
 Tracker:AddLayouts("layouts/witch_episodes.json")
+Tracker:AddLayouts("layouts/jester_episodes.json")
 Tracker:AddLayouts("layouts/episode_all.json")
 
 Tracker:AddLayouts("layouts/episode_one_with_labels.json")

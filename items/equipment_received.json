@@ -750,6 +750,156 @@
         "img": "images/sword.png"
     },
     {
+        "name": "Jester Episode 1 Equipment",
+        "codes": "jesterEpisode1Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Jester Episode 2 Equipment",
+        "codes": "jesterEpisode2Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Jester Episode 3 Equipment",
+        "codes": "jesterEpisode3Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Jester Episode 4 Equipment",
+        "codes": "jesterEpisode4Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Jester Episode 5 Equipment",
+        "codes": "jesterEpisode5Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Jester Episode 6 Equipment",
+        "codes": "jesterEpisode6Equipment,Equipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
+        "name": "Jester Episode 1 Chest Equipment",
+        "codes": "jesterEpisode1ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Jester Episode 2 Chest Equipment",
+        "codes": "jesterEpisode2ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Jester Episode 3 Chest Equipment",
+        "codes": "jesterEpisode3ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Jester Episode 4 Chest Equipment",
+        "codes": "jesterEpisode4ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Jester Episode 5 Chest Equipment",
+        "codes": "jesterEpisode5ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Jester Episode 6 Chest Equipment",
+        "codes": "jesterEpisode6ChestEquipment,ChestEquipment",
+        "type": "consumable",
+        "img": "images/chest.png"
+    },
+    {
+        "name": "Jester Episode 1 Shop Equipment",
+        "codes": "jesterEpisode1ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Jester Episode 2 Shop Equipment",
+        "codes": "jesterEpisode2ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Jester Episode 3 Shop Equipment",
+        "codes": "jesterEpisode3ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Jester Episode 4 Shop Equipment",
+        "codes": "jesterEpisode4ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Jester Episode 5 Shop Equipment",
+        "codes": "jesterEpisode5ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Jester Episode 6 Shop Equipment",
+        "codes": "jesterEpisode6ShopEquipment,ShopEquipment",
+        "type": "consumable",
+        "img": "images/shop.png"
+    },
+    {
+        "name": "Jester Episode 1 Trade Equipment",
+        "codes": "jesterEpisode1TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Jester Episode 2 Trade Equipment",
+        "codes": "jesterEpisode2TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Jester Episode 3 Trade Equipment",
+        "codes": "jesterEpisode3TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Jester Episode 4 Trade Equipment",
+        "codes": "jesterEpisode4TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Jester Episode 5 Trade Equipment",
+        "codes": "jesterEpisode5TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "Jester Episode 6 Trade Equipment",
+        "codes": "jesterEpisode6TradeEquipment,TradeEquipment",
+        "type": "consumable",
+        "img": "images/trade.png"
+    },
+    {
+        "name": "All Jester Equipment",
+        "codes": "AlljesterEquipment",
+        "type": "consumable",
+        "img": "images/sword.png"
+    },
+    {
         "name": "All Equipment",
         "codes": "AllEquipment",
         "type": "consumable",

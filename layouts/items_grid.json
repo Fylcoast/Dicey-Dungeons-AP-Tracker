@@ -1204,5 +1204,227 @@
                 "wintersolstice"
             ]
         ]
+    },
+    "jester_shared_item_grid_horizontal": {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 20,
+        "item_width": 130,
+        "rows": [
+            [
+                "action!",
+                "battleaxenudge",
+                "bigmoment",
+                "bloodlet",
+                "bloodsuck",
+                "boop",
+                "boxinggloves",
+                "broadsword"
+            ],
+            [
+                "bump",
+                "bumpbladespatula",
+                "callforbackupinventor",
+                "callforbackupinventor_q",
+                "callforbackuprobot",
+                "callforbackuprobot_q",
+                "callforbackupthief",
+                "callforbackupthief_q"
+            ],
+            [
+                "callforbackupwarrior",
+                "callforbackupwarrior_q",
+                "callforbackupwitch",
+                "callforbackupwitch_q",
+                "catastrophe",
+                "cauldron",
+                "chocolatecookie",
+                "chocolatecookiespatula"
+            ],
+            [
+                "clawclaw",
+                "crystalsword",
+                "dicecannon",
+                "duplicate",
+                "elasticheart",
+                "encore",
+                "grandfinale",
+                "gumballmachine"
+            ],
+            [
+                "hallofmirrors",
+                "hammer",
+                "hammerbump",
+                "illuminate",
+                "ironshield",
+                "jugglingball",
+                "kapow",
+                "lament"
+            ],
+            [
+                "laughtrack",
+                "lightningrod",
+                "lollipop",
+                "mirrorshard",
+                "missingscore",
+                "nudge",
+                "punchline",
+                "rustysword"
+            ],
+            [
+                "shadowdice",
+                "shortswordshortsword",
+                "shovel",
+                "shriek",
+                "snowball",
+                "spatula",
+                "spatulasword",
+                "staff"
+            ],
+            [
+                "staffjugglingball",
+                "subdivide",
+                "tableslam",
+                "tazerbump",
+                "telephone",
+                "toxicooze",
+                "toxicoozeslimeball",
+                "venusflytrapbump"
+            ],
+            [
+                "visegrip",
+                "whip",
+                "whipbump",
+                "woodenshieldspare4"
+            ]
+        ]
+    },
+    "jester_shared_item_grid_vertical": {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 20,
+        "item_width": 130,
+        "rows": [
+            [
+                "action!",
+                "battleaxenudge",
+                "bigmoment"
+            ],
+            [
+                "bloodlet",
+                "bloodsuck",
+                "boop"
+            ],
+            [
+                "boxinggloves",
+                "broadsword",
+                "bump"
+            ],
+            [
+                "bumpbladespatula",
+                "callforbackupinventor",
+                "callforbackupinventor_q"
+            ],
+            [
+                "callforbackuprobot",
+                "callforbackuprobot_q",
+                "callforbackupthief"
+            ],
+            [
+                "callforbackupthief_q",
+                "callforbackupwarrior",
+                "callforbackupwarrior_q"
+            ],
+            [
+                "callforbackupwitch",
+                "callforbackupwitch_q",
+                "catastrophe"
+            ],
+            [
+                "cauldron",
+                "chocolatecookie",
+                "chocolatecookiespatula"
+            ],
+            [
+                "clawclaw",
+                "crystalsword",
+                "dicecannon"
+            ],
+            [
+                "duplicate",
+                "elasticheart",
+                "encore"
+            ],
+            [
+                "grandfinale",
+                "gumballmachine",
+                "hallofmirrors"
+            ],
+            [
+                "hammer",
+                "hammerbump",
+                "illuminate"
+            ],
+            [
+                "ironshield",
+                "jugglingball",
+                "kapow"
+            ],
+            [
+                "lament",
+                "laughtrack",
+                "lightningrod"
+            ],
+            [
+                "lollipop",
+                "mirrorshard",
+                "missingscore"
+            ],
+            [
+                "nudge",
+                "punchline",
+                "rustysword"
+            ],
+            [
+                "shadowdice",
+                "shortswordshortsword",
+                "shovel"
+            ],
+            [
+                "shriek",
+                "snowball",
+                "spatula"
+            ],
+            [
+                "spatulasword",
+                "staff",
+                "staffjugglingball"
+            ],
+            [
+                "subdivide",
+                "tableslam",
+                "tazerbump"
+            ],
+            [
+                "telephone",
+                "toxicooze",
+                "toxicoozeslimeball"
+            ],
+            [
+                "venusflytrapbump",
+                "visegrip",
+                "whip"
+            ],
+            [
+                "whipbump",
+                "woodenshieldspare4"
+            ]
+        ]
     }
 }

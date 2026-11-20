@@ -124,6 +124,14 @@
         "codes": "characterwitch"
     },
     {
+        "name": "Jester Enabled",
+        "type": "toggle",
+        "img": "images/characters/jester.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "characterjester"
+    },
+    {
         "name": "Split Dice",
         "type": "toggle",
         "img": "images/die.png",

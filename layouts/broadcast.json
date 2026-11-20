@@ -41,6 +41,13 @@
                             "type": "layout",
                             "key": "witch_shared_item_grid_horizontal"
                         }
+                    },
+                    {
+                        "title": "Jester",
+                        "content": {
+                            "type": "layout",
+                            "key": "jester_shared_item_grid_horizontal"
+                        }
                     }
                 ]
             }
